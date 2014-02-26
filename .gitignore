@@ -17,6 +17,9 @@ GenericCMYK.icm
 ## Apple meta data
 .AppleDouble
 
+## MS Windows
+Thumbs.db
+
 ## For java
 *.class
 
