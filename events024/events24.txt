@@ -1,0 +1,23 @@
+We are currently planning our next Raspberry Pi event "Pi and More 5" in
+Trier/Germany. The event will take place on June 28 at the University of
+Trier / Campus 2. We will have talks, workshops, and projects using the
+Raspberry Pi or other embedded systems. A detailed schedule for the
+event will be announced in early June. All information can be found on
+our website at http://www.piandmore.de
+
+We are looking for persons or groups who are interested in presenting a
+project or a topic at Pi and More 5. We welcome presentations of own or
+other projects (e.g., hardware and software projects), or a presentation
+of general topics, like first steps with the Raspberry Pi, programming,
+system internals, hardware tutorials, etc. Contributions about the
+Raspberry Pi are as welcome as contributions about other embedded
+systems or microcontrollers. The event aims at beginners and experts
+alike. Therefore, simple and small projects fit as well as workshops for
+experts.
+
+Please include "Pi and More 5" in the next edition of your "What's On
+Guide".
+
+Regards,
+
+Guido Schmitz
