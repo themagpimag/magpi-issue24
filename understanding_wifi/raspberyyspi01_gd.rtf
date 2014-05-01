@@ -1,0 +1,640 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+{\info
+{\author root }}\margl585\margr855\margb390\margt465\vieww13540\viewh10580\viewkind0
+\deftab709
+\pard\pardeftab709\ql\qnatural
+
+\f0\b\fs28 \cf0 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+INTRODUCTION
+\b0\fs24 \
+\pard\pardeftab709\ql\qnatural
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 You do not need to work for GCHQ or the NSA (
+\i the only government agents who really listen to voters
+\i0 ) to hone your networking skills by snooping on other people.  As everybody is becoming more sensitive about personal privacy; we will demonstrate how easy it is to remotely crack into networks both hard-wired and via Wi-Fi \'96 all in the cause of education and improved security of course!  All you need is a Pi, a Wi-Fi dongle, some software and a furtive and inquisitive mind.
+\fs8  
+\fs24 \
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\b\fs28 \cf0 RASPBERRYSPI
+\b0  
+\fs24 Set Up\
+\pard\pardeftab709\ql\qnatural
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 Let's start with a clean new Raspbian distribution.  Enter as user 'pi' and use the raspi-config program  to change your password.  Whilst you are in this program:-\
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 	a) ensure the Pi boots directly to the console\
+	b) turn on the camera support \
+	c) enable sshd (for remote control later)\
+	d) select a name for your machine\
+		\'96 I'm going to use 'ete'.\
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 Before you reboot enter the following:-\
+\pard\pardeftab709\qj
+
+\fs20 \cf0 pi@raspberrypi >
+\fs24  
+\b\fs20 sudo passwd root
+\b0\fs24 \
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 Enter, confirm and remember a very strong password for the user 'root' as this is the user we are going to operate as.\
+\pard\pardeftab709\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs24 Note:- Many Linux Taliban dislike operating as user 'root'.  It is, by default, the most powerful user in Linux and used without great care can be disastrous (I know) but we need as much power as we can muster! Prepare to be nimble and live on the edge \'96 remember Eddie The Eagle'.\
+
+\fs8  
+\f1 \uc0\u8232 
+\f0\fs24 Enter user root and your new password when you reboot.  To ensure we are as up-to-date as possible (as we don't want to get caught out running old software) enter:-\
+
+\f1\fs8 \uc0\u8232 
+\f0\fs24 \
+
+\fs8 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\pard\pardeftab709\qj
+
+\fs24 \cf0 root@ete > 
+\b\fs20 apt-get update
+\b0\fs24 \
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 Updating can take some time but once it is complete we can take our first action building a Wi-Fi sniffer.\
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\b\fs28 \cf0 RASPBERRYSPI
+\b0  
+\fs24 Wi-Fi Sniffer\
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 We are surrounded by low power, short range, 'Wi-Fi', microwave. radio signals \'96 packed with interesting communications.  All we need to sniff them is a small USB Wi-Fi dongle.  Although these dongles are small and only cost a few pounds they are packed with high technology.
+\fs8 .
+\fs24 \
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 Twenty five years ago when I first started designing this type of equipment it was difficult to fit the electronics into something the size of a very large box of matches, today everything fits onto a board almost the same size as the USB connector!\
+\pard\pardeftab709\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs24 Initially, this dongle should be plugged directly into your Pi \'96 keep the keyboard but remove any mouse as it's is not necessary here. We are not going to use the GUI interface, once again, we need more power and don't want to waste any running a pretty, but limited, graphical interface.\
+
+\fs8 \
+\pard\pardeftab709\qj
+
+\b\fs28 \cf0 RASPBERRYSPI
+\b0  
+\fs24 Testing your Wi-Fi Dongle\
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\tx5325\pardeftab709\ri-30\qj
+
+\fs24 \cf0 All Wi-Fi dongles are not the same. They differ in performance based upon the IC chips used in their design. You can assess details about the capability of your Wi-Fi dongle by installing a small testing program:-  \
+\pard\pardeftab709\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root@ete > 
+\b apt-get  install iwconfig
+\b0\fs24 \
+
+\fs8 \
+\pard\tx5880\pardeftab709\ri-540\qj
+
+\fs24 \cf0 and then entering:-\
+\pard\pardeftab709\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root@ete > 
+\b iw list | less                
+\b0\fs24 \
+
+\fs8 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs24 \cf0 Piping 'less' with the | character allows you to see all of the output.  Scroll up and down using the arrow keys and press q when finished. The output displays a good deal of information about the capabilities of your dongle. It also displays other information you may want to question later but for the moment the important section is 'Supported interface modes:'.  'Monitor' must be in this list to continue, otherwise you will need another dongle (http://raspberrypi.org discusses WiFi-pi compatibility issues).\
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs24 \cf0 'Raw' or 'monitor' mode (rfmon) is the useful ability that allows us to sneakily observe everything that is being transmitted on the Wi-Fi bands. It can used to sniff 802.11a/b/g/n traffic. \
+\pard\pardeftab709\qj
+\cf0 \
+\pard\pardeftab709\qj
+
+\b\fs28 \cf0 RASPBERRYSPI
+\b0  
+\fs24 Hiding secret radio signals\
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs24 \cf0 If you owned a special pair of glasses that could see radio stations the FM radio band would look like this:-\
+Each of the stations would appear as individual powerful peaks in power that stay where they are.   You tune your radio to receive each station one by one.\
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs24 \cf0 Wi-Fi uses a different type of radio signal. It employs special signals that make it difficult to receive, in fact it was originally a technique used by the military to hide radio transmissions. One technique keeps changing frequency so that it pops up all over the band.   You can only receive it if you can keep up re-tuning your receiver but this means knowing where the signal is going to be! To compound the problem this re-tuning may have to be done thousands of times a second (so has to be done electronically)! This type of signal is called 'Frequency Hopping' (FH) and is a patent jointly held by the 1930's Hollywood star Hedy Lamarr.\
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs24 \cf0 A second type of encoding combines the information to be sent with a special, repeating, high-speed,, pseudo-random, digital key.  This key, again, has the effect of spreading the radio signal across the band and hiding it in the background radio 'noise'.  The signal can only be recovered by a receiver with a synchronised copy of the same key.  The original, hidden, information 'pops' out of the noise once the key is applied. This process is known as 'Direct Sequence' (DSS).  Both FH and DSS techniques are called \'94Spread Spectrum\'94 and are still used to hide clandestine radio stations.  \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\b\fs28 \cf0 RASPBERRYSPI
+\b0   
+\fs24 Kismet Monitoring
+\fs8  
+\fs24 \
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 Kismet (=fate) is the wireless network detector of choice we are going to install here.  Downloading and installing it can take a little time. At the time of writing I've had problems using 'apt-get' or 'aptitude' to install the latest version of Kismet reliably.  This alternative route is more reliable but can take up to an hour.  First we need to install some supporting code.  Enter as one continuous line or package by package, as shown:- \
+\pard\pardeftab709\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root@ete > 
+\b apt-get install libncurses5-dev 
+\b0\fs24 \
+\pard\pardeftab709\qj
+
+\fs20 \cf0 root
+\b @
+\b0 ete
+\b  > apt-get install libpcap-dev
+\b0\fs24 \
+
+\fs20 root
+\b @
+\b0 ete
+\b  > apt-get install libpcre3-dev 
+\b0\fs24 \
+
+\fs20 root
+\b @
+\b0 ete
+\b  > apt-get install libnl-3-dev 
+\b0\fs24 \
+
+\fs20 root
+\b @
+\b0 ete
+\b  > apt-get install libnl-genl-3-dev          
+\b0\fs24 \
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 Kismet requires a place to store details enter:-\
+\pard\pardeftab709\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root@ete > 
+\b mkdir /root/kismet_logs
+\b0\fs24 \
+\pard\pardeftab709\qj
+
+\b\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\b0\fs24 \cf0 Remember this. Kismet also requires a few changes need to be made to your Pi to configure the dongle correctly.
+\fs8  
+\fs24 \
+\pard\pardeftab709\qj
+
+\fs8 \cf0     
+\f1\fs24 \uc0\u8232 
+\f0 Next we need to download the Kismet code. \
+Enter all of the following on single line. The only space is between the command wget and the link.\
+\pard\pardeftab709
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root
+\b @
+\b0 ete
+\b  >wget http://www.kismetwireless.net
+\f1 \uc0\u8232 
+\f0           	       /code/kismet-2013-03-R1b.tar.gz
+\b0\fs24 \
+\pard\pardeftab709
+
+\b\fs8 \cf0 \
+\pard\pardeftab709
+
+\b0\fs24 \cf0 There are plenty of opportunities for typing mistakes here but when entered correctly the download is confirmed by a bar progressing across the screen.  
+\f1\fs8 \uc0\u8232 \u8232 
+\f0\fs24 The downloaded file needs decompressing:-\
+\pard\pardeftab709\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root@ete > 
+\b tar xvf kismet-2012-030R1b.tar.gz
+\b0\fs24 \
+
+\fs8 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 The decompression causes a long list to stream down the screen. Move down into the newly made directory:-\
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs20 \cf0 root
+\b @
+\b0 ete
+\b  > cd kismet-2013-030R1b
+\b0\fs24 \
+\pard\pardeftab709\qj
+
+\b\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\b0\fs24 \cf0 move down into the newly made directory and type the following on a single line:-\
+\pard\pardeftab709\qj
+
+\fs20 \cf0 root
+\b @
+\b0 ete
+\b  >  ./configure  \'96prefix=/usr 
+\b0\fs24 \
+\pard\pardeftab709\qj
+
+\b\fs20 \cf0 	      \'96sysconfdir=/etc  \'96with-suidgroup=pi
+\b0\fs24 \
+\pard\pardeftab709\qj
+
+\b\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 Important Note
+\b0 :- Every group here is separated by a space and then two hyphens.  \
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 The results are a long stream of lines.  At the next prompt enter:-\
+\pard\pardeftab709\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root
+\b @
+\b0 ete
+\b  >  make
+\b0\fs24 \
+
+\fs8 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 Things then really slow down. This stage can take up to an hour.  Finally, enter:-\
+\pard\pardeftab709\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root
+\b @
+\b0 ete
+\b  >  make suidinstall
+\b0\fs24 \
+
+\f1\fs8 \uc0\u8232 
+\f0\fs24 These options maintain the ability for Pi to run Kismet if required.\
+
+\fs8   
+\fs24 \
+
+\fs8 \
+\pard\pardeftab709\qj
+
+\b\fs28 \cf0 RASPBERRYSPI
+\b0   
+\fs24 Kismet Configuration\
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 The final few lines that appear following the build refer you to the README file. This is worth reading. Kismet retains it's configuration details in /etc.  This file should also be inspected with the following lines changed, if necessary:-\
+\pard\pardeftab709\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root@ete > 
+\b nano /etc/kismet.conf 
+\b0\fs24 \
+\pard\pardeftab709\qj
+
+\b\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\b0\fs24 \cf0 Un-comment/edit the following lines to read:\
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+	
+\fs20 logprefix=/root/kismet_logs
+\fs24 \
+\pard\pardeftab709\qj
+
+\fs20 \cf0 	ncsource=wlan0:force vap=false, validate=true
+\fs24 \
+
+\fs20 	gps=false
+\fs24 \
+\pard\pardeftab709\qj
+
+\fs8 \cf0 	
+\fs24 \
+
+\fs8 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 Yes, that final line does switch off any GPS Global Positioning System connection.  You might ask 'why you would want to map Wi-Fi details to physical locations?' It's an excellent question to forward to Google Inc. This is exactly what they did as they plied the streets photographing for Street-View (and forgot to tell us!). \
+\pard\tx5355\pardeftab709\ri-15\qj
+\cf0 \
+\pard\pardeftab709\qj
+
+\b\fs28 \cf0 RASPBERRYSPI
+\b0   W
+\fs24 ireshark Support 
+\fs8  
+\fs24 \
+\pard\pardeftab709\qj
+
+\fs8 \cf0 \
+\pard\pardeftab709\qj
+
+\fs24 \cf0 Kismet works in partnership with Wireshark.  So install that now.- \
+\pard\pardeftab709\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root@ete > 
+\b apt-get install wireshark 
+\b0\fs24 \
+
+\fs8 \
+\
+\pard\pardeftab709\qj
+
+\b\fs28 \cf0 RASPBERRYSPI
+\b0   
+\fs24 Dongle Configuration\
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs24 \cf0 This part of the set-up has been left until now, in case you have been using your dongle for Internet access.  Now is the point at which we break any existing link and reconfigure the dongle to work specifically with Kismet. Use nano to edit:
+\b\fs20 -
+\b0\fs24 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root@ete > 
+\b nano /etc/network interfaces
+\b0\fs24 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\b\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\b0\fs24 \cf0 Disable \'96 by commenting out i.e insert a # character at the front of the following lines to look like:-\
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs20 \cf0 #allow-hotplug wlan0
+\fs24 \
+
+\fs20 #iface wlan0 inet manual
+\fs24 \
+
+\fs20 #wps-roam /etc/wpa_supplement/wpa_supplicant.conf
+\fs24 \
+
+\fs20 #iface default inet dhcp
+\fs24 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs26 \cf0 Use nano again  :-
+\fs24 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root@ete > 
+\b nano /etc/default/ifplugd
+\b0\fs24 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\b\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\b0\fs24 \cf0 make the following changes, in that file.\
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs24 From:       
+\fs20 INTERFACES=\'94auto\'94
+\fs24 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs20 \cf0                     HOTPLUG_ INTERFACES=\'94all\'94
+\fs24 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs24 \cf0 To:-
+\fs8                               
+\fs20 INTERFACES=\'94eth0\'94
+\fs24 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs20 \cf0                     HOTPLUG_INTERFACES=\'94\'94
+\fs24 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs24 \cf0 Reboot when complete using:-\
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root@ete > 
+\b shutdown -r now
+\b0\fs24 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\b\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\b0\fs24 \cf0 and once the Pi returns, log in as root and enter.\
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\f1\fs8 \cf0 \uc0\u8232 
+\f0\fs20 root@ete > 
+\b kismet
+\b0\fs24 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\b\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\b0\fs24 \cf0 The simple text screen is transformed with a series of questions being presented.  The first is a warning about running as root. Tab to confirm and then tab and press Enter on OK. Press Enter again over the Yes option to automatically start the Kismet Server.  Click Start when offered the logging and console options.\
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs24 \cf0 If all is well the screen should burst into life, displaying networks, power levels and a rather clever steaming screen of data packets.  Click on ~ (known as tilde) to reveal the pull down menus that provide you with access to a visual representation of your local Wi-Fi world. What you see should only raise more questions, so PLAY!\
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0  
+\f1 \uc0\u8232 
+\f0\fs24 Pressing ~ Enter and then Q shuts everything down cleanly.  You may want to investigate the contents of you log file.  We will make more of this in a coming session.\
+
+\fs8 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\b\fs28 \cf0 RASPBERRYSPI
+\b0   
+\fs24 Greater Range!
+\fs8 #
+\fs24 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs8 \cf0 \
+\pard\tx5355\pardeftab709\ri-15\qj
+
+\fs24 \cf0 The light from a small bulb (or LED these days) is boosted into a beam by the reflector in a car headlight or bicycle torch.  \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+The only difference between light and radio signals is the frequency and the fact that we have two limited bandwidth radio receivers embedded in the front of our heads. (Each with it's own reflector \'96 the retina).  \
+\
+Carefully placing your Wi-Fi dongle at the focus of a radio dish will allow you to sniff Wi-Fi systems several kilometres away (line of sight).  You could even replace the short wire and connector below with your dongle inside this modified Pringles container to provide a remarkable 10 dB of gain.  \
+\
+\
+In the next article we will learn how to analyse the data we have collected.  Must rush \'96 seems we've been rumbled.\
+\
+\
+\
+ \
+\
+\
+\
+\
+}
