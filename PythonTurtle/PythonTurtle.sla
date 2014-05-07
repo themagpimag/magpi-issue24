@@ -22,16 +22,16 @@
         <COLOR NAME="Red" RGB="#ff0000" Spot="0" Register="0"/>
         <COLOR NAME="Registration" CMYK="#ffffffff" Spot="0" Register="1"/>
         <COLOR NAME="Rich Black" CMYK="#996666ff" Spot="0" Register="0"/>
-        <COLOR NAME="Theme" RGB="#ad3b06" Spot="0" Register="0"/>
+        <COLOR NAME="Theme" RGB="#f76100" Spot="0" Register="0"/>
         <COLOR NAME="Warm Black" CMYK="#00994cff" Spot="0" Register="0"/>
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
         <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
-        <STYLE NAME="Body text" ALIGN="3" FIRST="0" LANGUAGE="English"/>
+        <STYLE NAME="Body text" ALIGN="3" LINESP="14" FIRST="0" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
-        <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
+        <STYLE NAME="Body title" NACH="4" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Black" LANGUAGE="English"/>
         <STYLE NAME="small body style" PARENT="Body text" FONTSIZE="10" FCOLOR="Cool Black" FSHADE="80"/>
         <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
@@ -95,11 +95,7 @@
         <MASTERPAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="595.28125984252" PAGEHEIGHT="841.889763779528" BORDERLEFT="19.8425196850394" BORDERRIGHT="19.8425196850394" BORDERTOP="19.8425196850394" BORDERBOTTOM="19.8425196850394" NUM="0" NAM="Normal" MNAM="" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="595.28125984252" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" NUM="0" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="19.8425 575.433 418.999 556.999 " HorizontalGuides="19.8425 822.047 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="901.890708661418" PAGEWIDTH="595.28125984252" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" NUM="1" NAM="" MNAM="Normal" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="19.8425 575.433 " HorizontalGuides="19.8425 822.047 " AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347115199773" YPOS="956.505826771654" WIDTH="538.588317871094" HEIGHT="730.995590551181" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.996 538.588 730.996 538.588 730.996 538.588 730.996 0 730.996 0 730.996 0 730.996 0 730.996 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.996 538.588 730.996 538.588 730.996 538.588 730.996 0 730.996 0 730.996 0 730.996 0 730.996 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="25">
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1392.66535433071" WIDTH="256.901824951172" HEIGHT="29.25" RADRECT="5.66929133858268" FRTYPE="2" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="20" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 251.233 0 251.233 0 251.233 0 254.364 0 256.902 5.66929 256.902 2.53823 256.902 5.66929 256.902 5.66929 256.902 23.5807 256.902 23.5807 256.902 23.5807 256.902 26.7118 251.233 29.25 254.364 29.25 251.233 29.25 251.233 29.25 5.66929 29.25 5.66929 29.25 5.66929 29.25 2.53823 29.25 0 23.5807 0 26.7118 0 23.5807 0 23.5807 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="16" COCOOR="0 0 0 0 256.902 0 256.902 0 256.902 0 256.902 0 256.902 29.25 256.902 29.25 256.902 29.25 256.902 29.25 0 29.25 0 29.25 0 29.25 0 29.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347115199773" YPOS="956.505826771654" WIDTH="538.588317871094" HEIGHT="730.995590551181" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.996 538.588 730.996 538.588 730.996 538.588 730.996 0 730.996 0 730.996 0 730.996 0 730.996 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.996 538.588 730.996 538.588 730.996 538.588 730.996 0 730.996 0 730.996 0 730.996 0 730.996 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="24">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="91.4995275834644" YPOS="217.009132354393" WIDTH="612.283464566929" HEIGHT="8.50394" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1.01423506122473" PCOLOR="Black" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 8.50394 612.283 8.50394 612.283 8.50394 612.283 8.50394 0 8.50394 0 8.50394 0 8.50394 0 8.50394 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 8.50394 612.283 8.50394 612.283 8.50394 612.283 8.50394 0 8.50394 0 8.50394 0 8.50394 0 8.50394 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="5.66929133216499" gWidth="612.283464566929" gHeight="14.173231332165" LAYER="9" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -208,245 +204,161 @@
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.346716535434" YPOS="355.246062996064" WIDTH="528.652913385826" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="White" COLUMNS="2" COLGAP="25.511811023622" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 528.653 0 528.653 0 528.653 0 528.653 0 528.653 447.75 528.653 447.75 528.653 447.75 528.653 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 528.653 0 528.653 0 528.653 0 528.653 0 528.653 447.75 528.653 447.75 528.653 447.75 528.653 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="0" BACKITEM="-1">
             <ITEXT CH="A bit of history"/>
             <para PARENT="Body title"/>
-            <ITEXT CH="Back in the '80s there was a computer language called LOGO which was designed and aimed at schools for teaching simple programming. The idea being you had a cursor and what you could describe as an imaginary pen. The software could move this pen around and draw pictures and just as with a real pen it could be lifted up, repositioned, or changed to a different colour."/>
+            <ITEXT CH="Back in the 1980s a computer language called LOGO was designed and aimed at schools for teaching simple programming. The idea being you had a cursor and what you could describe as an imaginary pen. The software could move this pen around and draw pictures and just as with a real pen it could be lifted up, repositioned, or changed to a different colour."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Many schools went one step further and had straightforward robots connected up to a computer  enabling them to break out of the computer into the real world. The turtle's commands were very straight forward: FD would drive forwards, LT would turn left. PD (pen down) would lower an attached pen onto the paper (or floor...) and the turtle would draw as it drove. PU (pen up) likewise would cease drawing. For example:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="PD"/>
+            <ITEXT FONTSIZE="10" CH=" PD"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" REPEAT 4 [FD 50 LT 90]"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" PU"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" RT 360"/>
+            <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="REPEAT 4 [FD 100 RT 90]"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="PU"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="LT 360"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="would repeated draw (PD) each of four sides (FD 100) of a square, each side approximately 10cm long. As the turtles were wired with a ribbon cable to the computer (WiFi and Bluetooth had yet to become available) the final command is essential as it effectively unwinds the turtles ribbon cable by rotating a full circle anti-clockwise."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="would repeated draw (PD) each of four sides (FD 50) of a square, each side approximately 5cm long. As the turtles were wired with a ribbon cable to the computer (WiFi and Bluetooth had yet to become available) the final command is essential as it effectively unwinds the turtles ribbon cable by rotating a full circle clockwise."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Back to the present day: "/>
+            <ITEXT CH="Back to the present day"/>
             <para PARENT="Body title"/>
-            <ITEXT CH="Turtle is a module for python that allows you to draw shapes on a canvas using simple commands."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Fast forward to today and python as well as other modern languages such as Ruby, scratch (see below) have similar capabilities. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="For the purpose of this short introduction. I am not going to assume you have any particular programming interface. I am going to assume however you are familiar with loops, simple python programming. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="However I suspect many of the younger readers here, will be familiar with scratch, so lets look at this program in scratch. This also illustrates the sort of thing you could do with turtle graphics, "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="If you load up scrach and make the following program then during this tutorial we will be creating  something similar in python. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="To begin with open up the program you use to enter and execute code and enter the following"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="#!/usr/bin/env python"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="import turtle"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="import time"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="for n in range(0, 4):"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <ITEXT CH="turtle.forward(50)"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <ITEXT CH="turtle.left(90) "/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="time.sleep(5)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="As you can see I have imported 2 modules for this to work, the first is essential “turtle” the 2nd gets around the fact that once drawn python will remove the canvas from the screen so by using the “time” module it is possible to add a short delay before this happens. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="So once this is done. We have created a loop that repeats 4 times, within this loop we go forward 50 pixels, and turn left 90 degrees. Because this is repeated 4 times we end up with a square. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="On it's own a square may not seem all that interesting. If we now repeat the same loop we can produce a pattern similar to the one below. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="If you now modify the program you wrote earlier to"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="for x in range(0,72):"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <ITEXT CH="turtle.left(5)"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <ITEXT CH="for n in range(0,4):"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="turtle.forward(150)"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="turtle.left(90) "/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="time.sleep(5)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="We now repeat the loop 72 times. I got to 72 as there are 360 degrees in a circle, each time we repeat we are moving 5 degrees, so 360 / 5 = 72.  So each new square it draws is 5 degrees to the left of the previous one. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="for x in range(0,72):"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <ITEXT CH="turtle.left(5)"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <ITEXT CH="for n in range(0,3):"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="turtle.forward(150)"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="turtle.left(120)"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH=" "/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="There is no reason to stick to drawing squares. As long as you know how many degrees are in the shape you want, so an equalaterial triangle has 3 sides and 120 degrees.  So you repeat the loop 3 times and turn 120 degrees. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="All this is fine, however it requres you to change the source each time you want to do a new pattern, you also lose the pattern each time."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="I will address the above here."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="import turtle"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="import time"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="#set file name"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="fname=&quot;dial.eps&quot;"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="for x in range(0,72):"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <ITEXT CH="turtle.left(5)"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <ITEXT CH="for n in range(0,4):"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="turtle.forward(150)"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="turtle.left(90) "/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="time.sleep(1)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="ts = turtle.getscreen()"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="ts.getcanvas().postscript(file=fname)"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="print &quot;Saved image to: &quot;, fname"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="print &quot;All done. Click image to exit.&quot;"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="turtle.exitonclick()"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="You can do some other clever things too"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="for x in range(50,500):"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <ITEXT CH="turtle.left(5)"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <ITEXT CH="for n in range(0,4):"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="turtle.forward(x)"/>
-            <para PARENT="Body text"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="turtle.left(90) "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="This starts by drawing a square 50 at 50 pixels, and then in each interation it increases by 1 until it reaches 200 (or what ever value you want). If you start off with 50, then its not too small to see. But you can start with 1. you end up with something that looks like this. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Further reading:"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Wikipedia related articles"/>
-            <para PARENT="Body text"/>
+            <ITEXT CH="Fast forward to today and Python as well as other modern languages such as Ruby and Scratch (see below) have similar capabilities.In Python a module named Turtle allows you to draw shapes on a canvas using simple commands similar to LOGO."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="For the purpose of this short introduction you will already need to be familiar with basic loops and straightforward programming in Python. If you are relatively new to Python but are familiar with Scratch However taking a look at creating turtle graphics in Scratch first may be of use. This also illustrates the sort of thing you could do with turtle graphics."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Within Scratch create the program to the left. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="For our Python version we are fortunate that the turtle module is part of the standard installation. To begin open idle or nano and enter the following:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH=" #!/usr/bin/env python"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" import turtle"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" import time"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" for n in range(0, 4):"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="     turtle.forward(50)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="     turtle.left(90) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" time.sleep(5)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="We import 2 modules for this to work. "/>
+            <ITEXT FONT="Monaco Regular" CH="turtle"/>
+            <ITEXT CH=" is essential and the second, "/>
+            <ITEXT FONT="Monaco Regular" CH="time"/>
+            <ITEXT CH=", keeps the image on screen for a few seconds, else Python will remove the canvas from the screen."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="When run we create a loop that repeats 4 times. Within this loop we go forward 50 pixels, and turn left 90 degrees. Because this is repeated 4 times we end up with a square. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="If we now repeat the same loop we can produce an interesting pattern similar to the one below:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH=" for x in range(0,72):"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="     turtle.left(5)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="     for n in range(0,4):"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="         turtle.forward(150)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="         turtle.left(90) "/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="This time we repeat the loop 72 times: there are 360 degrees in a circle: each time we repeat we are moving 5 degrees, so 360 / 5 = 72.  Each new square drawn is 5 degrees anticlockwise from the previous one. "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="There is no reason to stick to drawing squares. As long as you know how many degrees are in the shape you want then it can be drawn. For example, an equalaterial triangle has 3 sides and 120 degrees.  for this the loop is repeated 3 times and each turn is 120 degrees:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH=" for x in range(0,72):"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="     turtle.left(5)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="     for n in range(0,3):"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="         turtle.forward(150)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="         turtle.left(120)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="We can export the final pattern to a vector (EPS) file to keep for later, and require the user to click on the image to exit the program and save the image:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH=" import turtle"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" import time"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" #set file name"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" fname=&quot;dial.eps&quot;"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" for x in range(0,72):"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="     turtle.left(5)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="     for n in range(0,2):"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="         turtle.forward(150)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="         turtle.left(60) "/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" ts = turtle.getscreen()"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" ts.getcanvas().postscript(file=fname)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" print &quot;Saved image to: &quot;, fname"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" print &quot;All done. Click image to exit.&quot;"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" turtle.exitonclick()"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="You can do some other clever things too. For example, starts drawing a square 50x50 pixels, and then in each interation increase by 1 until it reaches 200x200 (or what ever value you want). If you start off with 50, then its not too small to see. But you can start with 1. you end up with something that looks like this. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="for x in range(50,200):"/>
+            <para PARENT="Code"/>
+            <tab FONTSIZE="10"/>
+            <ITEXT FONTSIZE="10" CH="turtle.left(5)"/>
+            <para PARENT="Code"/>
+            <tab FONTSIZE="10"/>
+            <ITEXT FONTSIZE="10" CH="for n in range(0,4):"/>
+            <para PARENT="Code"/>
+            <tab FONTSIZE="10"/>
+            <tab FONTSIZE="10"/>
+            <ITEXT FONTSIZE="10" CH="turtle.forward(x)"/>
+            <para PARENT="Code"/>
+            <tab FONTSIZE="10"/>
+            <tab FONTSIZE="10"/>
+            <ITEXT FONTSIZE="10" CH="turtle.left(90) "/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="12" CH="This article just scratches the surface of what turtle can do. Try out different values, have a look at the documentation for other commands you can use such as "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="12" CH="turtle.speed"/>
+            <ITEXT FONTSIZE="12" CH=", and have fun experimenting."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Further reading"/>
+            <para PARENT="Body title"/>
             <ITEXT CH="http://en.wikipedia.org/wiki/Logo_(programming_language)"/>
             <para PARENT="Body text"/>
             <ITEXT CH="http://en.wikipedia.org/wiki/Turtle_graphics"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Python Documentation"/>
             <para PARENT="Body text"/>
             <ITEXT CH="http://docs.python.org/2/library/turtle.html"/>
             <para PARENT="Body text"/>
@@ -477,35 +389,23 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708404541" YPOS="1496.69577963521" WIDTH="256.901102362205" HEIGHT="38.8040771484375" RADRECT="5.669291339" FRTYPE="2" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 251.232 0 251.232 0 251.232 0 254.363 0 256.901 5.66929 256.901 2.53823 256.901 5.66929 256.901 5.66929 256.901 33.1348 256.901 33.1348 256.901 33.1348 256.901 36.2658 251.232 38.8041 254.363 38.8041 251.232 38.8041 251.232 38.8041 5.66929 38.8041 5.66929 38.8041 5.66929 38.8041 2.53823 38.8041 0 33.1348 0 36.2658 0 33.1348 0 33.1348 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="32" COCOOR="5.66929 0 5.66929 0 251.232 0 251.232 0 251.232 0 254.363 0 256.901 5.66929 256.901 2.53823 256.901 5.66929 256.901 5.66929 256.901 33.1348 256.901 33.1348 256.901 33.1348 256.901 36.2658 251.232 38.8041 254.363 38.8041 251.232 38.8041 251.232 38.8041 5.66929 38.8041 5.66929 38.8041 5.66929 38.8041 2.53823 38.8041 0 33.1348 0 36.2658 0 33.1348 0 33.1348 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708404126" YPOS="1568.41228346457" WIDTH="256.9011024" HEIGHT="38.80407715" RADRECT="5.669291339" FRTYPE="2" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 251.232 0 251.232 0 251.232 0 254.363 0 256.901 5.66929 256.901 2.53823 256.901 5.66929 256.901 5.66929 256.901 33.1348 256.901 33.1348 256.901 33.1348 256.901 36.2658 251.232 38.8041 254.363 38.8041 251.232 38.8041 251.232 38.8041 5.66929 38.8041 5.66929 38.8041 5.66929 38.8041 2.53823 38.8041 0 33.1348 0 36.2658 0 33.1348 0 33.1348 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="32" COCOOR="5.66929 0 5.66929 0 251.232 0 251.232 0 251.232 0 254.363 0 256.901 5.66929 256.901 2.53823 256.901 5.66929 256.901 5.66929 256.901 33.1348 256.901 33.1348 256.901 33.1348 256.901 36.2658 251.232 38.8041 254.363 38.8041 251.232 38.8041 251.232 38.8041 5.66929 38.8041 5.66929 38.8041 5.66929 38.8041 2.53823 38.8041 0 33.1348 0 36.2658 0 33.1348 0 33.1348 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="410.520312387717" YPOS="1218.57763779213" WIDTH="256.9011024" HEIGHT="38.80407715" RADRECT="5.669291339" FRTYPE="2" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 251.232 0 251.232 0 251.232 0 254.363 0 256.901 5.66929 256.901 2.53823 256.901 5.66929 256.901 5.66929 256.901 33.1348 256.901 33.1348 256.901 33.1348 256.901 36.2658 251.232 38.8041 254.363 38.8041 251.232 38.8041 251.232 38.8041 5.66929 38.8041 5.66929 38.8041 5.66929 38.8041 2.53823 38.8041 0 33.1348 0 36.2658 0 33.1348 0 33.1348 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="32" COCOOR="5.66929 0 5.66929 0 251.232 0 251.232 0 251.232 0 254.363 0 256.901 5.66929 256.901 2.53823 256.901 5.66929 256.901 5.66929 256.901 33.1348 256.901 33.1348 256.901 33.1348 256.901 36.2658 251.232 38.8041 254.363 38.8041 251.232 38.8041 251.232 38.8041 5.66929 38.8041 5.66929 38.8041 5.66929 38.8041 2.53823 38.8041 0 33.1348 0 36.2658 0 33.1348 0 33.1348 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="410.52031242126" YPOS="1347.27023622047" WIDTH="256.9011024" HEIGHT="38.80407715" RADRECT="5.669291339" FRTYPE="2" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 251.232 0 251.232 0 251.232 0 254.363 0 256.901 5.66929 256.901 2.53823 256.901 5.66929 256.901 5.66929 256.901 33.1348 256.901 33.1348 256.901 33.1348 256.901 36.2658 251.232 38.8041 254.363 38.8041 251.232 38.8041 251.232 38.8041 5.66929 38.8041 5.66929 38.8041 5.66929 38.8041 2.53823 38.8041 0 33.1348 0 36.2658 0 33.1348 0 33.1348 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="32" COCOOR="5.66929 0 5.66929 0 251.232 0 251.232 0 251.232 0 254.363 0 256.901 5.66929 256.901 2.53823 256.901 5.66929 256.901 5.66929 256.901 33.1348 256.901 33.1348 256.901 33.1348 256.901 36.2658 251.232 38.8041 254.363 38.8041 251.232 38.8041 251.232 38.8041 5.66929 38.8041 5.66929 38.8041 5.66929 38.8041 2.53823 38.8041 0 33.1348 0 36.2658 0 33.1348 0 33.1348 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="410.520324707031" YPOS="1418.13635253906" WIDTH="256.901092529297" HEIGHT="79.1136474609375" RADRECT="5.669291339" FRTYPE="2" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 251.232 0 251.232 0 251.232 0 254.363 0 256.901 5.66929 256.901 2.53823 256.901 5.66929 256.901 5.66929 256.901 73.4444 256.901 73.4444 256.901 73.4444 256.901 76.5754 251.232 79.1136 254.363 79.1136 251.232 79.1136 251.232 79.1136 5.66929 79.1136 5.66929 79.1136 5.66929 79.1136 2.53823 79.1136 0 73.4444 0 76.5754 0 73.4444 0 73.4444 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="32" COCOOR="5.66929 0 5.66929 0 251.232 0 251.232 0 251.232 0 254.363 0 256.901 11.5585 256.901 5.17494 256.901 11.5585 256.901 11.5585 256.901 67.5551 256.901 67.5551 256.901 67.5551 256.901 73.9386 251.232 79.1137 254.363 79.1137 251.232 79.1137 251.232 79.1137 5.66929 79.1137 5.66929 79.1137 5.66929 79.1137 2.53823 79.1137 0 67.5551 0 73.9386 0 67.5551 0 67.5551 0 11.5585 0 11.5585 0 11.5585 0 5.17494 5.66929 0 2.53823 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="410.52031242126" YPOS="1588.21511815118" WIDTH="256.9011024" HEIGHT="38.80407715" RADRECT="5.669291339" FRTYPE="2" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 251.232 0 251.232 0 251.232 0 254.363 0 256.901 5.66929 256.901 2.53823 256.901 5.66929 256.901 5.66929 256.901 33.1348 256.901 33.1348 256.901 33.1348 256.901 36.2658 251.232 38.8041 254.363 38.8041 251.232 38.8041 251.232 38.8041 5.66929 38.8041 5.66929 38.8041 5.66929 38.8041 2.53823 38.8041 0 33.1348 0 36.2658 0 33.1348 0 33.1348 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="32" COCOOR="5.66929 0 5.66929 0 251.232 0 251.232 0 251.232 0 254.363 0 256.901 5.66929 256.901 2.53823 256.901 5.66929 256.901 5.66929 256.901 33.1348 256.901 33.1348 256.901 33.1348 256.901 36.2658 251.232 38.8041 254.363 38.8041 251.232 38.8041 251.232 38.8041 5.66929 38.8041 5.66929 38.8041 5.66929 38.8041 2.53823 38.8041 0 33.1348 0 36.2658 0 33.1348 0 33.1348 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="405.498901367188" YPOS="397.009124755859" WIDTH="251.500732421875" HEIGHT="65.1968536376953" RADRECT="5.66929133858268" FRTYPE="2" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 245.831 0 245.831 0 245.831 0 248.963 0 251.501 5.66929 251.501 2.53823 251.501 5.66929 251.501 5.66929 251.501 59.5276 251.501 59.5276 251.501 59.5276 251.501 62.6586 245.831 65.1969 248.963 65.1969 245.831 65.1969 245.831 65.1969 5.66929 65.1969 5.66929 65.1969 5.66929 65.1969 2.53823 65.1969 0 59.5276 0 62.6586 0 59.5276 0 59.5276 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="16" COCOOR="0 0 0 0 251.501 0 251.501 0 251.501 0 251.501 0 251.501 65.1969 251.501 65.1969 251.501 65.1969 251.501 65.1969 0 65.1969 0 65.1969 0 65.1969 0 65.1969 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="128.347086614173" YPOS="663.339833417276" WIDTH="251.500732421875" HEIGHT="65.1968536376953" RADRECT="5.66929133858268" FRTYPE="2" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 245.831 0 245.831 0 245.831 0 248.963 0 251.501 5.66929 251.501 2.53823 251.501 5.66929 251.501 5.66929 251.501 59.5276 251.501 59.5276 251.501 59.5276 251.501 62.6586 245.831 65.1969 248.963 65.1969 245.831 65.1969 245.831 65.1969 5.66929 65.1969 5.66929 65.1969 5.66929 65.1969 2.53823 65.1969 0 59.5276 0 62.6586 0 59.5276 0 59.5276 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="16" COCOOR="0 0 0 0 251.501 0 251.501 0 251.501 0 251.501 0 251.501 65.1969 251.501 65.1969 251.501 65.1969 251.501 65.1969 0 65.1969 0 65.1969 0 65.1969 0 65.1969 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="514.68803152126" YPOS="134.36746404252" WIDTH="145.8255118" HEIGHT="126.5499213" RADRECT="8.503937008" FRTYPE="2" CLIPEDIT="0" PWIDTH="1.417322835" PCOLOR="Black" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.1133" LOCALSCY="0.1133" LOCALX="-125.094689730421" LOCALY="-175.132565622589" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon2440" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="author.png" PFILE2="" PFILE3="" PRFILE="CineonLog M " EPROF="" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 137.322 0 137.322 0 137.322 0 142.018 0 145.826 8.50394 145.826 3.80734 145.826 8.50394 145.826 8.50394 145.826 118.046 145.826 118.046 145.826 118.046 145.826 122.743 137.322 126.55 142.018 126.55 137.322 126.55 137.322 126.55 8.50394 126.55 8.50394 126.55 8.50394 126.55 3.80734 126.55 0 118.046 0 122.743 0 118.046 0 118.046 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="32" COCOOR="8.50394 0 8.50394 0 137.322 0 137.322 0 137.322 0 142.018 0 145.826 8.50394 145.826 3.80734 145.826 8.50394 145.826 8.50394 145.826 118.046 145.826 118.046 145.826 118.046 145.826 122.743 137.322 126.55 142.018 126.55 137.322 126.55 137.322 126.55 8.50394 126.55 8.50394 126.55 8.50394 126.55 3.80734 126.55 0 118.046 0 122.743 0 118.046 0 118.046 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="404.959031449926" YPOS="653.580678384135" WIDTH="116.875244140625" HEIGHT="133.617416381836" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.108192239985292" LOCALSCY="0.108192239985292" LOCALX="52.40016603181" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="scratch1.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 116.875 0 116.875 0 116.875 0 116.875 0 116.875 133.617 116.875 133.617 116.875 133.617 116.875 133.617 0 133.617 0 133.617 0 133.617 0 133.617 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 116.875 0 116.875 0 116.875 0 116.875 0 116.875 133.617 116.875 133.617 116.875 133.617 116.875 133.617 0 133.617 0 133.617 0 133.617 0 133.617 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="411.124328613281" YPOS="1402.24499511719" WIDTH="255.811096191406" HEIGHT="239.48828125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.114368806709647" LOCALSCY="0.114368806709647" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="turtle3.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.811 0 255.811 0 255.811 0 255.811 0 255.811 239.488 255.811 239.488 255.811 239.488 255.811 239.488 0 239.488 0 239.488 0 239.488 0 239.488 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.811 0 255.811 0 255.811 0 255.811 0 255.811 239.488 255.811 239.488 255.811 239.488 255.811 239.488 0 239.488 0 239.488 0 239.488 0 239.488 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347086614173" YPOS="1340.00003075787" WIDTH="136.527267456055" HEIGHT="135.70166015625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.075810983327514" LOCALSCY="0.075810983327514" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="turtle2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 136.527 0 136.527 0 136.527 0 136.527 0 136.527 135.702 136.527 135.702 136.527 135.702 136.527 135.702 0 135.702 0 135.702 0 135.702 0 135.702 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 136.527 0 136.527 0 136.527 0 136.527 0 136.527 135.702 136.527 135.702 136.527 135.702 136.527 135.702 0 135.702 0 135.702 0 135.702 0 135.702 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
