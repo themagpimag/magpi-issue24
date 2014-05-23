@@ -21,3 +21,53 @@ Guide".
 Regards,
 
 Guido Schmitz
+
+--
+
+Glasgow Science Festival: Raspberry Jam and Coderdojo Scotland
+GLASGOW SCIENCE FESTIVAL
+Saturday, 14 June 2014 from 10:00 to 16:00 (BST)
+Glasgow, United Kingdom
+http://www.eventbrite.co.uk/e/glasgow-science-festival-raspberry-jam-and-coderdojo-scotland-tickets-11220756585
+
+University of Strathclyde
+Livingstone Tower, 26 Richmond Street,
+Glasgow
+G1 1XH 
+United Kingdom
+
+Saturday, 14 June 2014 from 10:00 to 16:00 (BST)
+
+Glasgow Science Festival: Raspberry Jam and Coderdojo Scotland
+Raspberry Jam is a global network of user groups supporting anybody that wants to put their Raspberry Pi computer to good use.  In this workshop, learn how the Raspberry Pi can be used to create apps, games and websites, control robots, and much more. The only limit on what you can do is your imagination.  Some experience needed.
+Age 7+
+
+=====
+Raspberry Pi for Beginners
+http://www.eventbrite.co.uk/e/raspberry-pi-for-beginners-tickets-11615156245
+The Raspberry Pi is a credit-card-sized single-board computer developed in the UK by the Raspberry Pi Foundation with the intention of promoting the teaching of basic computer science. 
+
+Find out how to get started in this beginners workshop with Plymouth University's School of Computing.
+
+Plymouth Central Library
+Drake Circus
+Plymouth
+PL4 8AL 
+United Kingdom
+
+Saturday, 7 June 2014 at 10:00 (BST)
+--
+
+
+
+==
+Morning,
+I am in charge of The MagPi (www.themagpi.com) magazine’s events listing page each month. I noticed you’re about to have a Pi Jam up in Falkirk and was wondering if you’d like a free mention the events listing?
+
+Happy to encourage one and all to come along 
+
+If you would then please let me know by reply. Thanks.
+
+Regards
+-Colin
+colin@ethicalwebsites.com
