@@ -491,31 +491,36 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="1026" WIDTH="538.588346456693" HEIGHT="218.702047244095" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 218.702 538.588 218.702 538.588 218.702 538.588 218.702 0 218.702 0 218.702 0 218.702 0 218.702 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 218.702 538.588 218.702 538.588 218.702 538.588 218.702 0 218.702 0 218.702 0 218.702 0 218.702 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="1026" WIDTH="538.588346456693" HEIGHT="205" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 205 538.588 205 538.588 205 538.588 205 0 205 0 205 0 205 0 205 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 205 538.588 205 538.588 205 538.588 205 0 205 0 205 0 205 0 205 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" #ifndef SQUARE_H"/>
+            <ITEXT FONTSIZE="9" CH=" #ifndef CHILD_H"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" #define SQUARE_H"/>
+            <ITEXT FONTSIZE="9" CH=" #define CHILD_H"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" class Square {"/>
+            <ITEXT FONTSIZE="9" CH=" class Parent;"/>
+            <ITEXT CH="  "/>
+            <ITEXT FONTSIZE="9" CH="// Forward declaration to reduce precompile time."/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" class Child {"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" public:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   Square(void);  // Default constructor"/>
+            <ITEXT FONTSIZE="9" CH="   Child(Parent *);"/>
+            <ITEXT CH="  /"/>
+            <ITEXT FONTSIZE="9" CH="/ Construct a Child with a Parent pointer"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   Square(double side, char colour);  // Constructor with arguments"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   double area();  // Return the area of a square"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   double colour() { return m_colour; }  // The colour character"/>
+            <ITEXT FONTSIZE="9" CH="   void run(void);"/>
+            <ITEXT CH=" //"/>
+            <ITEXT FONTSIZE="9" CH=" A member function to call the Parent class"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" private:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   double m_side; // The length of a side"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   char m_colour; // The colour character"/>
+            <ITEXT FONTSIZE="9" CH="   Parent *m_parent;"/>
+            <ITEXT CH=" //"/>
+            <ITEXT FONTSIZE="9" CH=" A data member to store a pointer to the Child's Parent."/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" };"/>
             <para PARENT="Code"/>
@@ -524,46 +529,44 @@
             <para PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086614173" YPOS="1838.12661417323" WIDTH="538.588346456693" HEIGHT="224.873385826771" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 224.873 538.588 224.873 538.588 224.873 538.588 224.873 0 224.873 0 224.873 0 224.873 0 224.873 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 224.873 538.588 224.873 538.588 224.873 538.588 224.873 0 224.873 0 224.873 0 224.873 0 224.873 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086614173" YPOS="1838.12661417323" WIDTH="538.588346456693" HEIGHT="210.87338582677" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 210.873 538.588 210.873 538.588 210.873 538.588 210.873 0 210.873 0 210.873 0 210.873 0 210.873 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 210.873 538.588 210.873 538.588 210.873 538.588 210.873 0 210.873 0 210.873 0 210.873 0 210.873 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" #include &quot;Square.h&quot;"/>
+            <ITEXT FONTSIZE="9" CH=" #include &lt;iostream&gt;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" #include &lt;cmath&gt;"/>
+            <ITEXT FONTSIZE="9" CH=" #include &quot;Parent.h&quot;"/>
             <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" Square::Square(void):"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   m_side(0.),"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   m_colour('0') {"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" }"/>
+            <ITEXT FONTSIZE="9" CH=" #include &quot;Child.h&quot;"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" Square::Square(double side, char colour):"/>
+            <ITEXT FONTSIZE="9" CH=" using namespace std;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   m_side(side),"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   m_colour(colour) {"/>
+            <ITEXT FONTSIZE="9" CH=" Child::Child(Parent *parent):"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   m_parent(parent) {"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" double Square::area() {"/>
+            <ITEXT FONTSIZE="9" CH=" void Child::run() {"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   return std::pow(m_side,2);"/>
+            <ITEXT FONTSIZE="9" CH="   cout &lt;&lt; &quot;Parent frame dimensions = {&quot; "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="        &lt;&lt; m_parent-&gt;x() &lt;&lt; &quot;, &quot;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="        &lt;&lt; m_parent-&gt;y() &lt;&lt; &quot;}&quot; &lt;&lt; endl;"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347086570867" YPOS="2721.00881885906" WIDTH="538.5883465" HEIGHT="241.991181140936" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 241.991 538.588 241.991 538.588 241.991 538.588 241.991 0 241.991 0 241.991 0 241.991 0 241.991 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 241.991 538.588 241.991 538.588 241.991 538.588 241.991 0 241.991 0 241.991 0 241.991 0 241.991 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347086570867" YPOS="2721.00881885906" WIDTH="538.5883465" HEIGHT="230.99118114094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 230.991 538.588 230.991 538.588 230.991 538.588 230.991 0 230.991 0 230.991 0 230.991 0 230.991 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 230.991 538.588 230.991 538.588 230.991 538.588 230.991 0 230.991 0 230.991 0 230.991 0 230.991 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" CC=g++"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" TARGET=square"/>
+            <ITEXT FONTSIZE="9" CH=" TARGET=pc"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" OBJECTS=main.o Square.o"/>
+            <ITEXT FONTSIZE="9" CH=" OBJECTS=main.o Parent.o Child.o"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" $(TARGET): $(OBJECTS)"/>
@@ -585,37 +588,72 @@
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" %.o: %.cpp"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   @echo &quot;** Compiling C++ Source&quot; "/>
+            <ITEXT FONTSIZE="9" CH="   @echo &quot;** Compiling C++ Source&quot;"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="   $(CC) -c $(INCFLAGS) $&lt; "/>
             <para PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086570867" YPOS="2203.87401575828" WIDTH="538.5883465" HEIGHT="194.125984241724" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 194.126 538.588 194.126 538.588 194.126 538.588 194.126 0 194.126 0 194.126 0 194.126 0 194.126 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 194.126 538.588 194.126 538.588 194.126 538.588 194.126 0 194.126 0 194.126 0 194.126 0 194.126 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086570867" YPOS="2203.87401575828" WIDTH="538.5883465" HEIGHT="287.12598424172" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 287.126 538.588 287.126 538.588 287.126 538.588 287.126 0 287.126 0 287.126 0 287.126 0 287.126 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 287.126 538.588 287.126 538.588 287.126 538.588 287.126 0 287.126 0 287.126 0 287.126 0 287.126 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" #include &lt;iostream&gt;"/>
+            <ITEXT FONTSIZE="9" CH=" #ifndef PARENT_H"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" #include &quot;Square.h&quot;"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" using namespace std;"/>
+            <ITEXT FONTSIZE="9" CH=" #define PARENT_H"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" int main() {"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   Square s; // Using the default constructor"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   Square s2(3.0,'b'); // Using the second constructor "/>
+            <ITEXT FONTSIZE="9" CH=" class Child;"/>
+            <ITEXT CH="  "/>
+            <ITEXT FONTSIZE="9" CH="// Forward declaration to reduce precompile time."/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   cout &lt;&lt; &quot;s.area()=&quot; &lt;&lt; s.area() &lt;&lt; &quot;, s.colour()=&quot; &lt;&lt; s.colour() &lt;&lt; endl;"/>
+            <ITEXT FONTSIZE="9" CH=" class Parent {"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   cout &lt;&lt; &quot;s2.area()=&quot; &lt;&lt; s2.area() &lt;&lt; &quot;, s2.colour()=&quot; &lt;&lt; s2.colour() &lt;&lt; endl;"/>
+            <ITEXT FONTSIZE="9" CH=" public:"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   Parent(unsigned int x, unsigned int y);"/>
+            <ITEXT CH=" //"/>
+            <ITEXT FONTSIZE="9" CH="  Construct a Parent frame with some dimensions."/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   ~Parent(void);"/>
+            <ITEXT CH=" // "/>
+            <ITEXT FONTSIZE="9" CH="Destructor to clean up the particle pointer"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   void run(void);"/>
+            <ITEXT CH=" //"/>
+            <ITEXT FONTSIZE="9" CH=" Call a member function in the Child class"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   int x(void) { return m_x; }"/>
+            <ITEXT CH=" // "/>
+            <ITEXT FONTSIZE="9" CH="Get the x dimension"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   double y(void) { return m_y; }"/>
+            <ITEXT CH=" //"/>
+            <ITEXT FONTSIZE="9" CH=" Get the y dimension"/>
+            <ITEXT CH=" "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   Child* child(void) { return m_child; }"/>
+            <ITEXT CH="  //"/>
+            <ITEXT FONTSIZE="9" CH=" Get the child pointer"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   return 0;"/>
+            <ITEXT FONTSIZE="9" CH=" private:"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" }"/>
+            <ITEXT FONTSIZE="9" CH="   Child *m_child;"/>
+            <ITEXT CH=" //"/>
+            <ITEXT FONTSIZE="9" CH=" A data member to store a pointer to the Child class"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   double m_x;"/>
+            <ITEXT CH="  // "/>
+            <ITEXT FONTSIZE="9" CH="A data member to store the x dimension"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   double m_y;"/>
+            <ITEXT CH="  //"/>
+            <ITEXT FONTSIZE="9" CH=" A data member to store the y dimension"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" };"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" #endif"/>
             <para PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -631,32 +669,19 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708657126" YPOS="3219" WIDTH="538.5883465" HEIGHT="230.968188956683" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 230.968 538.588 230.968 538.588 230.968 538.588 230.968 0 230.968 0 230.968 0 230.968 0 230.968 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 230.968 538.588 230.968 538.588 230.968 538.588 230.968 0 230.968 0 230.968 0 230.968 0 230.968 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708657126" YPOS="3219" WIDTH="538.5883465" HEIGHT="116" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 116 538.588 116 538.588 116 538.588 116 0 116 0 116 0 116 0 116 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 116 538.588 116 538.588 116 538.588 116 0 116 0 116 0 116 0 116 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONTSIZE="9" CH=" "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" #include &lt;iostream&gt;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" #include &quot;Square.h&quot;"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" using namespace std;"/>
+            <ITEXT FONTSIZE="9" CH=" #include &quot;Parent.h&quot;"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" int main() {"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   Square *s = new Square(); // Using the default constructor"/>
+            <ITEXT FONTSIZE="9" CH="   Parent *parent = new Parent(200, 150);"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   Square *s2 = new Square(3.0,'b'); // Using the second constructor "/>
+            <ITEXT FONTSIZE="9" CH="   parent-&gt;run();"/>
             <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   cout &lt;&lt; &quot;s-&gt;area()=&quot; &lt;&lt; s-&gt;area() &lt;&lt; &quot;, s-&gt;colour()=&quot; &lt;&lt; s-&gt;colour() &lt;&lt; endl;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="   cout &lt;&lt; &quot;s2-&gt;area()=&quot; &lt;&lt; s2-&gt;area() &lt;&lt; &quot;, s2-&gt;colour()=&quot; &lt;&lt; s2-&gt;colour() &lt;&lt; endl;"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   delete s;"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="   delete s2;"/>
-            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   delete parent;"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="   return 0;"/>
             <para PARENT="Code"/>
