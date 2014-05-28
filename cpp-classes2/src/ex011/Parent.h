@@ -16,10 +16,10 @@ public:
   void run(void);
 
   /** Get the x dimension */
-  int x(void) { return m_x; }
+  unsigned int x(void) { return m_x; }
   
   /** Get the y dimension */
-  double y(void) { return m_y; }
+  unsigned int y(void) { return m_y; }
 
   /** Get the child pointer */
   Child* child(void) { return m_child; }
@@ -29,10 +29,10 @@ private:
   Child *m_child;
 
   /** A data member to store the x dimension */
-  double m_x;
+  unsigned int m_x;
 
   /** A data member to store the y dimension */
-  double m_y;
+  unsigned int m_y;
 };
 
 #endif

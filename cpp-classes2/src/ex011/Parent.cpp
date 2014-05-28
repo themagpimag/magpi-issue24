@@ -6,9 +6,6 @@
 
 #include "Parent.h"
 #include "Child.h"
-#include <iostream>
-
-using namespace std;
 
 /** Constructor *********************/
 Parent::Parent(unsigned int x, unsigned int y): 
