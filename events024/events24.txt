@@ -41,20 +41,3 @@ Saturday, 14 June 2014 from 10:00 to 16:00 (BST)
 Glasgow Science Festival: Raspberry Jam and Coderdojo Scotland
 Raspberry Jam is a global network of user groups supporting anybody that wants to put their Raspberry Pi computer to good use.  In this workshop, learn how the Raspberry Pi can be used to create apps, games and websites, control robots, and much more. The only limit on what you can do is your imagination.  Some experience needed.
 Age 7+
-
-=====
-Raspberry Pi for Beginners
-http://www.eventbrite.co.uk/e/raspberry-pi-for-beginners-tickets-11615156245
-The Raspberry Pi is a credit-card-sized single-board computer developed in the UK by the Raspberry Pi Foundation with the intention of promoting the teaching of basic computer science. 
-
-Find out how to get started in this beginners workshop with Plymouth University's School of Computing.
-
-Plymouth Central Library
-Drake Circus
-Plymouth
-PL4 8AL 
-United Kingdom
-
-Saturday, 7 June 2014 at 10:00 (BST)
---
-
