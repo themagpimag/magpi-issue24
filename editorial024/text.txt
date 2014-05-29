@@ -1,0 +1,11 @@
+Welcome to issue 24 of The MagPi magazine.
+
+This month’s issue is packed cover to cover with something for just about everyone! 
+
+We kick off with Daniel Pelikan’s ‘Raspberry Pi Scope’, an article which describes in detail how to use the Raspberry Pi as a 10 MSPS scope.  We follow this with the concluding part of Micheal Petersen’s Weather balloon series, where he looks at the code used in their Multi-Sensor Array before moving onto a great article looking how to build a spectrophotometer using the Raspberry Pi and Wolfram language. 
+
+John Shovic shares with us his penultimate article, part five, of Project Curacao.  John describes actually deploying the monitor and also reveals some results from within the first 8 weeks of it’s data collection.  He finishes the article with some suggestions of future upgrades and we look forward to part six to see how this project has evolved further.
+
+We have a MagPi exclusive interview with Carrie Anne Philbin from the foundation on the first Picademy at Raspberry Towers and we pay homage to the 1980’s LOGO with an article looking at the use of python with the module ‘Turtle’ to produce similar graphics.  Allen Heard, Heat of IT at Ysgol Bryn Elian High School describes his fantastic Tech-Dojo events inspiring tomorrow’s programmers and we start a new series looking at improving our understanding of Wi-Fi in Richard Wenner’s education article ‘Raspberry Spy’.  We finish off by returning to C++ cache looking at object-object communication.
+
+We had better begin...
