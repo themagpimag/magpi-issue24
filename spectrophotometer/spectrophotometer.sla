@@ -242,8 +242,8 @@
             <ITEXT CH="The science equipment I borrowed from my personal lab, but retailers such as Edmund Scientifics, "/>
             <ITEXT FCOLOR="Blue" CH="http://www.scientificsonline.com"/>
             <ITEXT CH=", and the Labware section of Amazon, "/>
-            <ITEXT FCOLOR="Blue" CH="http://www.amazon.com/Lab-Scientific-Supplies"/>
-            <ITEXT CH=", are good sources for the following items:"/>
+            <ITEXT FCOLOR="Blue" CH="http://goo.gl/qyfqiy"/>
+            <ITEXT CH=" are good sources for the following items:"/>
             <para PARENT="Body text"/>
             <ITEXT CH="• Spectrophotometer cuvettes"/>
             <para PARENT="Body text"/>
@@ -256,13 +256,13 @@
             <ITEXT CH="Instrument design"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The basic parts of a spectrometer are the source, the sample and the detector. For this project I am only interested in measuring one colour (red) so I can simplify the source by using a green LED. The detector used in this experiment is a CdS (Cadmium Sulphide) photocell that has a resistance dependent on the amount of light shining on it.  "/>
+            <ITEXT CH="The basic parts of a spectrometer are the source, the sample and the detector. For this project I am only interested in measuring one colour (red) so I can simplify the source by using a green LED. The detector used in this experiment is a CdS (cadmium sulphide) photocell that has a resistance dependent on the amount of light shining on it.  "/>
             <para PARENT="Body text"/>
             <ITEXT CH="Because the Raspberry Pi doesn't have an analogue input, I used some suggestions from Adafruit,  "/>
             <ITEXT FCOLOR="Blue" CH="http://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi"/>
             <ITEXT CH=", for making analogue measurements. I connect the photocell to a capacitor and &quot;ping&quot; the circuit - essentially measuring how long it takes for the capacitor to charge.  Since the charging time is influenced by the resistance in the circuit, this time will be related to the amount of light hitting the photocell.  "/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To keep everything in one place, I used some LEGO® - which makes for a relatively cheap and robust optical bench. What isn't shown, because it's a boring photo, is that the whole circuit is placed under a box. We only want our detector sensing light from the LED, thus we need to block out light from all other sources."/>
+            <ITEXT CH="To keep everything in one place, I used some LEGO® - which makes for a relatively cheap and robust optical bench. What is not shown, because it is a boring photo, is that the whole circuit is placed under a box. We only want our detector sensing light from the LED, thus we need to block out light from all other sources."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The science"/>
@@ -271,10 +271,10 @@
             <ITEXT CH="White light, such as that from the Sun, is composed of all the colours of the rainbow.  Objects have colours based on how the molecules that make up those objects interact with the light.  Typically, materials can do one of three things with light: absorb it, reflect it, or let it pass through (transmit it). "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="When we see an object, say a red-colored soft drink, the molecules that make up the soft drink absorb all the colors except for red, which it transmits and reflects. If there are a lot of molecules that absorb those colors, then the drink  will appear dark red; conversely, if there are only a small number of molecules that absorb, then the drink will appear light red.  There is a relationship, called Beer's Law, which shows that the amount of light absorbed is proportional to the concentration of the absorbing species, and it is this law that makes spectrophotometry so powerful."/>
+            <ITEXT CH="When we see an object, say a red-coloured soft drink, the molecules that make up the soft drink absorb all the colours except for red, which it transmits and reflects. If there are a lot of molecules that absorb those colours, then the drink  will appear dark red; conversely, if there are only a small number of molecules that absorb, then the drink will appear light red.  There is a relationship, called Beer's Law, which shows that the amount of light absorbed is proportional to the concentration of the absorbing species, and it is this law that makes spectrophotometry so powerful."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To perform this type of analysis, I need a calibration curve, which shows the relationship between the instrument output and the concentration of Red 40 dissolved in water. I took one drop of commercial Red 40 egg dye and diluted it to 10 mL. Since one drop is approximately 50 uL (0.050 mL), this was a 200x dilution. The color of the &quot;Watermelon Punch&quot; looks like it falls between 1000x and 5000x dilutions of the dye."/>
+            <ITEXT CH="To perform this type of analysis, I need a calibration curve, which shows the relationship between the instrument output and the concentration of Red 40 dissolved in water. I took one drop of commercial Red 40 egg dye and diluted it to 10 mL. Since one drop is approximately 50 uL (0.050 mL), this was a 200x dilution. The colour of the &quot;Watermelon Punch&quot; looks like it falls between 1000x and 5000x dilutions of the dye."/>
             <para PARENT="Body text"/>
             <ITEXT CH="One way to make these solutions is to take 1 mL of the 200x solution and dilute it to 5 mL (making a 200 x 5 or 1000x dilution), then repeat this step four more times with larger final volumes.  "/>
             <para PARENT="Body text"/>
@@ -304,7 +304,7 @@
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="DeviceRead"/>
             <ITEXT CH=" and "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="DeviceWrite"/>
-            <ITEXT CH=".  Here's the function "/>
+            <ITEXT CH=".  Here is the function "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="short"/>
             <ITEXT CH=" which is used to discharge the capacitor:"/>
             <para PARENT="Body text"/>
@@ -387,13 +387,13 @@
             <para PARENT="Body text"/>
             <ITEXT CH="The three local variables in "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="measure"/>
-            <ITEXT CH=" are "/>
+            <ITEXT CH=" are: "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="np"/>
             <ITEXT CH=" (number of points), or the number of times the GPIO pin will be read; "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="data"/>
-            <ITEXT CH=", which is a place to store the pin values; and "/>
+            <ITEXT CH=", which is a place to store the pin values; "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="tth"/>
-            <ITEXT CH=" or the time needed for the GPIO to go high. The "/>
+            <ITEXT CH=", or the time needed for the GPIO to go high. The "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="DeviceWrite"/>
             <ITEXT CH=" function turns on the LED source and then the detector is initialized with "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="short"/>
@@ -420,10 +420,12 @@
             <ITEXT FONT="Symbol Regular" CH="χ"/>
             <ITEXT CH=" + c; so by rearranging I can obtain an equation for finding the &quot;dilution factor equivalent&quot; for the soft drink."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="These results indicate that the amount of Red 40 in &quot;Watermelon Punch&quot; is equivalent to taking one drop of the McCormick red dye solution and diluting it by a factor of 3000.  In order to get a more usable value, I analyzed the commercial dye in my lab and found it to contain approximately 11g of dye per litre of solution.  A little bit of math and we find that this is about 3.7mg of dye per litre of soft drink. Using a commercial spectrometer, I obtained 4.6 mg of dye per litre, so the home-made spectrophotometer agrees reasonably well."/>
+            <ITEXT CH="These results indicate that the amount of Red 40 in &quot;Watermelon Punch&quot; is equivalent to taking one drop of the McCormick red dye solution and diluting it by a factor of 3000.  In order to get a more usable value, I analyzed the commercial dye in my lab and found it to contain approximately 11 grams of dye per litre of solution.  A little bit of math and we find that this is about 3.7 mg of dye per litre of soft drink. Using a commercial spectrometer, I obtained 4.6"/>
+            <nbspace/>
+            <ITEXT CH="mg of dye per litre, so the home-made spectrophotometer agrees reasonably well."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Presently the recommended acceptable daily allowance in the USA of Red 40 is 7mg/kg body weight per day. I would have to drink a large amount of this beverage before reaching my daily limit of Red 40.  "/>
+            <ITEXT CH="Presently the recommended acceptable daily allowance in the USA of Red 40 is 7 mg/kg body weight per day. I would have to drink a large amount of this beverage before reaching my daily limit of Red 40.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Where to go from here?"/>
@@ -662,7 +664,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="410.958984375" YPOS="776.25" WIDTH="255.976455688477" HEIGHT="18" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.amazon.com/Lab-Scientific-Supplies" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text87" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.976 0 255.976 0 255.976 0 255.976 0 255.976 18 255.976 18 255.976 18 255.976 18 0 18 0 18 0 18 0 18 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.976 0 255.976 0 255.976 0 255.976 0 255.976 18 255.976 18 255.976 18 255.976 18 0 18 0 18 0 18 0 18 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="410.958984375" YPOS="776.25" WIDTH="94.3959655761719" HEIGHT="18" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://goo.gl/qyfqiy" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text87" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 94.396 0 94.396 0 94.396 0 94.396 0 94.396 18 94.396 18 94.396 18 94.396 18 0 18 0 18 0 18 0 18 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 94.396 0 94.396 0 94.396 0 94.396 0 94.396 18 94.396 18 94.396 18 94.396 18 0 18 0 18 0 18 0 18 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
