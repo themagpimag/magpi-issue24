@@ -247,7 +247,7 @@
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text-TMP"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" We have given all graduates from Picademy a ‘Raspberry Pi Certified Educator’ badge and tag to use on their blogs and other social media, as well as a special tag on our forum. We’ve added a Picademy sub forum so that graduates have a common place to discuss ideas and seek support from our community where it is needed. Although it is still early days, we are toying with the idea of creating more levels to keep our certified educators on their toes."/>
+            <ITEXT CH=" We have given all graduates from Picademy a ‘Raspberry Pi Certified Educator’ badge and tag to use on their blogs and other social media, as well as a special tag on our forum. We’ve added a Picademy sub-forum so that graduates have a common place to discuss ideas and seek support from our community where it is needed. Although it is still early days, we are toying with the idea of creating more levels to keep our certified educators on their toes."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="MP: With the emphasis on coding coming from government is there a concern that broader scientific literacy, coupled with appropriate critical thinking skills may be put to one side in preference to learn by rote computer programming? How does Picademy specifically aim to address this?"/>
@@ -336,7 +336,7 @@
             <ITEXT CH=" Having the lead teachers in the room meant we could talk about how we managed to get funds at school: through crowd funding and going on Twitter. When I was teaching I asked on Twitter if anyone had ten monitors they were getting rid of and literally within an hour someone from a local office said they were getting rid of a load. I think teachers are open to looking for different solutions to this. Crowd funding is quite an interesting one. I think a lot of parents would happily put a fiver or tenner into a campaign to buy some kit."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Industry experts are asking all the time: &quot;how can I help education?&quot; There you go: donate a bit of money, kit or time."/>
+            <ITEXT CH="Industry experts are asking all the time: &quot;How can I help education?&quot; There you go: donate a bit of money, kit or time."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="MP: Do you hope that rather than a reboot of teaching computing in 1980s that this is a reboot and improve?"/>
