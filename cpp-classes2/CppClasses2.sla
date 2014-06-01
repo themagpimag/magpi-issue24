@@ -27,14 +27,14 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" FONTSIZE="11" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#e1ff1a"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -212,59 +212,216 @@
             <ITEXT CH="Object-object communication"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Objects are instances of a given class.  This means that if two objects of a given class are created, then they occupy two different memory locations.  In some cases, it can be very useful to define a class with one or more data members that are objects of a different class.  A class that contains other objects as data members can easily call the member functions of the objects it contains, in a similar manner as the main() function called the member functions of a simple class in Issue 23.  However, for an object that is assigned as a data member to call member functions of the object that contains it, it should call the correct instance in memory.  This can be achieved by using the this pointer to pass a pointer to the containing class."/>
+            <ITEXT CH="Objects are instances of a class.  This means that if two objects of a class are created, then they occupy two different memory locations.  In some cases, it can be very useful to define a class with one or more data members that are objects of a different class.  A class that contains other objects as data members can easily call the member functions of the objects it contains, in a similar manner as the "/>
+            <ITEXT FONT="Monaco Regular" CH="main()"/>
+            <ITEXT CH=" function called the member functions of a simple class in Issue 23.  However, for an object that is assigned as a data member to call the member functions of the object that contains it, it should call the correct instance in memory.  This can be achieved by using the "/>
+            <ITEXT FONT="Monaco Regular" CH="this"/>
+            <ITEXT CH=" pointer to pass a pointer to the containing object to the object it contains."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Communication between two objects"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="When creating graphical user interfaces, it can be useful to create a frame class that contains other objects.  This frame class should then create other objects that it owns.  When the frame class is deleted, the objects that it contains should also be deleted.  The frame class will typcially have a size in number of pixels and be able to recieve commands from the user.  For a given frame class, there might be a class that describes a control panel.  When the frame class recieved a command or is resized, it should pass this information on to the control panel class.  When the control panel is clicked on, it could need to access some of the information in the frame class or cause the frame class to exit."/>
+            <ITEXT CH="When creating graphical user interfaces, it can be useful to create a frame class that contains other objects.  This frame class should then create other objects that it owns.  When the frame class is deleted, the objects that it contains should also be deleted.  The frame class will typically have a size in number of pixels and be able to receive commands from the user.  For a given frame class, there might be a class that describes a control panel.  In this example, when the frame class received a command or is resized it should pass this information on to the control panel class.  When a button on the control panel is clicked with the mouse pointer, it could need to access some of the information in the frame class or cause the frame class to exit."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The hyperthetical frame and control panel example can be simplified to a class that contains a pointer to another class.  In the simplified example, the container class is called Parent and the class it contains a pointer to is called Child.  Open a text editor such as nano or emacs and create a new file called Child.h:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="This class has a simple  contructor that accepts a pointer of Parent object type, has a public member function run that takes no arguments and contains one data member to store the pointer to the Parent object."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Create another file called Child.cpp:"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="This file contains the implementation of the contructor and the member function.  The constructor sets the value of the private data member pointer using the input Parent pointer and the member function prints the x and y values of the parent object on the screen."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Now create a fill called Parent.h:"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="This class contains a constructor that takes x and y dimensions, a destructor to delete the Child pointer, a run member function to call the run() function of the Child class, acessor functions to return the values of m_x, m_y and the m_child, and private data members that contain the Child pointer and dimensions x and y."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Create another file called Parent.cpp and append:"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="This is the implemenation of the Parent class.  It contains the implementation of the constructor, destructor and run member function.  It is not necessary to implement the accessor functions, since they are already implemented in the Parent.h header file.  In the Parent constructor, the private data members are initialised in the same order as they are defined in the Parent.h file.  If they were not in the same order, then a warning message would be reported during compilation.  The Parent destructor checks to see if the m_child pointer is null.  If it is not null, it deletes the object associated with the pointer.  The run function creates a new Child pointer on the heap, if the pointer is null.  Then the run functino calls the run() function in the Child class.  Notice that the Child class is instantiated by calling the Child class constructor that takes a Parent pointer.  In this case, the this pointer is used to pass a pointer to the current Parent object to the Child class pointer."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="This example program has two more files that are needed to get it working.  Firstly the main() function, given in a file called main.cpp:"/>
+            <ITEXT CH="The hypothetical frame and control panel example can be simplified to a class that contains a pointer to another class.  In this simplified example, the container class is called "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" and the class it contains a pointer to is called "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=".  Open a text editor such as "/>
+            <ITEXT FONT="Monaco Regular" CH="nano"/>
+            <ITEXT CH=" or "/>
+            <ITEXT FONT="Monaco Regular" CH="emacs"/>
+            <ITEXT CH=" and create a new file called "/>
+            <ITEXT FONT="Monaco Regular" CH="Child.h"/>
+            <ITEXT CH=".  Then add the C++ code at the top of the next page.  As previously discussed, the precompiler "/>
+            <ITEXT FONT="Monaco Regular" CH="#ifndef"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="#define"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="#endif"/>
+            <ITEXT CH=" syntax is present to prevent the class from being defined twice if the header file is included twice.  As a convention, the name of the file in upper case is typically used for this check."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
+            <ITEXT CH="The "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" class has a simple constructor that accepts a pointer of "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" class type, a public member function "/>
+            <ITEXT FONT="Monaco Regular" CH="run()"/>
+            <ITEXT CH=" that takes no arguments and one data member to store a pointer to the "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" object."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="whiich creates an instantiation of the Parent class on the heap, calls its run() member function and deletes the pointer.   The Parent constructor is passed the x and y dimensions as 200 and 150.   Similar to the previous code, the header file that contains the Parent class constructor is included to allow the code to be compiled."/>
+            <ITEXT CH="Create another file called "/>
+            <ITEXT FONT="Monaco Regular" CH="Child.cpp"/>
+            <ITEXT CH=" and add the C++ code given below."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="This file contains the implementation of the constructor and the member function.  The constructor sets the value of the private data member pointer using the input Parent pointer and the member function prints the "/>
+            <ITEXT FONT="Monaco Regular" CH="x"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" CH="y"/>
+            <ITEXT CH=" values of the parent object on the screen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The last thing needed is the Makefile.  Create a file called Makefile in the same directory as the other source files and add to it:"/>
+            <ITEXT CH="Now create a fill called "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent.h"/>
+            <ITEXT CH=" and add the C++ code below."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="where the indents shown should be a single tab.  Then type make to build the executable.  Try running the executable, to test what happens."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="This class contains a constructor that takes "/>
+            <ITEXT FONT="Monaco Regular" CH="x"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" CH="y"/>
+            <ITEXT CH=" dimensions, a destructor to delete the "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" pointer, a "/>
+            <ITEXT FONT="Monaco Regular" CH="run()"/>
+            <ITEXT CH=" member function to create a "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" object and call its "/>
+            <ITEXT FONT="Monaco Regular" CH="run()"/>
+            <ITEXT CH=" function, accessor functions to return the values of "/>
+            <ITEXT FONT="Monaco Regular" CH="m_x"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="m_y"/>
+            <ITEXT CH=" and the "/>
+            <ITEXT FONT="Monaco Regular" CH="m_child"/>
+            <ITEXT CH=", and private data members that contain a "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" pointer and dimensions "/>
+            <ITEXT FONT="Monaco Regular" CH="x"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" CH="y"/>
+            <ITEXT CH=".  Since the "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" class declaration includes a pointer of "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" type, the "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" class must be known to the compiler beforehand.  If the private data member contained a "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" object (rather than a pointer to a "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" object), then it would be necessary to include the "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" header file.  However, since a pointer is used it is enough to tell the compiler that "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" is a class.  It is a good idea to do this where possible, since it speeds up the precompilation process. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="...create different object and pass to the child pointer.."/>
+            <ITEXT CH="Create another file called "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent.cpp"/>
+            <ITEXT CH=" and append:"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="...add discussion of predeclarion of class and ifndef naming scheme."/>
+            <ITEXT CH="This is the implementation of the "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" class.  It contains the implementation of the constructor, destructor and "/>
+            <ITEXT FONT="Monaco Regular" CH="run()"/>
+            <ITEXT CH=" member function.  It is not necessary to implement the accessor functions, since they are already implemented in the "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent.h"/>
+            <ITEXT CH=" header file.  In the "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" constructor, the private data members are initialised in the same order as they are defined in the "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent.h"/>
+            <ITEXT CH=" file.  If they were not in the same order, then a warning message would be reported during compilation.  The "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" destructor checks to see if the "/>
+            <ITEXT FONT="Monaco Regular" CH="m_child"/>
+            <ITEXT CH=" pointer is null.  If it is not null, it deletes the object associated with the pointer.  If the pointer is null, the "/>
+            <ITEXT FONT="Monaco Regular" CH="run()"/>
+            <ITEXT CH=" function creates a new "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" pointer on the heap.  Then the "/>
+            <ITEXT FONT="Monaco Regular" CH="run()"/>
+            <ITEXT CH=" function calls the "/>
+            <ITEXT FONT="Monaco Regular" CH="run()"/>
+            <ITEXT CH=" function in the "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" class.  Notice that the "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" class is instantiated by calling the "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" class constructor that takes a "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" pointer as an argument.  In this case, the this pointer is used to pass a pointer to the current "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" object to the "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" class pointer."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="This example program has two more files that are needed to get it working.  First, create a file called "/>
+            <ITEXT FONT="Monaco Regular" CH="main.cpp"/>
+            <ITEXT CH=" and add the "/>
+            <ITEXT FONT="Monaco Regular" CH="main()"/>
+            <ITEXT CH=" function given below:"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The "/>
+            <ITEXT FONT="Monaco Regular" CH="main()"/>
+            <ITEXT CH=" function creates an instantiation of the "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" class on the heap, calls its "/>
+            <ITEXT FONT="Monaco Regular" CH="run()"/>
+            <ITEXT CH=" member function and then deletes the "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" object.   The "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" constructor is passed the "/>
+            <ITEXT FONT="Monaco Regular" CH="x"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" CH="y"/>
+            <ITEXT CH=" dimensions as "/>
+            <ITEXT FONT="Monaco Regular" CH="200"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" CH="150"/>
+            <ITEXT CH=".   Similar to the "/>
+            <ITEXT FONT="Monaco Regular" CH="Child.cpp"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent.cpp"/>
+            <ITEXT CH=" files, the header file that contains the class declaration is included to allow the code to be compiled."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The last thing needed to build the example code in a straight forward manner is the "/>
+            <ITEXT FONT="Monaco Regular" CH="Makefile"/>
+            <ITEXT CH=".  Create a file called "/>
+            <ITEXT FONT="Monaco Regular" CH="Makefile"/>
+            <ITEXT CH=" in the same directory as the other source files ("/>
+            <ITEXT FONT="Monaco Regular" CH="Child.h"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="Child.cpp"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent.h"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent.cpp"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="main.cpp"/>
+            <ITEXT CH=") and add to it:"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="where the indents shown should be a single tab.  Then type"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH=" make"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="to build the executable.  Once the executable has compiled, type"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH=" ./pc"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="to run the example code.  As an exercise, create a "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" object inside the "/>
+            <ITEXT FONT="Monaco Regular" CH="Child"/>
+            <ITEXT CH=" class and access its "/>
+            <ITEXT FONT="Monaco Regular" CH="run()"/>
+            <ITEXT CH=" member function instead.  The values will not be the same as the other "/>
+            <ITEXT FONT="Monaco Regular" CH="Parent"/>
+            <ITEXT CH=" object returns, since the two objects are separate instances in memory."/>
             <para PARENT="Body text"/>
             <para/>
             <PageItemAttributes/>
@@ -320,7 +477,7 @@
         <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.34708661126" YPOS="1838.39503937032" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="47" BACKITEM="27">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086570867" YPOS="1248.24409451654" WIDTH="538.5883465" HEIGHT="204.75590548346" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 204.756 538.588 204.756 538.588 204.756 538.588 204.756 0 204.756 0 204.756 0 204.756 0 204.756 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 204.756 538.588 204.756 538.588 204.756 538.588 204.756 0 204.756 0 204.756 0 204.756 0 204.756 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086570867" YPOS="1231.23622050079" WIDTH="538.5883465" HEIGHT="204.75590548346" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 204.756 538.588 204.756 538.588 204.756 538.588 204.756 0 204.756 0 204.756 0 204.756 0 204.756 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 204.756 538.588 204.756 538.588 204.756 538.588 204.756 0 204.756 0 204.756 0 204.756 0 204.756 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -390,7 +547,7 @@
             <para PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614174" YPOS="1248.12661417323" WIDTH="538.588346456693" HEIGHT="210.87338582677" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 210.873 538.588 210.873 538.588 210.873 538.588 210.873 0 210.873 0 210.873 0 210.873 0 210.873 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 210.873 538.588 210.873 538.588 210.873 538.588 210.873 0 210.873 0 210.873 0 210.873 0 210.873 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614174" YPOS="1231.11874015748" WIDTH="538.588346456693" HEIGHT="210.87338582677" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 210.873 538.588 210.873 538.588 210.873 538.588 210.873 0 210.873 0 210.873 0 210.873 0 210.873 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 210.873 538.588 210.873 538.588 210.873 538.588 210.873 0 210.873 0 210.873 0 210.873 0 210.873 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" #include &lt;iostream&gt;"/>
             <para PARENT="Code"/>
@@ -421,7 +578,7 @@
             <para PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347086570867" YPOS="2947.78047240235" WIDTH="538.5883465" HEIGHT="230.99118114094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 230.991 538.588 230.991 538.588 230.991 538.588 230.991 0 230.991 0 230.991 0 230.991 0 230.991 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 230.991 538.588 230.991 538.588 230.991 538.588 230.991 0 230.991 0 230.991 0 230.991 0 230.991 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347086570867" YPOS="3015.81196846534" WIDTH="538.5883465" HEIGHT="230.99118114094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 230.991 538.588 230.991 538.588 230.991 538.588 230.991 0 230.991 0 230.991 0 230.991 0 230.991 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 230.991 538.588 230.991 538.588 230.991 538.588 230.991 0 230.991 0 230.991 0 230.991 0 230.991 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" CC=g++"/>
             <para PARENT="Code"/>
@@ -455,7 +612,7 @@
             <para PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086570867" YPOS="1554.12661417323" WIDTH="538.5883465" HEIGHT="131.873385826771" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 131.873 538.588 131.873 538.588 131.873 538.588 131.873 0 131.873 0 131.873 0 131.873 0 131.873 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 131.873 538.588 131.873 538.588 131.873 538.588 131.873 0 131.873 0 131.873 0 131.873 0 131.873 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="53" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086570867" YPOS="1528.61480314961" WIDTH="538.5883465" HEIGHT="159.385196850392" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 159.385 538.588 159.385 538.588 159.385 538.588 159.385 0 159.385 0 159.385 0 159.385 0 159.385 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 159.385 538.588 159.385 538.588 159.385 538.588 159.385 0 159.385 0 159.385 0 159.385 0 159.385 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="53" BACKITEM="-1">
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" #ifndef PARENT_H"/>
             <para PARENT="Code"/>
@@ -479,7 +636,6 @@
             <ITEXT CH=" // "/>
             <ITEXT FONTSIZE="9" CH="Destructor to clean up the particle pointer"/>
             <para PARENT="Code"/>
-            <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="   void run(void);"/>
             <ITEXT CH=" //"/>
             <ITEXT FONTSIZE="9" CH=" Call a member function in the Child class"/>
@@ -487,6 +643,7 @@
             <ITEXT FONTSIZE="9" CH="   unsigned int x(void) { return m_x; }"/>
             <ITEXT CH=" // "/>
             <ITEXT FONTSIZE="9" CH="Get the x dimension"/>
+            <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="   unsigned int y(void) { return m_y; }"/>
             <ITEXT CH=" //"/>
@@ -519,7 +676,7 @@
             <para PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708657126" YPOS="2720.10236220476" WIDTH="538.5883465" HEIGHT="116" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 116 538.588 116 538.588 116 538.588 116 0 116 0 116 0 116 0 116 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 116 538.588 116 538.588 116 538.588 116 0 116 0 116 0 116 0 116 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708657126" YPOS="2762.62204724413" WIDTH="538.5883465" HEIGHT="116" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 116 538.588 116 538.588 116 538.588 116 0 116 0 116 0 116 0 116 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 116 538.588 116 538.588 116 538.588 116 0 116 0 116 0 116 0 116 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONTSIZE="9" CH=" "/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" #include &quot;Parent.h&quot;"/>
@@ -539,10 +696,10 @@
             <para PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086570867" YPOS="1838" WIDTH="538.5883465" HEIGHT="168" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 168 538.588 168 538.588 168 538.588 168 0 168 0 168 0 168 0 168 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 168 538.588 168 538.588 168 538.588 168 0 168 0 168 0 168 0 168 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="51">
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086570867" YPOS="1838" WIDTH="538.5883465" HEIGHT="143" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 143 538.588 143 538.588 143 538.588 143 0 143 0 143 0 143 0 143 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 143 538.588 143 538.588 143 538.588 143 0 143 0 143 0 143 0 143 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="51">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086570867" YPOS="2091.84251968536" WIDTH="538.5883465" HEIGHT="260.999999999684" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 261 538.588 261 538.588 261 538.588 261 0 261 0 261 0 261 0 261 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 261 538.588 261 538.588 261 538.588 261 0 261 0 261 0 261 0 261 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086570867" YPOS="2140.03149606331" WIDTH="538.5883465" HEIGHT="260.999999999684" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 261 538.588 261 538.588 261 538.588 261 0 261 0 261 0 261 0 261 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 261 538.588 261 538.588 261 538.588 261 0 261 0 261 0 261 0 261 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" #include &quot;Parent.h&quot;"/>
             <para PARENT="Code"/>
@@ -579,6 +736,14 @@
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" }"/>
             <para PARENT="Code"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="128.34708657126" YPOS="3273" WIDTH="538.5883465" HEIGHT="24" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 24 538.588 24 538.588 24 538.588 24 0 24 0 24 0 24 0 24 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 24 538.588 24 538.588 24 538.588 24 0 24 0 24 0 24 0 24 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="128.34708657126" YPOS="3332.52755905433" WIDTH="538.5883465" HEIGHT="24" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 24 538.588 24 538.588 24 538.588 24 0 24 0 24 0 24 0 24 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 24 538.588 24 538.588 24 538.588 24 0 24 0 24 0 24 0 24 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>

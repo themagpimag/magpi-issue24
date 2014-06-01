@@ -1,0 +1,39 @@
+This month's article follows the introduction to C++ classes given in Issue 23 of the MagPi.  In this article, communication between objects is introduced. 
+
+Object-object communication
+
+Objects are instances of a class.  This means that if two objects of a class are created, then they occupy two different memory locations.  In some cases, it can be very useful to define a class with one or more data members that are objects of a different class.  A class that contains other objects as data members can easily call the member functions of the objects it contains, in a similar manner as the main() function called the member functions of a simple class in Issue 23.  However, for an object that is assigned as a data member to call the member functions of the object that contains it, it should call the correct instance in memory.  This can be achieved by using the this pointer to pass a pointer to the containing object to the object it contains.
+
+Communication between two objects
+
+When creating graphical user interfaces, it can be useful to create a frame class that contains other objects.  This frame class should then create other objects that it owns.  When the frame class is deleted, the objects that it contains should also be deleted.  The frame class will typically have a size in number of pixels and be able to receive commands from the user.  For a given frame class, there might be a class that describes a control panel.  In this example, when the frame class received a command or is resized it should pass this information on to the control panel class.  When a button on the control panel is clicked with the mouse pointer, it could need to access some of the information in the frame class or cause the frame class to exit.
+
+The hypothetical frame and control panel example can be simplified to a class that contains a pointer to another class.  In this simplified example, the container class is called Parent and the class it contains a pointer to is called Child.  Open a text editor such as nano or emacs and create a new file called Child.h.  Then add the C++ code at the top of the next page.  As previously discussed, the precompiler #ifndef, #define, #endif syntax is present to prevent the class from being defined twice if the header file is included twice.  As a convention, the name of the file in upper case is typically used for this check.
+
+
+The Child class has a simple constructor that accepts a pointer of Parent class type, a public member function run() that takes no arguments and one data member to store a pointer to the Parent object.
+
+Create another file called Child.cpp and add the C++ code given below.
+This file contains the implementation of the constructor and the member function.  The constructor sets the value of the private data member pointer using the input Parent pointer and the member function prints the x and y values of the parent object on the screen.
+
+Now create a fill called Parent.h and add the C++ code below.
+
+This class contains a constructor that takes x and y dimensions, a destructor to delete the Child pointer, a run() member function to create a Child object and call its run() function, accessor functions to return the values of m_x, m_y and the m_child, and private data members that contain a Child pointer and dimensions x and y.  Since the Parent class declaration includes a pointer of Child type, the Child class must be known to the compiler beforehand.  If the private data member contained a Child object (rather than a pointer to a Child object), then it would be necessary to include the Child header file.  However, since a pointer is used it is enough to tell the compiler that Child is a class.  It is a good idea to do this where possible, since it speeds up the precompilation process. 
+
+Create another file called Parent.cpp and append:
+This is the implementation of the Parent class.  It contains the implementation of the constructor, destructor and run() member function.  It is not necessary to implement the accessor functions, since they are already implemented in the Parent.h header file.  In the Parent constructor, the private data members are initialised in the same order as they are defined in the Parent.h file.  If they were not in the same order, then a warning message would be reported during compilation.  The Parent destructor checks to see if the m_child pointer is null.  If it is not null, it deletes the object associated with the pointer.  If the pointer is null, the run() function creates a new Child pointer on the heap.  Then the run() function calls the run() function in the Child class.  Notice that the Child class is instantiated by calling the Child class constructor that takes a Parent pointer as an argument.  In this case, the this pointer is used to pass a pointer to the current Parent object to the Child class pointer.
+
+This example program has two more files that are needed to get it working.  First, create a file called main.cpp and add the main() function given below:
+The main() function creates an instantiation of the Parent class on the heap, calls its run() member function and then deletes the Parent object.   The Parent constructor is passed the x and y dimensions as 200 and 150.   Similar to the Child.cpp and Parent.cpp files, the header file that contains the class declaration is included to allow the code to be compiled.
+
+The last thing needed to build the example code in a straight forward manner is the Makefile.  Create a file called Makefile in the same directory as the other source files (Child.h, Child.cpp, Parent.h, Parent.cpp, main.cpp) and add to it:
+where the indents shown should be a single tab.  Then type
+
+ make
+
+to build the executable.  Once the executable has compiled, type
+
+ ./pc
+
+to run the example code.  As an exercise, create a Parent object inside the Child class and access its run() member function instead.  The values will not be the same as the other Parent object returns, since the two objects are separate instances in memory.
+
