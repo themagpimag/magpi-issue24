@@ -137,7 +137,7 @@
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="Anon"/>
             <para ALIGN="2" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
-            <ITEXT CH="Is The MagPi suitable for young children? [Ed: Yes, absolutely - we cover a wide range of topics of varying complexity and it is a great project resource to work through with yout kids]."/>
+            <ITEXT CH="Is The MagPi suitable for young children? [Ed: Yes, absolutely - we cover a wide range of topics of varying complexity and it is a great project resource to work through with your kids]."/>
             <para ALIGN="3" LINESP="14"/>
             <ITEXT FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="Anon"/>
             <para ALIGN="2" LINESP="14"/>
@@ -149,7 +149,7 @@
             <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Our recent Kickstarter campaign for Volume 2 also generated some great feedback:"/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
-            <ITEXT CH="I really love the MagPi and hope that I get the skills and find the time to build something amazing that can be published as well."/>
+            <ITEXT CH="I really love The MagPi and hope that I get the skills and find the time to build something amazing that can be published as well."/>
             <para ALIGN="3" LINESP="14"/>
             <ITEXT CH="Henner"/>
             <para ALIGN="2" LINESP="14"/>
@@ -179,7 +179,7 @@
             <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Rebecca"/>
             <para ALIGN="2" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
-            <ITEXT CH="This is the first time I'm going to read the MagPi. I'm hoping to find lots of cool stuff and learn a lot from it."/>
+            <ITEXT CH="This is the first time I'm going to read The MagPi. I'm hoping to find lots of cool stuff and learn a lot from it."/>
             <para ALIGN="3" LINESP="14"/>
             <ITEXT CH="Victor"/>
             <para ALIGN="2" LINESP="14"/>
@@ -189,12 +189,12 @@
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="David"/>
             <para ALIGN="2" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
-            <ITEXT FCOLOR="White" FSHADE="100" CH="Loving the MagPi magazine. Is it possible to submit tutorials/articles to the MagPi to be considered for publication?"/>
+            <ITEXT FCOLOR="White" FSHADE="100" CH="Loving The MagPi magazine. Is it possible to submit articles to The MagPi to be considered for publication?"/>
             <para ALIGN="3" LINESP="14"/>
             <ITEXT FCOLOR="White" FSHADE="100" CH="Darren"/>
             <para ALIGN="2" LINESP="14"/>
             <para ALIGN="2" LINESP="14"/>
-            <ITEXT FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="If you are interested in writing for The MagPi, would like to request an article or would like to join the team involved in the production of the magazine, please get in touch by emailing the editor at:"/>
+            <ITEXT FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="If you are interested in writing for The MagPi, would like to request an article or would like to join the team involved in the production of the magazine, then please get in touch by emailing the editor at:"/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
             <ITEXT FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="editor@themagpi.com"/>
