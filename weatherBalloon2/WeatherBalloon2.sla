@@ -50,7 +50,7 @@
         <LAYERS NUMMER="12" LEVEL="4" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff6470"/>
         <LAYERS NUMMER="13" LEVEL="13" NAME="Image" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffaa00"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Regular"/>
             <Subset Name="Monaco Regular"/>
@@ -224,7 +224,9 @@
             <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://www.airspayce.com/mikem/bcm2835"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The BCM2835 C library provides functions for communicating with I2C devices, accessing GPIO pins, and generating Pulse Width Modulation (PWM) signals to control motors and heaters."/>
+            <ITEXT CH="The BCM2835 C library provides functions for communicating with I"/>
+            <ITEXT FEATURES="inherit superscript" CH="2"/>
+            <ITEXT CH="C devices, accessing GPIO pins, and generating Pulse Width Modulation (PWM) signals to control motors and heaters."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The most recent version of the library is 1.36.  To install the library onto the Raspberry Pi, connect to the Internet and enter the following:"/>
@@ -256,7 +258,11 @@
             <ITEXT CH=" #define I2C_V1"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="This compiles the code to function with the correct I2C bus.  Afterwards, save and close the bcm2835.c file and then install the library with."/>
+            <ITEXT CH="This compiles the code to function with the correct I"/>
+            <ITEXT FEATURES="inherit superscript" CH="2"/>
+            <ITEXT CH="C bus.  Then, save and close the "/>
+            <ITEXT FONT="Monaco Regular" CH="bcm2835.c"/>
+            <ITEXT CH=" file."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Now compile the source code,"/>
@@ -281,13 +287,15 @@
             <ITEXT CH="MSA software overview"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The MSA operational flight program is broken into three basic threads, 'Main', 'Sample Rate Timer' and 'Data logging scheduler'"/>
+            <ITEXT CH="The MSA operational flight program is made up of three basic threads, 'Main', 'Sample Rate Timer' and 'Data logging scheduler'"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Main thread"/>
             <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Upon start-up, the Main thread automatically begins and sets up POSIX threads for the timer and scheduler, initiates the I2C bus, initializes the GPIO pins, creates data files, and monitors the mission pull pin. Once the mission pin is pulled, a mission timer begins and the current time is stamped to each line in the data files. The USB, Ethernet, and HDMI chips are disabled to conserve power, and the main loop begins. In the main loop, the MSA simply waits for an event to initiate a safe shutdown; such as when the shutdown button is pressed, the mission countdown timer has elapsed, or the battery voltage drops below a preset threshold for more than one minute."/>
+            <ITEXT CH="Upon start-up, the main thread automatically begins and sets up POSIX threads for the timer and scheduler, initiates the I"/>
+            <ITEXT FEATURES="inherit superscript" CH="2"/>
+            <ITEXT CH="C bus, initialises the GPIO pins, creates data files, and monitors the mission pull pin.  Once the mission pin is pulled, a mission timer begins and the current time is stamped on each line in the data files.  The USB, Ethernet, and HDMI chips are disabled to conserve power and the main loop begins.  In the main loop, the MSA simply waits for an event to initiate a safe shutdown; such as when the shutdown button is pressed, the mission countdown timer has elapsed, or the battery voltage drops below a preset threshold for more than one minute."/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Figure 1"/>
             <ITEXT FONTSIZE="10" CH=": The Main thread"/>
@@ -299,18 +307,18 @@
             <ITEXT CH=" System(“shutdown –h –P now”);"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
             <ITEXT CH="Sample rate timing thread"/>
             <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The MSA code is written without any interrupts. It was a challenge to create a timer that could ensure that measurements would be taken at regular intervals. Fortunately, the C compiler that comes standard with Linux distributions is equipped with POSIX thread capabilities. We made use of parallel programming to create the timing and scheduling threads."/>
+            <ITEXT CH="The MSA code is written without any interrupts.  It was a challenge to create a timer that could ensure that measurements would be taken at regular intervals.  Fortunately, the C compiler that comes standard with Linux distributions is equipped with POSIX thread capabilities.  We made use of parallel programming, to create the timing and scheduling threads."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The Sample Rate Timing thread is designed to post a semaphore at a given time interval, in our case 100 ms, to set the base data sample rate at 10Hz.  It makes use of the "/>
+            <ITEXT CH="The sample rate timing thread is designed to post a semaphore at a given time interval, in our case 100 ms, to set the base data sample rate at 10Hz.  It makes use of the "/>
             <ITEXT FONT="Monaco Regular" CH="nanosleep()"/>
-            <ITEXT CH=" function to create a 100 millisecond timer for reading sensors."/>
+            <ITEXT CH=" function, to create a 100 millisecond timer for reading sensors."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" void *schedule_timer(void *arg) {"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="   int milisec = 100;"/>
@@ -341,7 +349,7 @@
             <ITEXT CH="The data logging schedule thread takes the semaphore, whenever it is available, and begins a read cycle. The MSA has two main reading cycles:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="1. Flight dynamics data from"/>
+            <ITEXT CH="1. Flight dynamics data:"/>
             <para PARENT="Body text"/>
             <ITEXT CH="  • accelerometers"/>
             <para PARENT="Body text"/>
@@ -350,7 +358,7 @@
             <ITEXT CH="  • magnetometer"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="2. Environmental data on"/>
+            <ITEXT CH="2. Environmental data:"/>
             <para PARENT="Body text"/>
             <ITEXT CH="  • temperature"/>
             <para PARENT="Body text"/>
@@ -368,18 +376,24 @@
             <ITEXT CH="The scheduling thread also maintains a five minute countdown timer. When the timer elapses, the MSA code saves all of the data files and the timer is reset."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Flight dynamic sensors are read every cycle at a rate of 10Hz. Environmental data is read much slower due to the relatively long conversion time of the LTC2495 ADC, approximately 160ms. Every 200ms, the scheduling thread determines whether to set, clear, or read an ADC channel. Nested switch statements determine which channel to read (0 through 15) and which function to call ( set, clear, or read)."/>
+            <ITEXT CH="Flight dynamic sensors are read every cycle, at a rate of 10Hz.  Environmental data is read at a much slower rate, due to the relatively long conversion time of the LTC2495 ADC ( approximately 160ms). Every 200ms, the scheduling thread determines whether to set, clear, or read an ADC channel.  Nested switch statements determine which channel to read (0 to 15) and which function to call ("/>
+            <ITEXT FONT="Monaco Regular" CH="set"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="clear"/>
+            <ITEXT CH=", or "/>
+            <ITEXT FONT="Monaco Regular" CH="read"/>
+            <ITEXT CH=")."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="It takes approximately 10 seconds to read all of the ADC channels:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="200 msec * 3 cycles * 16 channels = "/>
+            <ITEXT CH="200 msec x 3 cycles x 16 channels = "/>
             <nbspace/>
             <ITEXT CH="9.6 sec"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="which seems like a lot of time. This is fine, however, since most environmental parameters change relatively slowly as a function of altitude. A typical ascent rate is only 4.1 meters per second; this means that the balloon would travel about 40 meters per read cycle. One read every 40 meters is adequate resolution for temperature, pressure, humidity, and even gas composition when viewed over 30,000 meters. If greater resolution is necessary an additional ADC can always be added."/>
+            <ITEXT CH="which seems like a lot of time. This is fine, however, since most environmental parameters change relatively slowly as a function of altitude. A typical ascent rate is only 4.1 meters per second, which means that the balloon travels about 40 meters per read cycle.  One read every 40 meters provides adequate resolution for temperature, pressure, humidity and even gas composition when viewed over 30,000 meters.  If greater resolution is necessary an additional ADC can always be added."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Reading I"/>
@@ -387,12 +401,16 @@
             <ITEXT CH="C sensors"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The MSA sensors can be divided into two different groups, analog and digital sensors."/>
+            <ITEXT CH="The MSA sensors are divided into two different groups: (1) analog and (2) digital sensors."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The analog sensors are all routed through an I"/>
+            <ITEXT CH="The analog sensors are all wired through an I"/>
             <ITEXT FEATURES="inherit superscript" CH="2"/>
-            <ITEXT CH="C ready LTC2495 ADC. The digital sensors for the MSA were all chosen to be I2C accessible. With all of the sensors communicating over the I2C bus, we were able to free up the remaining GPIOs for other purposes."/>
+            <ITEXT CH="C ready LTC2495 ADC.  The digital sensors for the MSA were all chosen to be I"/>
+            <ITEXT FEATURES="inherit superscript" CH="2"/>
+            <ITEXT CH="C accessible.  With all of the sensors communicating over the I"/>
+            <ITEXT FEATURES="inherit superscript" CH="2"/>
+            <ITEXT CH="C bus, we were able to free up the remaining GPIOs for other purposes."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Reading analog sensors"/>
@@ -400,20 +418,28 @@
             <para PARENT="Body text"/>
             <ITEXT CH="Before reading any I"/>
             <ITEXT FEATURES="inherit superscript" CH="2"/>
-            <ITEXT CH="C sensors, the bus must be initialized and set to a desired speed. In our case, we designed the bus to run at high-speed (400Khz). The following code shows how we set up the I2C bus. Note that function calls prefaced with bcm2835 are part of the bcm2835 C library previously mentioned."/>
+            <ITEXT CH="C sensors, the bus must be initialised and set to a desired speed. In our case, we designed the bus to run at high-speed (400KHz).  The following code below shows how we set up the I"/>
+            <ITEXT FEATURES="inherit superscript" CH="2"/>
+            <ITEXT CH="C bus. Note that function calls prefaced with bcm2835 are part of the bcm2835 C library previously mentioned."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH="bcm2835_i2c_begin();"/>
+            <ITEXT FONTSIZE="9" CH=" bcm2835_i2c_begin();"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="bcm2835_i2c_setclockdivider(bcm2835_i2c_clock_divider_626);"/>
+            <ITEXT FONTSIZE="9" CH=" bcm2835_i2c_setclockdivider(bcm2835_i2c_clock"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" _divider_626);"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To read data from the ADC it is first necessary to select an input channel, set the gain, and choose whether it is single ended or differential input. We used only single ended sensors for the MSA, so setup was the same for each channel. The following function sets the channel to read the pressure sensor on the ADC which is located at the I2C address 0x14."/>
+            <ITEXT CH="To read data from the ADC it is first necessary to select an input channel, set the gain, and choose whether it is single ended or differential input. We used only single ended sensors for the MSA, so setup was the same for each channel. The following function sets the channel to read the pressure sensor on the ADC which is located at the I"/>
+            <ITEXT FEATURES="inherit superscript" CH="2"/>
+            <ITEXT CH="C address 0x14."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" unsigned char chan_0[] = {0xb0, 0x80};"/>
             <para PARENT="Code"/>
-            <ITEXT CH=" // 0xb080 selects adc channel 0, single ended input, +in, gain x 1"/>
+            <ITEXT CH=" // 0xb080 selects adc channel 0, "/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" // single ended input, +in, gain x 1"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT CH=" unsigned char ltc2495 = 0x14;"/>
@@ -436,21 +462,37 @@
             <ITEXT CH="We can now read the ADC. The following example code reads the pressure sensor on channel 0:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="bcm2835_i2c_setslaveaddress(ltc2495);"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
             <para PARENT="Code"/>
-            <ITEXT CH="unsigned char p_buf[3];"/>
+            <ITEXT CH=" bcm2835_i2c_setslaveaddress(ltc2495);"/>
             <para PARENT="Code"/>
-            <ITEXT CH="bcm2835_i2c_read(p_buf, sizeof(p_buf));"/>
+            <ITEXT CH=" unsigned char p_buf[3];"/>
             <para PARENT="Code"/>
-            <ITEXT CH="p_buf[0] = p_buf &amp; 0x7f; // mask the first bit (unused)"/>
+            <ITEXT CH=" bcm2835_i2c_read(p_buf, sizeof(p_buf));"/>
             <para PARENT="Code"/>
-            <ITEXT CH="pressure = (p_buf[0] * 0x10000) + (p_buf[1] * 0x100) + (p_buf[2]);"/>
             <para PARENT="Code"/>
-            <ITEXT CH="pressure = pressure/0x40;"/>
+            <ITEXT CH=" // mask the first bit (unused)"/>
             <para PARENT="Code"/>
-            <ITEXT CH="v_pressure = pressure * 0.000025177;"/>
+            <ITEXT CH=" p_buf[0] = p_buf &amp; 0x7f; "/>
             <para PARENT="Code"/>
-            <ITEXT CH="// multiply by the step size to get voltage"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" pressure = (p_buf[0] * 0x10000) + (p_buf[1] *"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" 0x100) + (p_buf[2]);"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" pressure = pressure/0x40;"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" // multiply by the step size to get voltage"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" v_pressure = pressure * 0.000025177;"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The actual value is then processed from the signal voltage according the datasheet for a particular sensor."/>
@@ -459,43 +501,51 @@
             <ITEXT CH="Reading digital sensors"/>
             <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The digital sensors are a little more straight forward, because they don’t have to be reset every read cycle. However, some of them require burst reads (I2C reads with repeated starts and no stop) to send the address of a specific register to be read and an address to the destination where the data will be saved. Burst reads are also used to ensure that multiple axis data comes from the same sample."/>
+            <ITEXT CH="The digital sensors are a little more straight forward, because they don’t have to be reset every read cycle. However, some of them require burst reads (I"/>
+            <ITEXT FEATURES="inherit superscript" CH="2"/>
+            <ITEXT CH="C reads with repeated starts and no stop) to send the address of a specific register to be read and an address to the destination where the data will be saved. Burst reads are also used to ensure that multiple axis data comes from the same sample."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Sensors like the HMC5883 3-axis magnetometer must be set up initially, but keep their settings for successive reads. The following code sets the sample rate of an HMC5883 to 8 averaged samples at rate of 15Hz. It is also set to measure continuously with a gain of 5:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH="unsigned char hmc5883 = 0x1e;"/>
+            <ITEXT FONTSIZE="9" CH=" unsigned char hmc5883 = 0x1e;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="bcm2835_i2c_setslaveaddress(hmc5883);"/>
+            <ITEXT FONTSIZE="9" CH=" bcm2835_i2c_setslaveaddress(hmc5883);"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="Unsigned char gain_5[] = {0x01,0xa0};"/>
+            <ITEXT FONTSIZE="9" CH=" Unsigned char gain_5[] = {0x01,0xa0};"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="Unsigned char cont_mode[] = {0x02, 0x00};"/>
+            <ITEXT FONTSIZE="9" CH=" Unsigned char cont_mode[] = {0x02, 0x00};"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="Unsigned char samp_rate_8_15[] = {0x00, 0x70};"/>
+            <ITEXT FONTSIZE="9" CH=" Unsigned char samp_rate_8_15[] = {0x00, 0x70};"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="Bcm2835_i2c_write(samp_rate_8_15, sizeof(samp_rate_8_15));"/>
+            <ITEXT FONTSIZE="9" CH=" Bcm2835_i2c_write(samp_rate_8_15,  "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="Bcm2835_i2c_write(gain_5, sizeof(gain_5));"/>
+            <ITEXT FONTSIZE="9" CH="   sizeof(samp_rate_8_15));"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="Bcm2835_i2c_write(cont_mode, sizeof(cont_mode));"/>
+            <ITEXT FONTSIZE="9" CH=" Bcm2835_i2c_write(gain_5, sizeof(gain_5));"/>
             <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" Bcm2835_i2c_write(cont_mode,  "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   sizeof(cont_mode));"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="A read is completed as follows:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH="unsigned char mag_reg[] = {0x03};"/>
+            <ITEXT FONTSIZE="9" CH=" unsigned char mag_reg[] = {0x03};"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="unsigned char mag_buf[6];"/>
+            <ITEXT FONTSIZE="9" CH=" unsigned char mag_buf[6];"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="bcm2835_i2c_read_register_rs(mag_reg, mag_buf, sizeof(mag_buf));"/>
+            <ITEXT FONTSIZE="9" CH=" bcm2835_i2c_read_register_rs(mag_reg, mag_buf,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   sizeof(mag_buf));"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The data buffer now holds 6 bytes of data, 2 bytes for each axis, which are stored as two’s compliment values. As before, the actual value is then processed according to the datasheet for the sensor being used."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Data Outputs"/>
@@ -504,27 +554,34 @@
             <ITEXT CH="The MSA program stores all of the data in .CSV files that are easy to use in LibreOffice or Excel. A typical output looks something like the following:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH="Date: 11/09/13"/>
+            <ITEXT CH=" Date: 11/09/13"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="time,reg_temp,xtemp,itemp,ipressure,ihumidity,dust_v,xhumidity,batt_voltage,"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="9" CH=" tim"/>
+            <ITEXT CH="e,reg_temp,xtemp,itemp,ipressure,ihumidity"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="12:59:18,37.12,23.81,33.02,768.89,22.78,0.0000,41.57,7.53,"/>
+            <ITEXT CH=" ,"/>
+            <ITEXT FONTSIZE="9" CH="dust_v,xhumidity,batt_voltage,"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="12:59:23,37.00,23.81,33.02,768.85,22.55,0.0000,38.78,7.53,"/>
+            <ITEXT FONTSIZE="9" CH=" 12:59:18,37.12,23.81,33.02,768.89,22.78,"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="12:59:28,36.88,23.88,33.29,768.83,22.32,0.0000,40.37,7.53,"/>
+            <ITEXT FONTSIZE="9" CH=" 0.0000,41.57,7.53,"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=". . . . . ."/>
+            <ITEXT FONTSIZE="9" CH=" 12:59:23,37.00,23.81,33.02,768.85,22.55,"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=". . . . . ."/>
+            <ITEXT FONTSIZE="9" CH=" 0.0000,38.78,7.53,"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=". . . . . ."/>
+            <ITEXT FONTSIZE="9" CH=" 12:59:28,36.88,23.88,33.29,768.83,22.32,"/>
             <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" 0.0000,40.37,7.53,"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" . . . . . ."/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" "/>
+            <para PARENT="Code"/>
+            <ITEXT CH="The chart below was created using MSA data from a test flight last July above Duchesne, Utah. The mission lasted 4.5 hours and reached an altitude of just over 30km."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The chart below was created using MSA data from a test flight last July above Duchesne, Utah. The mission lasted 4.5 hours and reached an altitude of just over 30 km."/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Notice that the relatively low sample rate of the temperature sensor (0.2 Hz) still provided adequate resolution over the course of the mission."/>
+            <ITEXT CH="Notice that the relatively low sample rate of the temperature sensor (0.2Hz) still provided adequate resolution over the course of the mission."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
@@ -776,7 +833,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.347086614173" YPOS="2299.68566929134" WIDTH="255.999375139372" HEIGHT="214.983622047243" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.506929455721528" LOCALSCY="0.506929455721528" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="pic2.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.999 0 255.999 0 255.999 0 255.999 0 255.999 214.984 255.999 214.984 255.999 214.984 255.999 214.984 0 214.984 0 214.984 0 214.984 0 214.984 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.999 0 255.999 0 255.999 0 255.999 0 255.999 214.984 255.999 214.984 255.999 214.984 255.999 214.984 0 214.984 0 214.984 0 214.984 0 214.984 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.347086614173" YPOS="2299.68566929134" WIDTH="255.999375139372" HEIGHT="214.983622047243" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.506929455721529" LOCALSCY="0.506929455721529" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="pic2.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.999 0 255.999 0 255.999 0 255.999 0 255.999 214.984 255.999 214.984 255.999 214.984 255.999 214.984 0 214.984 0 214.984 0 214.984 0 214.984 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.999 0 255.999 0 255.999 0 255.999 0 255.999 214.984 255.999 214.984 255.999 214.984 255.999 214.984 0 214.984 0 214.984 0 214.984 0 214.984 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -831,6 +888,185 @@
             <ITEXT FCOLOR="White" CH="* LTC2495 (16 channel ADC)"/>
             <para/>
             <ITEXT FCOLOR="White" CH="* DS3231M (Real-time clock)"/>
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="128.34708661126" YPOS="2805" WIDTH="255.6529083" HEIGHT="50.9055118412977" RADRECT="8.503937008" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of Text4665 (7)" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="7.086614173" TEXTRA="7.086614173" BEXTRA="7.086614173" REXTRA="7.086614173" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 2.43809 255.653 1.09157 255.653 2.43809 255.653 2.43809 255.653 48.4675 255.653 48.4675 255.653 48.4675 255.653 49.8141 247.149 50.9055 251.846 50.9055 247.149 50.9055 247.149 50.9055 8.50394 50.9055 8.50394 50.9055 8.50394 50.9055 3.80734 50.9055 0 48.4675 0 49.8141 0 48.4675 0 48.4675 0 2.43809 0 2.43809 0 2.43809 0 1.09157 8.50394 0 3.80734 0 " NUMCO="32" COCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 2.43809 255.653 1.09157 255.653 2.43809 255.653 2.43809 255.653 48.4675 255.653 48.4675 255.653 48.4675 255.653 49.8141 247.149 50.9055 251.846 50.9055 247.149 50.9055 247.149 50.9055 8.50394 50.9055 8.50394 50.9055 8.50394 50.9055 3.80734 50.9055 0 48.4675 0 49.8141 0 48.4675 0 48.4675 0 2.43809 0 2.43809 0 2.43809 0 1.09157 8.50394 0 3.80734 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FCOLOR="White" CH="* MPU6000 (6-axis accelerometer/gyroscope)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HMC5883L (3-axis magnetometer)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MPX2102A (pressure sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MAX4208 (instrument amplifier)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HIH5030 (humidity sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* TMP112 (temperature sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* COM-08720 (push button)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (3.3V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (5.0V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* LTC2495 (16 channel ADC)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* DS3231M (Real-time clock)"/>
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="411.282524770867" YPOS="2722.00000048032" WIDTH="255.6529083" HEIGHT="179.999999519684" RADRECT="8.503937008" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of Text4665 (8)" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="7.086614173" TEXTRA="7.086614173" BEXTRA="7.086614173" REXTRA="7.086614173" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 8.621 255.653 3.85975 255.653 8.621 255.653 8.621 255.653 171.379 255.653 171.379 255.653 171.379 255.653 176.141 247.149 180 251.846 180 247.149 180 247.149 180 8.50394 180 8.50394 180 8.50394 180 3.80734 180 0 171.379 0 176.141 0 171.379 0 171.379 0 8.621 0 8.621 0 8.621 0 3.85975 8.50394 0 3.80734 0 " NUMCO="32" COCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 8.621 255.653 3.85975 255.653 8.621 255.653 8.621 255.653 171.379 255.653 171.379 255.653 171.379 255.653 176.141 247.149 180 251.846 180 247.149 180 247.149 180 8.50394 180 8.50394 180 8.50394 180 3.80734 180 0 171.379 0 176.141 0 171.379 0 171.379 0 8.621 0 8.621 0 8.621 0 3.85975 8.50394 0 3.80734 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FCOLOR="White" CH="* MPU6000 (6-axis accelerometer/gyroscope)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HMC5883L (3-axis magnetometer)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MPX2102A (pressure sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MAX4208 (instrument amplifier)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HIH5030 (humidity sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* TMP112 (temperature sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* COM-08720 (push button)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (3.3V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (5.0V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* LTC2495 (16 channel ADC)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* DS3231M (Real-time clock)"/>
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="128.347086614173" YPOS="2992.99999999921" WIDTH="255.6529083" HEIGHT="103.000000000786" RADRECT="8.503937008" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of Text4665 (9)" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="7.086614173" TEXTRA="7.086614173" BEXTRA="7.086614173" REXTRA="7.086614173" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 4.93313 255.653 2.20864 255.653 4.93313 255.653 4.93313 255.653 98.067 255.653 98.067 255.653 98.067 255.653 100.792 247.149 103 251.846 103 247.149 103 247.149 103 8.50394 103 8.50394 103 8.50394 103 3.80734 103 0 98.067 0 100.792 0 98.067 0 98.067 0 4.93313 0 4.93313 0 4.93313 0 2.20864 8.50394 0 3.80734 0 " NUMCO="32" COCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 4.93313 255.653 2.20864 255.653 4.93313 255.653 4.93313 255.653 98.067 255.653 98.067 255.653 98.067 255.653 100.792 247.149 103 251.846 103 247.149 103 247.149 103 8.50394 103 8.50394 103 8.50394 103 3.80734 103 0 98.067 0 100.792 0 98.067 0 98.067 0 4.93313 0 4.93313 0 4.93313 0 2.20864 8.50394 0 3.80734 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FCOLOR="White" CH="* MPU6000 (6-axis accelerometer/gyroscope)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HMC5883L (3-axis magnetometer)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MPX2102A (pressure sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MAX4208 (instrument amplifier)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HIH5030 (humidity sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* TMP112 (temperature sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* COM-08720 (push button)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (3.3V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (5.0V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* LTC2495 (16 channel ADC)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* DS3231M (Real-time clock)"/>
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="128.347086614173" YPOS="3205.68503936927" WIDTH="255.6529083" HEIGHT="50.90551184" RADRECT="8.503937008" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of Text4665 (10)" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="7.086614173" TEXTRA="7.086614173" BEXTRA="7.086614173" REXTRA="7.086614173" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 2.43809 255.653 1.09157 255.653 2.43809 255.653 2.43809 255.653 48.4675 255.653 48.4675 255.653 48.4675 255.653 49.8141 247.149 50.9055 251.846 50.9055 247.149 50.9055 247.149 50.9055 8.50394 50.9055 8.50394 50.9055 8.50394 50.9055 3.80734 50.9055 0 48.4675 0 49.8141 0 48.4675 0 48.4675 0 2.43809 0 2.43809 0 2.43809 0 1.09157 8.50394 0 3.80734 0 " NUMCO="32" COCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 2.43809 255.653 1.09157 255.653 2.43809 255.653 2.43809 255.653 48.4675 255.653 48.4675 255.653 48.4675 255.653 49.8141 247.149 50.9055 251.846 50.9055 247.149 50.9055 247.149 50.9055 8.50394 50.9055 8.50394 50.9055 8.50394 50.9055 3.80734 50.9055 0 48.4675 0 49.8141 0 48.4675 0 48.4675 0 2.43809 0 2.43809 0 2.43809 0 1.09157 8.50394 0 3.80734 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FCOLOR="White" CH="* MPU6000 (6-axis accelerometer/gyroscope)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HMC5883L (3-axis magnetometer)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MPX2102A (pressure sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MAX4208 (instrument amplifier)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HIH5030 (humidity sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* TMP112 (temperature sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* COM-08720 (push button)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (3.3V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (5.0V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* LTC2495 (16 channel ADC)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* DS3231M (Real-time clock)"/>
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="411.28252472126" YPOS="3249.24409496737" WIDTH="255.6529083" HEIGHT="158.755905032632" RADRECT="8.503937008" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of Text4665 (11)" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="7.086614173" TEXTRA="7.086614173" BEXTRA="7.086614173" REXTRA="7.086614173" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 7.60353 255.653 3.40421 255.653 7.60353 255.653 7.60353 255.653 151.152 255.653 151.152 255.653 151.152 255.653 155.352 247.149 158.756 251.846 158.756 247.149 158.756 247.149 158.756 8.50394 158.756 8.50394 158.756 8.50394 158.756 3.80734 158.756 0 151.152 0 155.352 0 151.152 0 151.152 0 7.60353 0 7.60353 0 7.60353 0 3.40421 8.50394 0 3.80734 0 " NUMCO="32" COCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 7.60353 255.653 3.40421 255.653 7.60353 255.653 7.60353 255.653 151.152 255.653 151.152 255.653 151.152 255.653 155.352 247.149 158.756 251.846 158.756 247.149 158.756 247.149 158.756 8.50394 158.756 8.50394 158.756 8.50394 158.756 3.80734 158.756 0 151.152 0 155.352 0 151.152 0 151.152 0 7.60353 0 7.60353 0 7.60353 0 3.40421 8.50394 0 3.80734 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FCOLOR="White" CH="* MPU6000 (6-axis accelerometer/gyroscope)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HMC5883L (3-axis magnetometer)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MPX2102A (pressure sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MAX4208 (instrument amplifier)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HIH5030 (humidity sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* TMP112 (temperature sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* COM-08720 (push button)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (3.3V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (5.0V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* LTC2495 (16 channel ADC)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* DS3231M (Real-time clock)"/>
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="4" PTYPE="6" XPOS="128.34708661126" YPOS="3628.0472441236" WIDTH="255.6529083" HEIGHT="61.9527558764048" RADRECT="8.503937008" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of Text4665 (12)" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="7.086614173" TEXTRA="7.086614173" BEXTRA="7.086614173" REXTRA="7.086614173" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 2.96719 255.653 1.32846 255.653 2.96719 255.653 2.96719 255.653 58.9857 255.653 58.9857 255.653 58.9857 255.653 60.6245 247.149 61.9527 251.846 61.9527 247.149 61.9527 247.149 61.9527 8.50394 61.9527 8.50394 61.9527 8.50394 61.9527 3.80734 61.9527 0 58.9857 0 60.6245 0 58.9857 0 58.9857 0 2.96719 0 2.96719 0 2.96719 0 1.32846 8.50394 0 3.80734 0 " NUMCO="32" COCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 2.96719 255.653 1.32846 255.653 2.96719 255.653 2.96719 255.653 58.9857 255.653 58.9857 255.653 58.9857 255.653 60.6245 247.149 61.9527 251.846 61.9527 247.149 61.9527 247.149 61.9527 8.50394 61.9527 8.50394 61.9527 8.50394 61.9527 3.80734 61.9527 0 58.9857 0 60.6245 0 58.9857 0 58.9857 0 2.96719 0 2.96719 0 2.96719 0 1.32846 8.50394 0 3.80734 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FCOLOR="White" CH="* MPU6000 (6-axis accelerometer/gyroscope)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HMC5883L (3-axis magnetometer)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MPX2102A (pressure sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MAX4208 (instrument amplifier)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HIH5030 (humidity sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* TMP112 (temperature sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* COM-08720 (push button)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (3.3V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (5.0V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* LTC2495 (16 channel ADC)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* DS3231M (Real-time clock)"/>
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="4" PTYPE="6" XPOS="128.34708661126" YPOS="3887" WIDTH="255.6529083" HEIGHT="145" RADRECT="8.503937008" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of Text4665 (13)" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="7.086614173" TEXTRA="7.086614173" BEXTRA="7.086614173" REXTRA="7.086614173" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 6.94469 255.653 3.10925 255.653 6.94469 255.653 6.94469 255.653 138.056 255.653 138.056 255.653 138.056 255.653 141.891 247.149 145 251.846 145 247.149 145 247.149 145 8.50394 145 8.50394 145 8.50394 145 3.80734 145 0 138.056 0 141.891 0 138.056 0 138.056 0 6.94469 0 6.94469 0 6.94469 0 3.10925 8.50394 0 3.80734 0 " NUMCO="32" COCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 6.94469 255.653 3.10925 255.653 6.94469 255.653 6.94469 255.653 138.056 255.653 138.056 255.653 138.056 255.653 141.891 247.149 145 251.846 145 247.149 145 247.149 145 8.50394 145 8.50394 145 8.50394 145 3.80734 145 0 138.056 0 141.891 0 138.056 0 138.056 0 6.94469 0 6.94469 0 6.94469 0 3.10925 8.50394 0 3.80734 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FCOLOR="White" CH="* MPU6000 (6-axis accelerometer/gyroscope)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HMC5883L (3-axis magnetometer)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MPX2102A (pressure sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MAX4208 (instrument amplifier)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* HIH5030 (humidity sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* TMP112 (temperature sensor)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* COM-08720 (push button)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (3.3V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* MIC2937A (5.0V regulator)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* LTC2495 (16 channel ADC)"/>
+            <para/>
+            <ITEXT FCOLOR="White" CH="* DS3231M (Real-time clock)"/>
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="408" YPOS="498" WIDTH="236" HEIGHT="17" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.airspayce.com/mikem/bcm2835" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text72" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 236 0 236 0 236 0 236 0 236 17 236 17 236 17 236 17 0 17 0 17 0 17 0 17 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 236 0 236 0 236 0 236 0 236 17 236 17 236 17 236 17 0 17 0 17 0 17 0 17 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
