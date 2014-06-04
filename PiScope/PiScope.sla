@@ -214,15 +214,22 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="27" BACKITEM="-1">
-            <ITEXT CH="Sooner or later when playing with electronics there comes a point where one needs to look at signals (e.g. sine waves, square waves or simply digital data output). For very slow signals a good way to analyze these is to use the sound card and a soft scope like xoscope [1]. As soon as signals become faster the sound card is far too slow. "/>
+            <ITEXT CH="Sooner or later when playing with electronics there comes a point when one needs to look at electronic signals, to test a circuit or experiment. For very slow signals a good way to analyse these is to use a USB sound card and a software scope such as xoscope"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="http://xoscope.sourceforge.net/"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="However, sound cards are too slow for signals above 20 kHz. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To achieve higher sampling rates, I tried using an Arduino and ran it first with the internal Analog Digital Converter (ADC) to get 1 mega samples per second (1 MSPS = 1,000,000 samples every second), and later with an external ADC with which I could reach around 5MSPS."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="However, this was still too slow for my purpose and I searched for a cheap way of getting even faster. "/>
+            <ITEXT CH="To achieve higher sampling rates, I tried using an Arduino and ran it first with its internal Analog Digital Converter (ADC), to get one 1,000,000 samples every second (1 MSPS). Next, I tried an external ADC with which I could reach around 5MSPS.  However, this was still too slow for my application and I searched for a cheap way to reach a higher sampling speed. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="I decided to try the Raspberry Pi, which provides 17 GPIO (General Purpose Input Output) pins which can be used to interface the ADC and hopefully achieve a faster readout compared to the Arduino. Although we could use an ADC which connects via SPI or I2C to the Raspberry Pi, again these protocols result in sample rates which are too slow for what we are aiming for. One needs to go with an ADC which has a parallel data ouput and connect it to the Raspberry Pi."/>
+            <ITEXT CH="I decided to try the Raspberry Pi, which provides 17 General Purpose Input Output (GPIO)  pins that can be used to interface with  ADC chips and hopefully achieve a faster readout compared to the Arduino.  Although we could use an ADC that connects via SPI or I"/>
+            <ITEXT FEATURES="inherit superscript" CH="2"/>
+            <ITEXT CH="C to the Raspberry Pi, these protocols result in sampling rates that are as slow as a sound card readout.  One needs to use an ADC that has a parallel data ouput and connect it to the Raspberry Pi."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Using the Raspberry Pi with a parallel ADC"/>
