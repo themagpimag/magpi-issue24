@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SCRIBUSUTF8NEW Version="1.4.3">
-    <DOCUMENT ANZPAGES="6" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="12" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+    <DOCUMENT ANZPAGES="6" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="6" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -879,182 +879,159 @@
             <ITEXT CH="Connecting the ADC"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now we have the software to be able to read out an ADC connected to the GPIO of the Raspberry Pi. We of course, will need to connect one. This will be the next step of this tutorial. I'm using a CA3306 ADC from Intersil. This is a 6-bit 15 MSPS ADC with a parallel read out. I'm using this particular chipas it is  very cheap and fast. Many other ADC chips should also be suitable (for example Analog Devices AD9057) although you will need to check with the data sheet how to connect it and adjust the code as necessary. A 6-bit ADC means that between ground level (0V) and the reference voltage (5V) we have 64 levels to represent the signal. This is not much but enough for simple tests and our purpose."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Note; that this ADC operates with 5V logic which means we cannot connect it directly to the Raspberry Pi! We need a level converter inbetween."/>
+            <ITEXT CH="Now that the kernel module has been decribed, an ADC is needed to provide the input data.  For this article, a CA3306 ADC from Intersil was used. This is a 6-bit 15 MSPS ADC with a parallel read out.  This ADC is very cheap and fast.  Many other ADC chips with parallel readout could be used, although it is necessary to check the datasheet for connection details and clock speed settings etc.."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The simplest way to do level conversion is to use a dedicated level converter like the TXB0108 from Texas Instruments. Generally a level convertor is useful anyway, as it provides additional protection for the GPIO pins of the Raspberry Pi."/>
+            <ITEXT CH="For the selected ADC, 6-bit implies that between the ground level (0V) and the reference voltage (5V) there are 64 divisions to represent the signal.  This is quite course, but is enough for simple applications."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To ensure you obtain stable readings from the ADC, it is recommended that a separate 5V supply is used as your VREF+ and VDD supply (thus avoiding any voltage drops caused if sharing the supply with the Raspberry Pi).  However you should ensure you use a common GND connection for your external supply, ADC and Raspberry Pi."/>
+            <ITEXT CH="The selected ADC operates with 5V logic, but the Raspberry Pi uses 3V3 logic.  Therefore, a level converter is needed to protect the Raspberry Pi from being damaged.  The simplest way to achieve this is to use a dedicated level converter, such as the TXB0108 from Texas Instruments.  To ensure that stable readings are obtained from the ADC, it is recommended that a separate 5V supply is used as your VREF+ and VDD supply.  This prevents voltage drops that can occure if the power supply is shared with the Raspberry Pi.  However, a common ground (GND) connection should be used for the external supply, ADC and Raspberry Pi."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="How to do data acquisition?"/>
+            <ITEXT CH="Data acquisition"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now we have the ADC connected and we have a kernel module that can interface this piece of hardware. Next we need another program that communicates with the device file. I will present a simple program that does the readout and conversion of the bits and print out the result on the screen as a table. The result can further be processed with a plot program like gnuplot [6]."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="First we start again with defining some variables and structures which are needed for further processing, ensuring here that the “SAMPE_SIZE” we set in the kernel module, matches the number of data points we define in “DataPointsRPi”. "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" #include &lt;iostream&gt;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" #include &lt;cmath&gt;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" #include &lt;fstream&gt;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" #include &lt;bitset&gt;"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" typedef unsigned short    uint16_t;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" typedef unsigned int      uint32_t;"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" const int DataPointsRPi=10000;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" // This is the structre we get from the Raspberry pi"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" struct DataStructRPi{"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   uint32_t Buffer[DataPointsRPi];"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   uint32_t time;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" };"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="Next within the main() function, we open the device file “/dev/chardev” and read from it. The data we get is binary and we put it into our data structure so we can process it."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" int main(){"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   struct DataStructRPi dataStruct;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   unsigned char *ScopeBufferStart;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   unsigned char *ScopeBufferStop;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   unsigned char *buf_p;"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   buf_p = (unsigned char*)&amp;dataStruct;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   ScopeBufferStart = (unsigned char*)&amp;dataStruct;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   ScopeBufferStop = ScopeBufferStart +"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     sizeof(struct DataStructRPi);"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   std::string line;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   std::ifstream myfile(&quot;/dev/chardev&quot;);"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   if(myfile.is_open()) {"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     while(std::getline(myfile,line)){"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="       for(int i=0;i&lt;line.size();i++){"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="         if(buf_p&gt;ScopeBufferStop) "/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="           std::cerr&lt;&lt;&quot;buf_p out of range!&quot;&lt;&lt;std::endl;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="         *(buf_p)=line[i];"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="         buf_p++;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="       }"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     }"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     myfile.close();"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   }"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   else std::cerr &lt;&lt; &quot;Unable to open file&quot;&lt;&lt;std::endl;"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="The next step is to calculate the time step between each sample point. Remembering that the duration of ADC readout was saved by the kernel module, we can now calculate the time step by dividing this time by 10k.  The sample we have collected are of the full GPIO 32-bit register. This has each bit set as a “1” if the corresponding GPIO pin is high (3.3V) or “0” if low (GND) for any pins which are defined as inputs. Since GPIO pins we connected the ADC to are not necessarily in the same order as the register, we will need to extract each of the bits we want and arrange them in the correct order to obtain our sampled value."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="This can be done by performing bitwise shift operations. If we connected a second ADC, we will also need to do this for the ADC2 pins. After this sorting, we end up with a value for ADC1 and ADC2 which we print together with the time."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" //convert structure we get from RPi to text output"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" //time step in ns"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" double time=dataStruct.time/(double)DataPointsRPi;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" for(int i=0;i&lt;DataPointsRPi;i++){"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     int valueADC1=0;//ADC 1"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     //move the bits to the right pos"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     int tmp = dataStruct.Buffer[i] &amp; (0b11111&lt;&lt;(7));"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     valueADC1=tmp&gt;&gt;(7);"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     tmp = dataStruct.Buffer[i] &amp; (0b1&lt;&lt;(25));"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     valueADC1+=(tmp&gt;&gt;(20));"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     int valueADC2=0;//ADC2"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     tmp = dataStruct.Buffer[i] &amp; (0b11&lt;&lt;(17));"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     valueADC2=tmp&gt;&gt;17;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     tmp=dataStruct.Buffer[i] &amp; (0b111&lt;&lt;(22));"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     valueADC2+=(tmp&gt;&gt;20);"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     tmp=dataStruct.Buffer[i] &amp; (0b1&lt;&lt;27);"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     valueADC2+=(tmp&gt;&gt;22);"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     std::cout&lt;&lt;i*time&lt;&lt;&quot;\t&quot;&lt;&lt;valueADC1*(5./63.)"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="              &lt;&lt;&quot;\t&quot;&lt;&lt;valueADC2*(5./63.)&lt;&lt;std::endl;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   }"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   return 0;"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" }//end main "/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT CH="Remember 0V to 5V input range should be represented by the data 6-bits, therefore a single bit represents 5/63 volts. The voltage is converted by multiplying with 5V/63, and we will get a table of the form, with our data values printed below:"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="time [ns]    Value ADC1 [V]    Value ADC2 [V] "/>
-            <para PARENT="Code"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Summary:"/>
-            <para PARENT="Body title"/>
-            <ITEXT CH="The data could be analyzed with gnuplot by plotting it."/>
+            <ITEXT CH="Once the ADC has been connected and the kernel module has been loaded, data can be read from the ADC by connecting to the device file associated with the kernel module.  To connect to the kernel module, another program is needed.  This program could be written in several different programming langauges.  For this article, C++ was chosen.  Create a new file called "/>
+            <ITEXT FONT="Monaco Regular" CH="readout.cpp"/>
+            <ITEXT CH=" and add the C++ given below and on the next page."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="How the data is analysed at the end is of course up to the individual user and the described code for data analysis should be understood as a starting point. I myself have written a server application which reads out the device file on the Raspberry Pi every few milliseconds and sends the data via Ethernet to a computer with a screen. On the computer I run a Qt application which is doing some raising edge triggering in order to get a stable signal, perform FFT and much more one requires from a real scope. "/>
+            <ITEXT FONTSIZE="7" CH=" #include &lt;iostream&gt;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH=" #include &lt;cmath&gt;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH=" #include &lt;fstream&gt;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH=" #include &lt;bitset&gt;"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" /* Helpful shortcuts -- ??why are these needed?? */"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH=" typedef unsigned short    uint16_t;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH=" typedef unsigned int      uint32_t;"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH=" /* To match kernel module data structure */"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH=" const int DataPointsRPi=10000;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH=" struct DataStructRPi{"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   uint32_t Buffer[DataPointsRPi];"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   uint32_t time;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH=" };"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH=" int main(){"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   //Read the RPi"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   struct DataStructRPi dataStruct;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   unsigned char *ScopeBufferStart;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   unsigned char *ScopeBufferStop;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   unsigned char *buf_p;"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   buf_p=(unsigned char*)&amp;dataStruct;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   ScopeBufferStart=(unsigned char*)&amp;dataStruct;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   ScopeBufferStop=ScopeBufferStart+"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     sizeof(struct DataStructRPi);"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   std::string line;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   std::ifstream myfile (&quot;/dev/chardev&quot;);"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   if(myfile.is_open()){"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     while(std::getline(myfile,line)){"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="       for(int i=0;i&lt;line.size();i++){"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="         if(buf_p&gt;ScopeBufferStop)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="           std::cerr&lt;&lt;&quot;buf_p out of range!&quot;&lt;&lt;std::endl;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="         *(buf_p)=line[i];"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="         buf_p++;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="       }"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     }"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     myfile.close();"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   }"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   else std::cerr&lt;&lt;&quot;Unable to open file&quot;&lt;&lt;std::endl;"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   // Now convert data for text output"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   // Time in nano seconds"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   double time=dataStruct.time/(double)DataPointsRPi;"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="   for(int i=0;i&lt;DataPointsRPi;i++){"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     int valueADC1=0;//ADC 1"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     // Move the bits to the right pos"/>
+            <ITEXT CH="ition"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     int tmp = dataStruct.Buffer[i] &amp; (0b11111&lt;&lt;(7));"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     valueADC1=tmp&gt;&gt;(7);"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     tmp = dataStruct.Buffer[i] &amp; (0b1&lt;&lt;(25));"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     valueADC1+=(tmp&gt;&gt;(20));"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     int valueADC2=0;//ADC2"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     tmp = dataStruct.Buffer[i] &amp; (0b11&lt;&lt;(17));"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     valueADC2=tmp&gt;&gt;17;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     tmp=dataStruct.Buffer[i] &amp; (0b111&lt;&lt;(22));"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     valueADC2+=(tmp&gt;&gt;20);"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     tmp=dataStruct.Buffer[i] &amp; (0b1&lt;&lt;27);"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="7" CH="     valueADC2+=(tmp&gt;&gt;22);"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     // Print the values of the time and both ADCs"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="     std::cout&lt;&lt;i*time&lt;&lt;&quot;\t&quot;&lt;&lt;valueADC1*(5./63.)"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="              &lt;&lt;&quot;\t&quot;&lt;&lt;valueADC2*(5./63.)&lt;&lt;std::endl;"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   }"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   return 0;"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" }"/>
+            <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="[1] http://xoscope.sourceforge.net/"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="[2] http://elinux.org/RPi_Kernel_Compilation"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="[3] http://www.tldp.org/LDP/lkmpg/2.6/html/lkmpg.html"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="7" CH="[4] http://www.raspberrypi.org/wp-content/uploads/2012/02/BCM2835-ARM-Peripherals.pdf"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="[5] http://www.pieter-jan.com/node/15"/>
-            <para PARENT="Code"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="[6] http://www.gnuplot.info/"/>
-            <trail PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="956.505590555119" WIDTH="538.588346456693" HEIGHT="730.994409444881" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="39" BACKITEM="26">
@@ -1192,7 +1169,7 @@
         <PAGEOBJECT OwnPage="5" PTYPE="4" XPOS="128.34708661126" YPOS="4484.06338582701" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="547.086614176142" gHeight="1578.11149601394" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="53">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="5" PTYPE="2" XPOS="394.977261281426" YPOS="4785.99606299213" WIDTH="271.95817178944" HEIGHT="227.639062312643" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.402900995243615" LOCALSCY="0.402900995243615" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="pic/both_2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 271.958 0 271.958 0 271.958 0 271.958 0 271.958 227.639 271.958 227.639 271.958 227.639 271.958 227.639 0 227.639 0 227.639 0 227.639 0 227.639 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 271.958 0 271.958 0 271.958 0 271.958 0 271.958 227.639 271.958 227.639 271.958 227.639 271.958 227.639 0 227.639 0 227.639 0 227.639 0 227.639 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="5" PTYPE="2" XPOS="410.846456692913" YPOS="4989.2598425197" WIDTH="256.088976377953" HEIGHT="225.635125304773" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.379391076115486" LOCALSCY="0.379391076115486" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="pic/both_2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.089 0 256.089 0 256.089 0 256.089 0 256.089 225.635 256.089 225.635 256.089 225.635 256.089 225.635 0 225.635 0 225.635 0 225.635 0 225.635 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.089 0 256.089 0 256.089 0 256.089 0 256.089 225.635 256.089 225.635 256.089 225.635 256.089 225.635 0 225.635 0 225.635 0 225.635 0 225.635 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -1234,7 +1211,7 @@
             <trail PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="4" PTYPE="2" XPOS="409.251351070867" YPOS="3903.58232079056" WIDTH="257.684082" HEIGHT="211.99445086299" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.107862738384261" LOCALSCY="0.107862738384261" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="pic/Drawing_LevelShifter2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.684 0 257.684 0 257.684 0 257.684 0 257.684 211.994 257.684 211.994 257.684 211.994 257.684 211.994 0 211.994 0 211.994 0 211.994 0 211.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.684 0 257.684 0 257.684 0 257.684 0 257.684 211.994 257.684 211.994 257.684 211.994 257.684 211.994 0 211.994 0 211.994 0 211.994 0 211.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="4" PTYPE="2" XPOS="410" YPOS="3776.02326567246" WIDTH="256.935433070867" HEIGHT="211.99445086299" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.107549365035943" LOCALSCY="0.107549365035943" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="pic/Drawing_LevelShifter2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.935 0 256.935 0 256.935 0 256.935 0 256.935 211.994 256.935 211.994 256.935 211.994 256.935 211.994 0 211.994 0 211.994 0 211.994 0 211.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.935 0 256.935 0 256.935 0 256.935 0 256.935 211.994 256.935 211.994 256.935 211.994 256.935 211.994 0 211.994 0 211.994 0 211.994 0 211.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -1258,7 +1235,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="4" PTYPE="6" XPOS="410.249999970866" YPOS="4294.5" WIDTH="256.6854331" HEIGHT="31.5" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 31.5 256.685 31.5 256.685 31.5 256.685 31.5 0 31.5 0 31.5 0 31.5 0 31.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 31.5 256.685 31.5 256.685 31.5 256.685 31.5 0 31.5 0 31.5 0 31.5 0 31.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="4" PTYPE="6" XPOS="410.250433070867" YPOS="4137.5" WIDTH="256.685" HEIGHT="158.405511811025" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 158.406 256.685 158.406 256.685 158.406 256.685 158.406 0 158.406 0 158.406 0 158.406 0 158.406 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 158.406 256.685 158.406 256.685 158.406 256.685 158.406 0 158.406 0 158.406 0 158.406 0 158.406 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -1270,15 +1247,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="-1" PTYPE="6" XPOS="723.347086614173" YPOS="4096.16732283465" WIDTH="256.4029134" HEIGHT="82.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 82.5 256.403 82.5 256.403 82.5 256.403 82.5 0 82.5 0 82.5 0 82.5 0 82.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 82.5 256.403 82.5 256.403 82.5 256.403 82.5 0 82.5 0 82.5 0 82.5 0 82.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="4" PTYPE="6" XPOS="128.347086614173" YPOS="4208.35039370079" WIDTH="256.4029134" HEIGHT="24.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 24.75 256.403 24.75 256.403 24.75 256.403 24.75 0 24.75 0 24.75 0 24.75 0 24.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 24.75 256.403 24.75 256.403 24.75 256.403 24.75 0 24.75 0 24.75 0 24.75 0 24.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="5" PTYPE="6" XPOS="128.347086614173" YPOS="4643.25" WIDTH="256.6854331" HEIGHT="295.25" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 295.25 256.685 295.25 256.685 295.25 256.685 295.25 0 295.25 0 295.25 0 295.25 0 295.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 295.25 256.685 295.25 256.685 295.25 256.685 295.25 0 295.25 0 295.25 0 295.25 0 295.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="5" PTYPE="6" XPOS="128.347086614173" YPOS="4484.25" WIDTH="256.6854331" HEIGHT="550.75" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 550.75 256.685 550.75 256.685 550.75 256.685 550.75 0 550.75 0 550.75 0 550.75 0 550.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 550.75 256.685 550.75 256.685 550.75 256.685 550.75 0 550.75 0 550.75 0 550.75 0 550.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -1302,19 +1271,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="5" PTYPE="6" XPOS="128.347086614173" YPOS="4483.04692913701" WIDTH="256.6854331" HEIGHT="113.645669288189" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 113.646 256.685 113.646 256.685 113.646 256.685 113.646 0 113.646 0 113.646 0 113.646 0 113.646 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 113.646 256.685 113.646 256.685 113.646 256.685 113.646 0 113.646 0 113.646 0 113.646 0 113.646 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="957.5" WIDTH="538.588346456693" HEIGHT="212.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 212.5 538.588 212.5 538.588 212.5 538.588 212.5 0 212.5 0 212.5 0 212.5 0 212.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 212.5 538.588 212.5 538.588 212.5 538.588 212.5 0 212.5 0 212.5 0 212.5 0 212.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="5" PTYPE="6" XPOS="128.347086614173" YPOS="5140.94456692914" WIDTH="256.6854331" HEIGHT="73.8054330708637" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 73.8054 256.685 73.8054 256.685 73.8054 256.685 73.8054 0 73.8054 0 73.8054 0 73.8054 0 73.8054 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 73.8056 256.685 73.8056 256.685 73.8056 256.685 73.8056 0 73.8056 0 73.8056 0 73.8056 0 73.8056 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="5" PTYPE="6" XPOS="410.249999970867" YPOS="4483.30677165355" WIDTH="256.685" HEIGHT="190.693" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 190.693 256.685 190.693 256.685 190.693 256.685 190.693 0 190.693 0 190.693 0 190.693 0 190.693 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 190.694 256.685 190.694 256.685 190.694 256.685 190.694 0 190.694 0 190.694 0 190.694 0 190.694 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
