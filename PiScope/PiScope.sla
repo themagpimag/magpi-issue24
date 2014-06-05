@@ -703,7 +703,7 @@
             <ITEXT CH="It should be noted that the GPIO bit samples may not be in sync with the clock, which can lead to reading bits from the same sample twice or missing some. One can improve this by setting the clock as close as possible to the frequency of the GPIO readout, which is (SAMPLE_SIZE/dataStruct.time). It may also be possible to check the clock state during sampling to ensure the GPIO is only read following a falling edge clock cycle, However this is likely to impact upon the maximum sample speed we are able to achieve in this example."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Completing the kernel module:"/>
+            <ITEXT CH="Clean up and device functions"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="A clean up function is needed to clean up when the kernel module is unloaded."/>
