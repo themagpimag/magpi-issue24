@@ -579,12 +579,14 @@
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The init_module() function"/>
+            <ITEXT CH="The init_module function"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In order to make a kernel module work, the module needs some special entry functions. One of these functions is the init_module(void) which is called when the kernel module is loaded. Here the function to map the periphery is called, the GPIO pins are defined as inputs and a device file in /dev/ is created for communication with the kernel module. Additionally a 10 MHz clock signal on GPIO Pin 4 is defined. This clock signal is used to drive the ADC clock for sampling. A 500 MHz signal from a PLL is used and the clock divider is set to divide by 50, which gives the required 10 MHz signal. More details on this clock can be found in chapter 6.3 General Purpose GPIO Clocks in [4]."/>
+            <ITEXT CH="In order to make a kernel module work, the module needs some special entry functions.  One of these functions is the "/>
+            <ITEXT FONT="Monaco Regular" CH="init_module()"/>
+            <ITEXT CH=", which is called when the kernel module is loaded.  At the C code below to the end of the C source file."/>
             <para PARENT="Body text"/>
-            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" int init_module(void){"/>
             <para PARENT="Code"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   Major = register_chrdev(0, DEVICE_NAME, &amp;fops);"/>
@@ -671,20 +673,31 @@
             <para PARENT="Code"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="    "/>
             <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   //Wait untill clock is no longer busy (BUSY flag)"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   /* Wait until clock is no longer busy (BUSY flag)"/>
+            <ITEXT CH=" */"/>
             <para PARENT="Code"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   while(*(myclock.addr+28) &amp; GZ_CLK_BUSY) {}; "/>
             <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   //Set divider //divide by 50"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   "/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   /* Set divider //divide by 50"/>
+            <ITEXT CH=" ?? */"/>
             <para PARENT="Code"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   *(myclock.addr+29)= 0x5A000000 | (0x32 &lt;&lt; 12) | 0;"/>
             <para PARENT="Code"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   *(myclock.addr+28)=0x5A000010 | speed_id;//Turn clock on"/>
+            <para PARENT="Code"/>
+            <ITEXT CH="   /* Turn the clock on */"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   *(myclock.addr+28)=0x5A000010 | speed_id;"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="   return SUCCESS;"/>
             <para PARENT="Code"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" }"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" Here the function to map the periphery is called, the GPIO pins are defined as inputs and a device file in /dev/ is created for communication with the kernel module. Additionally a 10 MHz clock signal on GPIO Pin 4 is defined. This clock signal is used to drive the ADC clock for sampling. A 500 MHz signal from a PLL is used and the clock divider is set to divide by 50, which gives the required 10 MHz signal. More details on this clock can be found in chapter 6.3 General Purpose GPIO Clocks in [4]."/>
+            <para PARENT="Body text"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT CH="It should be noted that the GPIO bit samples may not be in sync with the clock, which can lead to reading bits from the same sample twice or missing some. One can improve this by setting the clock as close as possible to the frequency of the GPIO readout, which is (SAMPLE_SIZE/dataStruct.time). It may also be possible to check the clock state during sampling to ensure the GPIO is only read following a falling edge clock cycle, However this is likely to impact upon the maximum sample speed we are able to achieve in this example."/>
@@ -1235,7 +1248,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="128.347086614173" YPOS="2719.52787401575" WIDTH="256.6854331" HEIGHT="564.094488188986" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 564.094 256.685 564.094 256.685 564.094 256.685 564.094 0 564.094 0 564.094 0 564.094 0 564.094 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 564.095 256.685 564.095 256.685 564.095 256.685 564.095 0 564.095 0 564.095 0 564.095 0 564.095 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="128.347086614173" YPOS="2813.07118110236" WIDTH="256.6854331" HEIGHT="558.928818897642" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 558.929 256.685 558.929 256.685 558.929 256.685 558.929 0 558.929 0 558.929 0 558.929 0 558.929 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 558.929 256.685 558.929 256.685 558.929 256.685 558.929 0 558.929 0 558.929 0 558.929 0 558.929 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
