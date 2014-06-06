@@ -72,7 +72,7 @@ static ssize_t device_write(struct file *,
 
 //---------------------------------------------------------------------------------------------------------
 
-// IO Acces
+// IO Access
 static struct bcm2835_peripheral {
     unsigned long addr_p;
     int mem_fd;
