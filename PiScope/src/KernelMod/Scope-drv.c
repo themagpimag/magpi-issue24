@@ -13,14 +13,12 @@
 
 int init_module(void);
 void cleanup_module(void);
-static int device_open(struct inode *,
-	struct file *);
-static int device_release(struct inode *,
-	struct file *);
-static ssize_t device_read(struct file *,
-	char *, size_t, loff_t *);
-static ssize_t device_write(struct file *,
-	const char *, size_t, loff_t *);
+static int device_open(struct inode *, struct file *);
+static int device_release(struct inode *, struct file *);
+static ssize_t device_read(struct file *, char *, size_t, 
+   loff_t *);
+static ssize_t device_write(struct file *, const char *,
+   size_t, loff_t *);
 
 #define SUCCESS 0
 #define DEVICE_NAME "chardev"// Dev name 
@@ -80,10 +78,9 @@ static struct bcm2835_peripheral {
     volatile unsigned int *addr;
 };
  
-
 static int map_peripheral(struct bcm2835_peripheral *p);
 static void unmap_peripheral(struct bcm2835_peripheral *p);
-static void readScope();//Read a specific sample from the scope
+static void readScope(); /* Read a sample from the scope */
 
 
 static int Major;		/* Major number assigned to our device driver */
@@ -123,20 +120,17 @@ static unsigned char *ScopeBufferStop;
 
 //---------------------------------------------------------------------------------------------------------
 
-static int map_peripheral(struct bcm2835_peripheral *p)
-{
+static int map_peripheral(struct bcm2835_peripheral *p){
 	p->addr=(uint32_t *)ioremap(GPIO_BASE, 41*4); //41 GPIO register with 32 bit (4*8)
    return 0;
 }
  
-static void unmap_peripheral(struct bcm2835_peripheral *p) {
- 	iounmap(p->addr);//unmap the address
-}
-//---------------------------------------------------------------------------------------------------------
-static void readScope(){
 
-	int counter=0;
-	int Fail=0;
+static void unmap_peripheral(struct bcm2835_peripheral *p){
+   iounmap(p->addr);//unmap the address
+ }
+static void readScope(){
+   int counter=0;
 
 	//disable IRQ
     local_irq_disable();
@@ -159,13 +153,14 @@ static void readScope(){
     local_irq_enable();
 
 	//save the time difference
-	dataStruct.time=timespec_to_ns(&ts_stop)-timespec_to_ns(&ts_start);//ns resolution
+   dataStruct.time =
+     timespec_to_ns(&ts_stop) - timespec_to_ns(&ts_start); 
 
-	buf_p=&dataStruct;//cound maybe removed
+   buf_p = &dataStruct; /* Store pointer to struct */
+   ScopeBufferStart=&dataStruct;
 
-	ScopeBufferStart=&dataStruct;
-
-	ScopeBufferStop=ScopeBufferStart+sizeof(struct DataStruct);
+   ScopeBufferStop = ScopeBufferStart+
+     sizeof(struct DataStruct);
 }
 
 //---------------------------------------------------------------------------------------------------------
@@ -173,38 +168,30 @@ static void readScope(){
 /*
  * This function is called when the module is loaded
  */
-int init_module(void)
-{
-    Major = register_chrdev(0, DEVICE_NAME, &fops);
+int init_module(void){
+   Major = register_chrdev(0, DEVICE_NAME, &fops);
+   if(Major < 0){
+     printk(KERN_ALERT "Reg. char dev fail %d\n",Major);
+     return Major;
+   }
+   printk(KERN_INFO "Major number %d.\n", Major);
+   printk(KERN_INFO "created a dev file with\n");
+   printk(KERN_INFO "'mknod /dev/%s c %d 0'.\n", 
+     DEVICE_NAME,Major);
 
-	if (Major < 0) {
-	  printk(KERN_ALERT "Registering char device failed with %d\n", Major);
-	  return Major;
-	}
-
-	printk(KERN_INFO "I was assigned major number %d. To talk to\n", Major);
-	printk(KERN_INFO "the driver, create a dev file with\n");
-	printk(KERN_INFO "'mknod /dev/%s c %d 0'.\n", DEVICE_NAME, Major);
-	printk(KERN_INFO "Try various minor numbers. Try to cat and echo to\n");
-	printk(KERN_INFO "the device file.\n");
-	printk(KERN_INFO "Remove the device file and module when done.\n");
-
-	//Map GPIO
-
-	if(map_peripheral(&gpio) == -1) 
-	{
-		printk(KERN_ALERT,"Failed to map the physical GPIO registers into the virtual memory space.\n");
+   /* Map GPIO */
+   if(map_peripheral(&gpio) == -1){
+     printk(KERN_ALERT,"Failed to map the GPIO\n");
 		return -1;
 	}
 
-	//Define Scope pins
-	// Define as  Input
-	INP_GPIO(BIT0_PIN);
-	INP_GPIO(BIT1_PIN);
-	INP_GPIO(BIT2_PIN);
-	INP_GPIO(BIT3_PIN);
-	INP_GPIO(BIT4_PIN);
-	INP_GPIO(BIT5_PIN);
+   /* Define input ADC connections */
+   INP_GPIO(BIT0_PIN);
+   INP_GPIO(BIT1_PIN);
+   INP_GPIO(BIT2_PIN);
+   INP_GPIO(BIT3_PIN);
+   INP_GPIO(BIT4_PIN);
+   INP_GPIO(BIT5_PIN);
 
 	INP_GPIO(BIT0_PIN2);
 	INP_GPIO(BIT1_PIN2);
@@ -220,11 +207,17 @@ int init_module(void)
  	INP_GPIO(4);
 	SET_GPIO_ALT(4,0);
 
-	int speed_id = 6; //1 for to start with 19Mhz or 6 to start with 500 MHz
-	*(myclock.addr+28)=0x5A000000 | speed_id; //Turn off the clock
-	while (*(myclock.addr+28) & GZ_CLK_BUSY) {}; //Wait untill clock is no longer busy (BUSY flag)
-	*(myclock.addr+29)= 0x5A000000 | (0x32 << 12) | 0;//Set divider //divide by 50
-	*(myclock.addr+28)=0x5A000010 | speed_id;//Turn clock on
+   int speed_id = 6; /* 1 for 19MHz or 6 for 500 MHz */
+   *(myclock.addr+28)=0x5A000000 | speed_id;
+    
+   /* Wait until clock is no longer busy (BUSY flag) */
+   while(*(myclock.addr+28) & GZ_CLK_BUSY) {}; 
+   
+   /* Set divider to divide by 50, to reach 10MHz. */
+   *(myclock.addr+29)= 0x5A000000 | (0x32 << 12) | 0;
+
+   /* Turn the clock on */
+   *(myclock.addr+28)=0x5A000010 | speed_id;
 
 	return SUCCESS;
 }
@@ -232,8 +225,7 @@ int init_module(void)
 /*
  * This function is called when the module is unloaded
  */
-void cleanup_module(void)
-{
+void cleanup_module(void){
 	unregister_chrdev(Major, DEVICE_NAME);
 	unmap_peripheral(&gpio);
 	unmap_peripheral(&myclock);
@@ -243,29 +235,20 @@ void cleanup_module(void)
  * Called when a process tries to open the device file, like
  * "cat /dev/mycharfile"
  */
-static int device_open(struct inode *inode, struct file *file)
-{
-	static int counter = 0;
+static int device_open(struct inode *inode, 
+   struct file *file){
+   static int counter = 0;
+   if(Device_Open) return -EBUSY;
+   Device_Open++;
+   sprintf(msg,"Called device_open %d times\n",counter++);
+   msg_Ptr = msg;
+   readScope(); /* Read ADC samples into memory. */
+   try_module_get(THIS_MODULE);
+   return SUCCESS;
+ }
 
-	if (Device_Open)
-		return -EBUSY;
-
-	Device_Open++;
-	sprintf(msg, "I already told you %d times Hello world!\n", counter++);
-	msg_Ptr = msg;
-
-	readScope();//Read n Samples into memory
-
-	try_module_get(THIS_MODULE);
-
-	return SUCCESS;
-}
-//---------------------------------------------------------------------------------------------------------
-/* 
- * Called when a process closes the device file.
- */
-static int device_release(struct inode *inode, struct file *file)
-{
+static int device_release(struct inode *inode, 
+   struct file *file){
 	Device_Open--;		/* We're now ready for our next caller */
 	module_put(THIS_MODULE);
 	return 0;
@@ -275,37 +258,22 @@ static int device_release(struct inode *inode, struct file *file)
  * Called when a process, which already opened the dev file, attempts to
  * read from it.
  */
-static ssize_t device_read(struct file *filp,	
-			   char *buffer,	
-			   size_t length,
-			   loff_t * offset)
-{
-	
-	// Number of bytes actually written to the buffer 
-	int bytes_read = 0;
+static ssize_t device_read(struct file *filp,char *buffer,	
+   size_t length,loff_t * offset){
+   int bytes_read = 0; /* To count bytes read. */
+   if(*msg_Ptr == 0) return 0;
 
-	if (*msg_Ptr == 0)
-		return 0;
-
-	//Check that we do not overfill the buffer
-
-	while (length && buf_p<ScopeBufferStop) {
-
-		if(0!=put_user(*(buf_p++), buffer++))
-			printk(KERN_INFO "Problem with copy\n");
-		length--;
-		bytes_read++;
-	}
-
-	return bytes_read;
-}
-//---------------------------------------------------------------------------------------------------------
-/*  
- * Called when a process writes to dev file: echo "hi" > /dev/hello 
- */
-static ssize_t
-device_write(struct file *filp, const char *buff, size_t len, loff_t * off)
-{
-	printk(KERN_ALERT "Sorry, this operation isn't supported.\n");
+   /* Protect against going outside the buffer. */
+   while(length && buf_p<ScopeBufferStop){
+     if(0!=put_user(*(buf_p++), buffer++))
+       printk(KERN_INFO "Problem with copy\n");
+     length--;
+     bytes_read++;
+   }
+   return bytes_read;
+ }
+static ssize_t device_write(struct file *filp, 
+   const char *buff, size_t len, loff_t * off) {
+	printk(KERN_ALERT "This operation isn't supported.\n");
 	return -EINVAL;
 }
