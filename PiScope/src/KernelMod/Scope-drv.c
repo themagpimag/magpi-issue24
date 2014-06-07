@@ -1,6 +1,6 @@
 /*
-	Developed by Daniel Pelikan 2013,2014
-	http://digibird1.wordpress.com/
+  Developed by Daniel Pelikan 2013,2014
+  http://digibird1.wordpress.com/
 */
 
 #include <linux/kernel.h>
