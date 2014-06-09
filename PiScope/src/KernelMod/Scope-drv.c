@@ -17,18 +17,20 @@ static ssize_t device_write(struct file *, const char *,
 
 #define SUCCESS 0
 #define DEVICE_NAME "chardev" /* Device name */ 
-#define BUF_LEN 80 /* Maximum length of device message */
-/*----------------------------------------------*/
+#define BUF_LEN 80 /* Maximum length of device message */ 
+/*------------------------------------------------------------*/
 /* Settings and macros for the GPIO connections */
 #define BCM2708_PERI_BASE 0x20000000
 #define GPIO_BASE (BCM2708_PERI_BASE + 0x200000) /* GPIO controller */  
+
 #define INP_GPIO(g)  *(gpio.addr + ((g)/10)) &= ~(7<<(((g)%10)*3)) 
 #define SET_GPIO_ALT(g,a) *(gpio.addr + (((g)/10))) |= (((a)<=3?(a) + 4:(a)==4?3:2)<<(((g)%10)*3))
+
 
 /* GPIO clock */
 #define CLOCK_BASE              (BCM2708_PERI_BASE + 0x00101000)
 #define GZ_CLK_BUSY (1 << 7)
-/*----------------------------------------------*/
+/*------------------------------------------------------------*/
 /* Number of samples to capture */
 #define SAMPLE_SIZE 	10000
 
@@ -48,7 +50,7 @@ static ssize_t device_write(struct file *, const char *,
 #define BIT3_PIN2 23
 #define BIT4_PIN2 24
 #define BIT5_PIN2 27
-/*----------------------------------------------*/
+/*------------------------------------------------------------*/
 struct bcm2835_peripheral {
   unsigned long addr_p;
   int mem_fd;
@@ -56,9 +58,9 @@ struct bcm2835_peripheral {
   volatile unsigned int *addr;
 };
 
-int map_peripheral(struct bcm2835_peripheral *p);
-void unmap_peripheral(struct bcm2835_peripheral *p);
-void readScope(void); /* Read a sample from the scope */
+static int map_peripheral(struct bcm2835_peripheral *p);
+static void unmap_peripheral(struct bcm2835_peripheral *p);
+static void readScope(void); /* Read a sample */
 
 static int Major; /* Major number set for device driver */
 static int Device_Open = 0; /* Store device status */
@@ -85,16 +87,16 @@ struct DataStruct dataStruct;
 
 static unsigned char *ScopeBufferStart;
 static unsigned char *ScopeBufferStop;
-/*----------------------------------------------*/
-int map_peripheral(struct bcm2835_peripheral *p){
-  p->addr=(uint32_t *)ioremap(GPIO_BASE, 41*4);
+/*------------------------------------------------------------*/
+static int map_peripheral(struct bcm2835_peripheral *p){
+  p->addr=(uint32_t *)ioremap(GPIO_BASE, 41*4); 
   return 0;
 }
-void unmap_peripheral(struct bcm2835_peripheral *p){
+static void unmap_peripheral(struct bcm2835_peripheral *p){
   iounmap(p->addr);//unmap the address
 }
-/*----------------------------------------------*/
-void readScope(){
+/*------------------------------------------------------------*/
+static void readScope(){
   int counter=0;
   struct timespec ts_start,ts_stop;
 
@@ -119,13 +121,13 @@ void readScope(){
   dataStruct.time =
     timespec_to_ns(&ts_stop) - timespec_to_ns(&ts_start); 
 
-  buf_p = (unsigned char*)&dataStruct; /* Store pointer to struct */
-  ScopeBufferStart=(unsigned char*)&dataStruct;
+  buf_p = (unsigned char*)&dataStruct;
+  ScopeBufferStart = (unsigned char*)&dataStruct;
 
   ScopeBufferStop = ScopeBufferStart+
     sizeof(struct DataStruct);
 }
-/*----------------------------------------------*/
+/*------------------------------------------------------------*/
 int init_module(void){
   struct bcm2835_peripheral *p=&myclock;
   int speed_id = 6; /* 1 for 19MHz or 6 for 500 MHz */
@@ -135,7 +137,7 @@ int init_module(void){
     printk(KERN_ALERT "Reg. char dev fail %d\n",Major);
     return Major;
   }
-  printk(KERN_INFO "Major number %d.\n",Major);
+  printk(KERN_INFO "Major number %d.\n", Major);
   printk(KERN_INFO "created a dev file with\n");
   printk(KERN_INFO "'mknod /dev/%s c %d 0'.\n", 
     DEVICE_NAME,Major);
@@ -166,7 +168,6 @@ int init_module(void){
 
   INP_GPIO(4);
   SET_GPIO_ALT(4,0);
-
   *(myclock.addr+28)=0x5A000000 | speed_id;
 
   /* Wait until clock is no longer busy (BUSY flag) */
@@ -177,15 +178,16 @@ int init_module(void){
 
   /* Turn the clock on */
   *(myclock.addr+28)=0x5A000010 | speed_id;
+
   return SUCCESS;
 }
-/*----------------------------------------------*/
+/*------------------------------------------------------------*/
 void cleanup_module(void){
   unregister_chrdev(Major, DEVICE_NAME);
   unmap_peripheral(&gpio);
   unmap_peripheral(&myclock);
 }
-/*----------------------------------------------*/
+/*------------------------------------------------------------*/
 static int device_open(struct inode *inode, 
   struct file *file){
   static int counter = 0;
@@ -205,7 +207,7 @@ static int device_release(struct inode *inode,
   return 0;
 }
 
-static ssize_t device_read(struct file *filp,char *buffer,	
+static ssize_t device_read(struct file *filp,char *buffer,
   size_t length,loff_t * offset){
   int bytes_read = 0; /* To count bytes read. */
   if(*msg_Ptr == 0) return 0;
@@ -219,7 +221,7 @@ static ssize_t device_read(struct file *filp,char *buffer,
   }
   return bytes_read;
 }
-/*----------------------------------------------*/
+/*--------------------------------------------------------------*/
 static ssize_t device_write(struct file *filp, 
   const char *buff, size_t len, loff_t * off) {
   printk(KERN_ALERT "This operation isn't supported.\n");
