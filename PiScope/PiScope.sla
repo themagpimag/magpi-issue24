@@ -901,7 +901,8 @@
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="7" CH=" #include &lt;bitset&gt;"/>
             <para PARENT="Code"/>
-            <ITEXT CH=" #include &lt;cstdint&gt;"/>
+            <para PARENT="Code"/>
+            <ITEXT CH=" typedef unsigned int uint32_t;"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="7" CH=" /* To match kernel module data structure */"/>
@@ -915,7 +916,6 @@
             <ITEXT FONTSIZE="7" CH="   uint32_t time;"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="7" CH=" };"/>
-            <para PARENT="Code"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
@@ -1284,7 +1284,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="4" PTYPE="6" XPOS="410.250433070867" YPOS="4146.00393700787" WIDTH="256.685" HEIGHT="136.996062992125" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 136.996 256.685 136.996 256.685 136.996 256.685 136.996 0 136.996 0 136.996 0 136.996 0 136.996 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 136.996 256.685 136.996 256.685 136.996 256.685 136.996 0 136.996 0 136.996 0 136.996 0 136.996 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="4" PTYPE="6" XPOS="410.250433070867" YPOS="4146.00393700787" WIDTH="256.685" HEIGHT="142.99606299213" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 142.996 256.685 142.996 256.685 142.996 256.685 142.996 0 142.996 0 142.996 0 142.996 0 142.996 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 142.996 256.685 142.996 256.685 142.996 256.685 142.996 0 142.996 0 142.996 0 142.996 0 142.996 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
