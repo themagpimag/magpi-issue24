@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SCRIBUSUTF8NEW Version="1.4.3">
+<SCRIBUSUTF8NEW Version="1.4.1.svn">
     <DOCUMENT ANZPAGES="5" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="6" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -213,23 +213,23 @@
             <ITEXT CH="During flight, the system is exposed to pressures as low as 0.75 mmHg, where heat exchange becomes difficult even at temperatures of -50°C. Jet stream winds can exceed speeds of 200km/h, applying punishing shock and vibration forces to our electronic equipment. In this extreme environment, the MSA must continue to gather scientific data for a minimum of 4 hours."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The first part of this series in Issue 23 of the MagPi focused on the hardware design of the MSA system. This second part describes how the software was designed and implemented."/>
+            <ITEXT CH="The first part of this series, in Issue 23 of The MagPi, focused on the hardware design of the MSA system. This second part describes how the software was designed and implemented."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Library installation"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The MSA software is written completely in C.  We chose C primary because we were already familiar with it, and because it is a fairly common language for embedded systems.  We made use of a fantastic C library for the BCM2835 ARM chip used on the Raspberry Pi.  The Library is maintained by Mike McCauley at: "/>
+            <ITEXT CH="The MSA software is written completely in C.  We chose C primarily because we were already familiar with it and because it is a fairly common language for embedded systems.  We made use of a fantastic C library for the BCM2835 ARM chip used on the Raspberry Pi.  The Library is maintained by Mike McCauley at: "/>
             <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://www.airspayce.com/mikem/bcm2835"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The BCM2835 C library provides functions for communicating with I"/>
             <ITEXT FEATURES="inherit superscript" CH="2"/>
-            <ITEXT CH="C devices, accessing GPIO pins, and generating Pulse Width Modulation (PWM) signals to control motors and heaters."/>
+            <ITEXT CH="C devices, accessing GPIO pins and generating Pulse Width Modulation (PWM) signals to control motors and heaters."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The most recent version of the library is 1.36.  To install the library onto the Raspberry Pi, connect to the Internet and enter the following:"/>
+            <ITEXT CH="The most recent version of the library is 1.36.  To install the library onto the Raspberry Pi, connect to the internet and enter the following:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" wget http://www.airspayce.com/mikem/bcm2835/bc"/>
@@ -244,7 +244,7 @@
             <ITEXT CH="Before compiling the library, it is necessary to  modify the source code if it is going to be installed on a version 1 Model B Raspberry Pi.  For other Raspberry Pi models, no changes are needed."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="For a version 1 Model B Raspberry Pi, you must edit the source code by entering:"/>
+            <ITEXT CH="For a version 1 Model B Raspberry Pi you must edit the source code by entering:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" cd src"/>
@@ -260,12 +260,12 @@
             <para PARENT="Body text"/>
             <ITEXT CH="This compiles the code to function with the correct I"/>
             <ITEXT FEATURES="inherit superscript" CH="2"/>
-            <ITEXT CH="C bus.  Then, save and close the "/>
+            <ITEXT CH="C bus. Then save and close the "/>
             <ITEXT FONT="Monaco Regular" CH="bcm2835.c"/>
             <ITEXT CH=" file."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now compile the source code,"/>
+            <ITEXT CH="Now compile the source code:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" ./configure"/>
@@ -287,15 +287,15 @@
             <ITEXT CH="MSA software overview"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The MSA operational flight program is made up of three basic threads, 'Main', 'Sample Rate Timer' and 'Data logging scheduler'"/>
+            <ITEXT CH="The MSA operational flight program is made up of three basic threads, 'Main', 'Sample Rate Timer' and 'Data Logging Scheduler'"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Main thread"/>
             <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Upon start-up, the main thread automatically begins and sets up POSIX threads for the timer and scheduler, initiates the I"/>
+            <ITEXT CH="On startup, the main thread automatically begins and sets up POSIX threads for the timer and scheduler, initiates the I"/>
             <ITEXT FEATURES="inherit superscript" CH="2"/>
-            <ITEXT CH="C bus, initialises the GPIO pins, creates data files, and monitors the mission pull pin.  Once the mission pin is pulled, a mission timer begins and the current time is stamped on each line in the data files.  The USB, Ethernet, and HDMI chips are disabled to conserve power and the main loop begins.  In the main loop, the MSA simply waits for an event to initiate a safe shutdown; such as when the shutdown button is pressed, the mission countdown timer has elapsed, or the battery voltage drops below a preset threshold for more than one minute."/>
+            <ITEXT CH="C bus, initialises the GPIO pins, creates data files and monitors the mission pull pin.  Once the mission pin is pulled, a mission timer begins and the current time is stamped on each line in the data files.  The USB, Ethernet and HDMI chips are disabled to conserve power and the main loop begins.  In the main loop, the MSA simply waits for an event to initiate a safe shutdown; such as when the shutdown button is pressed, the mission countdown timer has elapsed, or the battery voltage drops below a preset threshold for more than one minute."/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Figure 1"/>
             <ITEXT FONTSIZE="10" CH=": The Main thread"/>
@@ -311,10 +311,9 @@
             <ITEXT CH="Sample rate timing thread"/>
             <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The MSA code is written without any interrupts.  It was a challenge to create a timer that could ensure that measurements would be taken at regular intervals.  Fortunately, the C compiler that comes standard with Linux distributions is equipped with POSIX thread capabilities.  We made use of parallel programming, to create the timing and scheduling threads."/>
+            <ITEXT CH="The MSA code is written without any interrupts.  It was a challenge to create a timer that could ensure that measurements would be taken at regular intervals.  Fortunately, the C compiler that comes standard with Linux distributions is equipped with POSIX thread capabilities. We made use of parallel programming to create the timing and scheduling threads."/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The sample rate timing thread is designed to post a semaphore at a given time interval, in our case 100 ms, to set the base data sample rate at 10Hz.  It makes use of the "/>
+            <ITEXT CH="The sample rate timing thread is designed to post a semaphore at a given time interval, in our case 100 ms, to set the base data sample rate at 10Hz. It makes use of the "/>
             <ITEXT FONT="Monaco Regular" CH="nanosleep()"/>
             <ITEXT CH=" function, to create a 100 millisecond timer for reading sensors."/>
             <para PARENT="Body text"/>
@@ -339,6 +338,7 @@
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" } // end schedule_timer"/>
             <para PARENT="Code"/>
+            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="After 100 milliseconds, the timer releases the semaphore to the data logging schedule thread."/>
             <para PARENT="Body text"/>
@@ -372,7 +372,7 @@
             <ITEXT CH="The scheduling thread also maintains a five minute countdown timer. When the timer elapses, the MSA code saves all of the data files and the timer is reset."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Flight dynamic sensors are read every cycle, at a rate of 10Hz.  Environmental data is read at a much slower rate, due to the relatively long conversion time of the LTC2495 ADC ( approximately 160ms). Every 200ms, the scheduling thread determines whether to set, clear, or read an ADC channel.  Nested switch statements determine which channel to read (0 to 15) and which function to call ("/>
+            <ITEXT CH="Flight dynamic sensors are read every cycle, at a rate of 10Hz.  Environmental data is read at a much slower rate, due to the relatively long conversion time of the LTC2495 ADC (approximately 160ms). Every 200ms the scheduling thread determines whether to set, clear or read an ADC channel.  Nested switch statements determine which channel to read (0 to 15) and which function to call ("/>
             <ITEXT FONT="Monaco Regular" CH="set"/>
             <ITEXT CH=", "/>
             <ITEXT FONT="Monaco Regular" CH="clear"/>
@@ -384,7 +384,7 @@
             <ITEXT FONTSIZE="10" CH=": Timer and scheduling threads"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="It takes approximately 10 seconds to read all of the ADC channels:"/>
+            <ITEXT CH="It takes approximately 10 seconds to read all of the ADC channels..."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="200 msec x 3 cycles x 16 channels = "/>
@@ -392,7 +392,7 @@
             <ITEXT CH="9.6 sec"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="which seems like a lot of time. This is fine, however, since most environmental parameters change relatively slowly as a function of altitude. A typical ascent rate is only 4.1 meters per second, which means that the balloon travels about 40 meters per read cycle.  One read every 40 meters provides adequate resolution for temperature, pressure, humidity and even gas composition when viewed over 30,000 meters.  If greater resolution is necessary an additional ADC can always be added."/>
+            <ITEXT CH="...which seems like a lot of time. This is fine, however, since most environmental parameters change relatively slowly as a function of altitude. A typical ascent rate is only 4.1 meters per second, which means that the balloon travels about 40 meters per read cycle.  One read every 40 meters provides adequate resolution for temperature, pressure, humidity and even gas composition when viewed over 30,000 meters.  If greater resolution is necessary an additional ADC can always be added."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Reading I"/>
@@ -400,19 +400,19 @@
             <ITEXT CH="C sensors"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The MSA sensors are divided into two different groups: (1) analog and (2) digital sensors."/>
+            <ITEXT CH="The MSA sensors are divided into two different groups: (1) analogue and (2) digital sensors."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The analog sensors are all wired through an I"/>
+            <ITEXT CH="The analogue sensors are all wired through an I"/>
             <ITEXT FEATURES="inherit superscript" CH="2"/>
-            <ITEXT CH="C ready LTC2495 ADC.  The digital sensors for the MSA were all chosen to be I"/>
+            <ITEXT CH="C ready LTC2495 ADC. The digital sensors for the MSA were all chosen to be I"/>
             <ITEXT FEATURES="inherit superscript" CH="2"/>
             <ITEXT CH="C accessible.  With all of the sensors communicating over the I"/>
             <ITEXT FEATURES="inherit superscript" CH="2"/>
-            <ITEXT CH="C bus, we were able to free up the remaining GPIOs for other purposes."/>
+            <ITEXT CH="C bus, we were able to free up the remaining GPIO pins for other purposes."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Reading analog sensors"/>
+            <ITEXT CH="Reading analogue sensors"/>
             <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Before reading any I"/>
@@ -429,7 +429,7 @@
             <ITEXT FONTSIZE="9" CH=" _divider_626);"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To read data from the ADC it is first necessary to select an input channel, set the gain, and choose whether it is single ended or differential input. We used only single ended sensors for the MSA, so setup was the same for each channel. The following function sets the channel to read the pressure sensor on the ADC which is located at the I"/>
+            <ITEXT CH="To read data from the ADC it is first necessary to select an input channel, set the gain and choose whether it is single ended or differential input. We used only single ended sensors for the MSA, so setup was the same for each channel. The following function sets the channel to read the pressure sensor on the ADC which is located at the I"/>
             <ITEXT FEATURES="inherit superscript" CH="2"/>
             <ITEXT CH="C address 0x14."/>
             <para PARENT="Body text"/>
@@ -448,7 +448,7 @@
             <ITEXT CH=" bcm2835_i2c_write(chan_0, sizeof(chan_0));"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The first read from the ADC is generally unusable and has to be cleared; this is because the initial data has leftover information from a previous sample or a different sensor. The following function clears the channel by storing it a junk register and ignoring it:"/>
+            <ITEXT CH="The first read from the ADC is generally unusable and has to be cleared; this is because the initial data has leftover information from a previous sample or a different sensor. The following function clears the channel by storing it in a junk register and ignoring it:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" unsigned char junk[3];"/>
@@ -485,18 +485,18 @@
             <ITEXT CH=" v_pressure = pressure * 0.000025177;"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The actual value is then processed from the signal voltage according the datasheet for a particular sensor."/>
+            <ITEXT CH="The actual value is then processed from the signal voltage according to the datasheet for a particular sensor."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Reading digital sensors"/>
             <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The digital sensors are a little more straight forward, because they don’t have to be reset every read cycle. However, some of them require burst reads (I"/>
+            <ITEXT CH="The digital sensors are a little more straight forward, because they do not have to be reset every read cycle. However, some of them require burst reads (I"/>
             <ITEXT FEATURES="inherit superscript" CH="2"/>
             <ITEXT CH="C reads with repeated starts and no stop) to send the address of a specific register to be read and an address to the destination where the data will be saved. Burst reads are also used to ensure that multiple axis data comes from the same sample."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Sensors like the HMC5883 3-axis magnetometer must be set up initially, but keep their settings for successive reads. The following code sets the sample rate of an HMC5883 to 8 averaged samples at rate of 15Hz. It is also set to measure continuously with a gain of 5:"/>
+            <ITEXT CH="Sensors like the HMC5883 3-axis magnetometer must be set up initially, but keep their settings for successive reads. The following code sets the sample rate of an HMC5883 to 8 averaged samples at a rate of 15Hz. It is also set to measure continuously with a gain of 5:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
@@ -537,16 +537,16 @@
             <ITEXT FONTSIZE="9" CH="   sizeof(mag_buf));"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The data buffer now holds 6 bytes of data, 2 bytes for each axis, which are stored as two’s compliment values. As before, the actual value is then processed according to the datasheet for the sensor being used.  A complete version of the code discussed can be found at:"/>
+            <ITEXT CH="The data buffer now holds 6 bytes of data, 2 bytes for each axis, which are stored as two’s compliment values. As before, the actual value is then processed according to the datasheet for the sensor being used.  A complete version of the code discussed can be found at"/>
+            <ITEXT FONTSIZE="12" FCOLOR="Blue" FSHADE="100" CH=" https://github. com/mikeanthoney/RPi_atmosphere"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" FCOLOR="Blue" FSHADE="100" CH="https://github.com/mikeanthoney/RPi_atmosphere"/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Data Outputs"/>
-            <para PARENT="Body sub-title"/>
+            <ITEXT CH="Data outputs"/>
+            <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The MSA program stores all of the data in .CSV files that are easy to use in LibreOffice or Excel. A typical output looks something like the following:"/>
             <para PARENT="Body text"/>
+            <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT CH=" Date: 11/09/13"/>
             <para PARENT="Code"/>
@@ -572,7 +572,7 @@
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH=" "/>
             <para PARENT="Code"/>
-            <ITEXT CH="The chart below was created using MSA data from a test flight last July above Duchesne, Utah. The mission lasted 4.5 hours and reached an altitude of just over 30km."/>
+            <ITEXT CH="The chart below was created using MSA data from a test flight in July 2013 above Duchesne, Utah. The mission lasted 4.5 hours and reached an altitude of just over 30km."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Notice that the relatively low sample rate of the temperature sensor (0.2Hz) still provided adequate resolution over the course of the mission."/>
@@ -834,7 +834,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.34708661126" YPOS="1946.25984249214" WIDTH="255.6529083" HEIGHT="141.740157507859" RADRECT="8.503937008" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of Text4665 (5)" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="7.086614173" TEXTRA="7.086614173" BEXTRA="7.086614173" REXTRA="7.086614173" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 6.78857 255.653 3.03933 255.653 6.78857 255.653 6.78857 255.653 134.952 255.653 134.952 255.653 134.952 255.653 138.701 247.149 141.74 251.846 141.74 247.149 141.74 247.149 141.74 8.50394 141.74 8.50394 141.74 8.50394 141.74 3.80734 141.74 0 134.952 0 138.701 0 134.952 0 134.952 0 6.78857 0 6.78857 0 6.78857 0 3.03933 8.50394 0 3.80734 0 " NUMCO="32" COCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 6.78857 255.653 3.03933 255.653 6.78857 255.653 6.78857 255.653 134.952 255.653 134.952 255.653 134.952 255.653 138.701 247.149 141.74 251.846 141.74 247.149 141.74 247.149 141.74 8.50394 141.74 8.50394 141.74 8.50394 141.74 3.80734 141.74 0 134.952 0 138.701 0 134.952 0 134.952 0 6.78857 0 6.78857 0 6.78857 0 3.03933 8.50394 0 3.80734 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.34708661126" YPOS="1940.59055115356" WIDTH="255.6529083" HEIGHT="141.740157507859" RADRECT="8.503937008" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Copy of Text4665 (5)" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="7.086614173" TEXTRA="7.086614173" BEXTRA="7.086614173" REXTRA="7.086614173" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 6.78857 255.653 3.03933 255.653 6.78857 255.653 6.78857 255.653 134.952 255.653 134.952 255.653 134.952 255.653 138.701 247.149 141.74 251.846 141.74 247.149 141.74 247.149 141.74 8.50394 141.74 8.50394 141.74 8.50394 141.74 3.80734 141.74 0 134.952 0 138.701 0 134.952 0 134.952 0 6.78857 0 6.78857 0 6.78857 0 3.03933 8.50394 0 3.80734 0 " NUMCO="32" COCOOR="8.50394 0 8.50394 0 247.149 0 247.149 0 247.149 0 251.846 0 255.653 6.78857 255.653 3.03933 255.653 6.78857 255.653 6.78857 255.653 134.952 255.653 134.952 255.653 134.952 255.653 138.701 247.149 141.74 251.846 141.74 247.149 141.74 247.149 141.74 8.50394 141.74 8.50394 141.74 8.50394 141.74 3.80734 141.74 0 134.952 0 138.701 0 134.952 0 134.952 0 6.78857 0 6.78857 0 6.78857 0 3.03933 8.50394 0 3.80734 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FCOLOR="White" CH="* MPU6000 (6-axis accelerometer/gyroscope)"/>
             <para/>
             <ITEXT FCOLOR="White" CH="* HMC5883L (3-axis magnetometer)"/>
@@ -1063,7 +1063,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="4" PTYPE="4" XPOS="128.347086614173" YPOS="3965" WIDTH="256.652913385827" HEIGHT="32" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="https://github.com/mikeanthoney/RPi_atmosphere" ANZIEL="4" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text73" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 32 256.653 32 256.653 32 256.653 32 0 32 0 32 0 32 0 32 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 32 256.653 32 256.653 32 256.653 32 0 32 0 32 0 32 0 32 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="4" PTYPE="4" XPOS="128.347086614173" YPOS="3953.66141732284" WIDTH="256.652913385827" HEIGHT="32" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="https://github.com/mikeanthoney/RPi_atmosphere" ANZIEL="4" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 32 256.653 32 256.653 32 256.653 32 0 32 0 32 0 32 0 32 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 32 256.653 32 256.653 32 256.653 32 0 32 0 32 0 32 0 32 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
