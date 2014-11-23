@@ -56,9 +56,10 @@
         <LAYERS NUMMER="12" LEVEL="4" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff6470"/>
         <LAYERS NUMMER="13" LEVEL="8" NAME="Image" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffaa00"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Regular"/>
+            <Subset Name="Monaco Regular"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
@@ -161,7 +162,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="514.688031496064" YPOS="134.367464074479" WIDTH="145.825511811024" HEIGHT="126.549921259843" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1.41732283464567" PCOLOR="Black" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.4" LOCALSCY="0.4" LOCALX="-14.1732283464567" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon2440" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../magpi-issue18/ProjectCuracao01/john_shovic.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 137.322 0 137.322 0 137.322 0 142.018 0 145.826 8.50394 145.826 3.80734 145.826 8.50394 145.826 8.50394 145.826 118.046 145.826 118.046 145.826 118.046 145.826 122.743 137.322 126.55 142.018 126.55 137.322 126.55 137.322 126.55 8.50394 126.55 8.50394 126.55 8.50394 126.55 3.80734 126.55 0 118.046 0 122.743 0 118.046 0 118.046 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="16" COCOOR="0 0 0 0 145.826 0 145.826 0 145.826 0 145.826 0 145.826 126.55 145.826 126.55 145.826 126.55 145.826 126.55 0 126.55 0 126.55 0 126.55 0 126.55 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="10.6742936251852" gYpos="10.9549523533976" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="514.688031496064" YPOS="134.367464074479" WIDTH="145.825511811024" HEIGHT="126.549921259843" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1.41732283464567" PCOLOR="Black" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.38" LOCALSCY="0.38" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon2440" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="john_shovic.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 137.322 0 137.322 0 137.322 0 142.018 0 145.826 8.50394 145.826 3.80734 145.826 8.50394 145.826 8.50394 145.826 118.046 145.826 118.046 145.826 118.046 145.826 122.743 137.322 126.55 142.018 126.55 137.322 126.55 137.322 126.55 8.50394 126.55 8.50394 126.55 8.50394 126.55 3.80734 126.55 0 118.046 0 122.743 0 118.046 0 118.046 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="16" COCOOR="0 0 0 0 145.826 0 145.826 0 145.826 0 145.826 0 145.826 126.55 145.826 126.55 145.826 126.55 145.826 126.55 0 126.55 0 126.55 0 126.55 0 126.55 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="10.6742936251852" gYpos="10.9549523533976" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -193,10 +194,10 @@
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="23" BACKITEM="-1">
             <ITEXT FONTSIZE="11.5" CH="What is Project Curacao?"/>
             <para PARENT="Body title"/>
-            <ITEXT FONTSIZE="11.5" CH="This is the fifth part of a series discussing the design and building of Project Curacao, a sensor filled project that hangs on a radio tower on the island nation of Curacao. Curacao is a desert island 12 degrees north of the equator in the Caribbean. Part 6 in the fall will show the upgraded sensor suite and replacement of the wind turbine."/>
+            <ITEXT FONTSIZE="11.5" CH="This is the fifth part of a series discussing the design and building of Project Curacao, a sensor filled project that hangs on a radio tower on the island nation of Curacao. Curacao is a desert island 12 degrees north of the equator in the Caribbean. Part 6 will show the upgraded sensor suite and replacement of the wind turbine."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11.5" CH="Project Curacao is designed to monitor the local environment unattended for six months. It operates on solar power cells and communicates with the designer via an iPad App called RasPiConnect. All aspects of this project are designed to be monitored and updated remotely (with the current exception of the Arduino Battery Watchdog)."/>
+            <ITEXT FONTSIZE="11.5" CH="Project Curacao is designed to monitor the local environment unattended for six months. It operates on solar power cells and communicates with the designer via an iPad app called RasPiConnect. All aspects of this project are designed to be monitored and updated remotely (with the current exception of the Arduino Battery Watchdog)."/>
             <ITEXT CH=" "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
@@ -207,9 +208,7 @@
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11.5" CH="Results of shipping"/>
             <para PARENT="Body title"/>
-            <ITEXT FONTSIZE="11.5" CH="The box arrived in our luggage on March 3, 2014."/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11.5" CH="Airport security (TSA) inspected the box twice, but aside from picking up the box with the outside temperature sensor (naturally the most expensive sensor in the box), pulling the wires off, it survived."/>
+            <ITEXT FONTSIZE="11.5" CH="The box arrived in our luggage on March 3, 2014. Airport security (TSA) inspected the box twice, but aside from picking up the box with the outside temperature sensor (naturally the most expensive sensor in the box), pulling the wires off, it survived."/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11.5" CH="One of the key things to remember about shipping a piece of equipment through airport security is to take out the batteries and put them in your carry on luggage. The other item is to make sure you provide a written explanation of what it is and what it does with the box in the luggage. We wrote a short letter about Project Curacao and included reprints of the MagPi series of articles. "/>
             <para PARENT="Body text"/>
@@ -219,14 +218,14 @@
             <ITEXT FONTSIZE="11.5" CH="Remember, you can always trust your mother, but you can never trust your ground."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11.5" CH="We put the box outside for the first time and the solar cells worked perfectly. The wind turbine needs to be up on the tower to really roar. The wind turbine only generated about 40ma on the ground but should do better up on the tower."/>
+            <ITEXT FONTSIZE="11.5" CH="We put the box outside for the first time and the solar cells worked perfectly. The wind turbine needs to be up on the tower to really roar. The wind turbine only generated about 40mA on the ground but should do better up on the tower."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11.5" CH="RasPiConnect connected to the box and generated the first Caribbean picture:"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11.5" CH="Deployment"/>
             <para PARENT="Body title"/>
-            <ITEXT FONTSIZE="11.5" CH="We spent ten days finishing off some software and preparing to put the box up the tower. Understand, however, this was in addition to going to the beach, dancing, coffee with the neighbors and some very nice parties. Eventually, we did put up the box. The box and wind turbine was deployed on the tower on March 13, 2014."/>
+            <ITEXT FONTSIZE="11.5" CH="We spent ten days finishing off some software and preparing to put the box up the tower. Understand, however, this was in addition to going to the beach, dancing, coffee with the neighbours and some very nice parties. Eventually, we did put up the box. The box and wind turbine was deployed on the tower on March 13, 2014."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11.5" CH="Geoff Howard, all round good guy and expert tower climber, was invaluable. This is dangerous work and safety belts and harnesses were used."/>
@@ -235,15 +234,15 @@
             <ITEXT CH=" "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11.5" CH="The problem with this was not with the Raspberry Pi, it was with the Arduino Battery Watchdog. We adjusted the run time of the Pi with the Arduino to fit the available power. However, the Arduino is meant to run 100% of the time and the behavior of the Arduino is ill-defined in very low battery conditions. It would glitch the real time clock which gave some very random behavior."/>
+            <ITEXT FONTSIZE="11.5" CH="The problem with this was not with the Raspberry Pi, it was with the Arduino Battery Watchdog. We adjusted the run time of the Raspberry Pi with the Arduino to fit the available power. However, the Arduino is meant to run 100% of the time and the behavior of the Arduino is ill-defined in very low battery conditions. It would glitch the real time clock which gave some very random behavior."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11.5" CH="Note on the RasPiConnect ("/>
             <ITEXT FONTSIZE="11.5" FCOLOR="Blue" CH="www.milocreek.com"/>
-            <ITEXT FONTSIZE="11.5" CH=") screen below you can see the Arduino battery voltage going down and down and down until we turned it off for a few days and moved it to the roof."/>
+            <ITEXT FONTSIZE="11.5" CH=") screen overleaf. You can see the Arduino battery voltage going down and down and down until we turned it off for a few days and moved it to the roof."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11.5" CH="We were hoping the wind turbine would make up the difference but were disappointed on two counts discussed below."/>
+            <ITEXT FONTSIZE="11.5" CH="We were hoping the wind turbine would make up the difference but were disappointed on two counts discussed on the next page."/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11.5" CH="We mounted a mirror at right angles below the solar cell hoping to improve the amount of power generated, but it wasn't significantly increased."/>
             <para PARENT="Body text"/>
@@ -259,6 +258,34 @@
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11.5" CH="It would only contribute a trickle charge during the night to the project. Based on the limited data we received from the box, it would only add an hour of runtime every day."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11.5" CH="Following is an analysis of the wind data:"/>
@@ -277,11 +304,14 @@
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11.5" CH="Number of Current Samples (Loaded 50W wind turbine): 12"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11.5" CH="Average Current Delivered to Battery: 22ma"/>
+            <ITEXT FONTSIZE="11.5" CH="Average Current Delivered to Battery: 22m"/>
+            <ITEXT CH="A"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11.5" CH="Low Current Delivered to Battery: 0ma"/>
+            <ITEXT FONTSIZE="11.5" CH="Low Current Delivered to Battery: 0m"/>
+            <ITEXT CH="A"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="11.5" CH="High Current Delivered to Battery: 138.6ma"/>
+            <ITEXT FONTSIZE="11.5" CH="High Current Delivered to Battery: 138.6m"/>
+            <ITEXT CH="A"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="11.5" CH="Max Power from Turbine to Battery: 0.5W"/>
@@ -294,21 +324,23 @@
             <para PARENT="Body title"/>
             <ITEXT FONTSIZE="11.5" CH="We lost the wind turbine during the first week of operation to a wind storm, but the turbine was a last minute addition and so not very important to the overall success of the project."/>
             <ITEXT CH=" "/>
-            <ITEXT FONTSIZE="11.5" CH="This occurred less han a week after we departed: we got an email saying that there had been a wind storm overnight with gusts about 35 MPH and that the wind turbine was destroyed. "/>
+            <ITEXT FONTSIZE="11.5" CH="This occurred less than a week after we departed: we got an email saying that there had been a wind storm overnight with gusts about 35 MPH and that the wind turbine was destroyed. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="12" CH="The wind turbine worked as predicted by our models. We switched on the turbine at night to provide a trickle charge to the main computer. We got about 60 - 90ma of current at 15MPH. Nowhere close to the 200-300ma it takes to run the Pi. Note that the turbine popped out of the stand and thoroughly destroyed itself. We think that is was a sympathetic vibration with a particular wind speed (much like the &quot;Galloping Gertie&quot; Tacoma Narrows bridge [Ed: "/>
+            <ITEXT FONTSIZE="12" CH="The wind turbine worked as predicted by our models. We switched on the turbine at night to provide a trickle charge to the main computer. We got about 60 - 90mA of current at 15MPH. Nowhere close to the 200-300mA it takes to run the Raspberry Pi. Note that the turbine popped out of the stand and thoroughly destroyed itself. We think that is was a sympathetic vibration with a particular wind speed (much like the &quot;Galloping Gertie&quot; Tacoma Narrows bridge [Ed: "/>
             <ITEXT FONTSIZE="12" FCOLOR="Blue" CH="https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)"/>
             <ITEXT FONTSIZE="12" CH="]) since we observed that the stand was flexing in the wind. We will either prevent the next turbine from popping out or stiffen the stand to prevent the flexing or possibly both."/>
             <para PARENT="Body text"/>
             <para/>
-            <ITEXT CH="The first 8 Weeks of Operation"/>
+            <ITEXT CH="The first eight weeks of operation"/>
             <para PARENT="Body title"/>
-            <ITEXT CH="We recently hit eight weeks of Project Curacao running in the warm and windy climate. The project has been fairly robust to this point. We lost one sensor the other week. The light color sensor (BM017 / tsc3574) went dead and no longer responds to I2C requests although other sensors on the same bus do continue to respond. We have had no problems with the Arduino Battery Watchdog yet. Since we fixed the solar power problems, the Arduino is rock solid."/>
+            <ITEXT CH="We recently hit eight weeks of Project Curacao running in the warm and windy climate. The project has been fairly robust to this point. We lost one sensor the other week. The light colour sensor (BM017 / TSC3574) went dead and no longer responds to I"/>
+            <ITEXT FEATURES="inherit superscript" CH="2"/>
+            <ITEXT CH="C requests although other sensors on the same bus do continue to respond. We have had no problems with the Arduino Battery Watchdog yet. Since we fixed the solar power problems, the Arduino is rock solid."/>
             <para PARENT="Body text"/>
             <para/>
-            <ITEXT CH="Here's an example email that came in from the Project Curacao box telling me the environmental monitoring system has turned the fan on because of high temperatures inside the box (degrees C):"/>
+            <ITEXT CH="Here is an example email that came in from the Project Curacao box telling me the environmental monitoring system had turned the fan on because of high temperatures inside the box (degrees C):"/>
             <para PARENT="Body text"/>
             <para/>
             <para PARENT="Code"/>
@@ -325,7 +357,7 @@
             <ITEXT CH="The box also emails bootup and shutdown messages as well as a picture from the Caribbean once a day at 15:20 Pacific time."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="September Upgrades"/>
+            <ITEXT CH="September upgrades"/>
             <para PARENT="Body title"/>
             <ITEXT CH="We are planning a maintenance trip to Curacao. The planned upgrades are:"/>
             <para PARENT="Body text"/>
@@ -348,7 +380,7 @@
             <ITEXT CH="6) Modification of the Arduino Battery Watchdog to record wind turbine current and voltage even when the Raspberry Pi is off."/>
             <para PARENT="Body text"/>
             <para/>
-            <ITEXT CH="7) Modification of the angle of the solar panels - maybe with a sun tracking system"/>
+            <ITEXT CH="7) Modification of the angle of the solar panels - maybe with a sun tracking system."/>
             <para PARENT="Body text"/>
             <para/>
             <ITEXT CH="You can see the live hourly data and picture from Project Curacao at:"/>
@@ -357,9 +389,9 @@
             <ITEXT CH="."/>
             <para PARENT="Body text"/>
             <para/>
-            <ITEXT CH="What's Next?"/>
+            <ITEXT CH="What's next?"/>
             <para PARENT="Body title"/>
-            <ITEXT CH="Our final article, Part 6 in Autumn 2014, will describe the upgrades and the required changes to the Project Curacao system. This has been a large project and we want to thank all of the people and companies that helped make this possible."/>
+            <ITEXT CH="Our final article, Part 6 in Winter 2014, will describe the upgrades and the required changes to the Project Curacao system. This has been a large project and we want to thank all of the people and companies that helped make this possible."/>
             <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -437,11 +469,11 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="119.843147277832" YPOS="1436.25" WIDTH="256.656860351562" HEIGHT="246.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.0798112457873775" LOCALSCY="0.0798112457873775" LOCALX="355.16870352369" LOCALY="-172.330429306182" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="climbinginstall.JPG" PFILE2="" PFILE3="" PRFILE="Embedded sRGB IEC61966-2.1" EPROF="Embedded sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.657 0 256.657 0 256.657 0 256.657 0 256.657 246.75 256.657 246.75 256.657 246.75 256.657 246.75 0 246.75 0 246.75 0 246.75 0 246.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.657 0 256.657 0 256.657 0 256.657 0 256.657 246.75 256.657 246.75 256.657 246.75 256.657 246.75 0 246.75 0 246.75 0 246.75 0 246.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="119.843147277832" YPOS="1436.25" WIDTH="256.656860351562" HEIGHT="246.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.11" LOCALSCY="0.11" LOCALX="-103.078024337867" LOCALY="-283.464566929134" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="climbinginstall.JPG" PFILE2="" PFILE3="" PRFILE="Embedded sRGB IEC61966-2.1" EPROF="Embedded sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.657 0 256.657 0 256.657 0 256.657 0 256.657 246.75 256.657 246.75 256.657 246.75 256.657 246.75 0 246.75 0 246.75 0 246.75 0 246.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.657 0 256.657 0 256.657 0 256.657 0 256.657 246.75 256.657 246.75 256.657 246.75 256.657 246.75 0 246.75 0 246.75 0 246.75 0 246.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="402.75" YPOS="1004.00000865065" WIDTH="254.25" HEIGHT="219.391723632812" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.239249425989981" LOCALSCY="0.239249425989981" LOCALX="189.569235207113" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="IMG_0396.JPG" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 254.25 0 254.25 0 254.25 0 254.25 0 254.25 219.392 254.25 219.392 254.25 219.392 254.25 219.392 0 219.392 0 219.392 0 219.392 0 219.392 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 254.25 0 254.25 0 254.25 0 254.25 0 254.25 219.392 254.25 219.392 254.25 219.392 254.25 219.392 0 219.392 0 219.392 0 219.392 0 219.392 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="402.75" YPOS="1004.00000865065" WIDTH="254.25" HEIGHT="219.391723632812" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.25" LOCALSCY="0.25" LOCALX="181.417322834646" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="IMG_0396.JPG" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 254.25 0 254.25 0 254.25 0 254.25 0 254.25 219.392 254.25 219.392 254.25 219.392 254.25 219.392 0 219.392 0 219.392 0 219.392 0 219.392 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 254.25 0 254.25 0 254.25 0 254.25 0 254.25 219.392 254.25 219.392 254.25 219.392 254.25 219.392 0 219.392 0 219.392 0 219.392 0 219.392 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -488,7 +520,7 @@
             <trail ALIGN="1" OpticalMargins="0"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="408.00000002126" YPOS="3407.77889759921" WIDTH="258" HEIGHT="42" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.switchdoc.com" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Copy of Text43 (2)" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 258 0 258 0 258 0 258 0 258 42 258 42 258 42 258 42 0 42 0 42 0 42 0 42 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 258 0 258 0 258 0 258 0 258 42 258 42 258 42 258 42 0 42 0 42 0 42 0 42 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="408.00000002126" YPOS="3408.77889759921" WIDTH="258" HEIGHT="42" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://switchdoc.blogspot.com" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Copy of Text43 (2)" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 258 0 258 0 258 0 258 0 258 42 258 42 258 42 258 42 0 42 0 42 0 42 0 42 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 258 0 258 0 258 0 258 0 258 42 258 42 258 42 258 42 0 42 0 42 0 42 0 42 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -500,7 +532,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="127.5" YPOS="3075.5" WIDTH="255.965179443359" HEIGHT="33" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)" ANZIEL="3" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text64" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.965 0 255.965 0 255.965 0 255.965 0 255.965 33 255.965 33 255.965 33 255.965 33 0 33 0 33 0 33 0 33 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.965 0 255.965 0 255.965 0 255.965 0 255.965 33 255.965 33 255.965 33 255.965 33 0 33 0 33 0 33 0 33 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="127.5" YPOS="3084.00393700787" WIDTH="255.965179443359" HEIGHT="33" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)" ANZIEL="3" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text64" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.965 0 255.965 0 255.965 0 255.965 0 255.965 33 255.965 33 255.965 33 255.965 33 0 33 0 33 0 33 0 33 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.965 0 255.965 0 255.965 0 255.965 0 255.965 33 255.965 33 255.965 33 255.965 33 0 33 0 33 0 33 0 33 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -515,6 +547,10 @@
         <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="654.28440942126" YPOS="3479.77984249921" WIDTH="36.8503937" HEIGHT="22.67716535" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="8" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="21"/>
             <para ALIGN="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="550.709289550781" YPOS="1556.25" WIDTH="106.290710449219" HEIGHT="16.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.milocreek.com" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text61" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 106.291 0 106.291 0 106.291 0 106.291 0 106.291 16.5 106.291 16.5 106.291 16.5 106.291 16.5 0 16.5 0 16.5 0 16.5 0 16.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 106.291 0 106.291 0 106.291 0 106.291 0 106.291 16.5 106.291 16.5 106.291 16.5 106.291 16.5 0 16.5 0 16.5 0 16.5 0 16.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>

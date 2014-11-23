@@ -56,7 +56,7 @@
             <Separation Name="Yellow"/>
             <Separation Name="Black"/>
         </Printer>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Oblique"/>
             <Subset Name="FreeSans Regular"/>
@@ -199,7 +199,7 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="222.915349404643" WIDTH="375.777221679688" HEIGHT="75.4192962646484" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="28" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="25" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="242.757869089682" WIDTH="375.777221679688" HEIGHT="75.4192962646484" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="28" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="25" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <para LINESP="28"/>
             <ITEXT CH="An interview with"/>
             <para LINESP="28"/>
@@ -208,17 +208,19 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.346717834473" YPOS="355.246063232422" WIDTH="538.588317871094" HEIGHT="449.003936767578" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="White" COLUMNS="2" COLGAP="25.511811023622" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 449.004 538.588 449.004 538.588 449.004 538.588 449.004 0 449.004 0 449.004 0 449.004 0 449.004 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 449.004 538.588 449.004 538.588 449.004 538.588 449.004 0 449.004 0 449.004 0 449.004 0 449.004 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="0" BACKITEM="-1">
-            <ITEXT CH="On May 14th The Raspberry Pi Foundation hosted the first Picademy. Over two days 24 teachers attended this free event and got first hand experience with the Raspberry Pi and its potential as a great teaching tool. Afterward, The MagPi talked with Carrie Anne Philbin, Education Pioneer at the Foundation about the event and the future of computing education in the UK."/>
+            <ITEXT CH="On 14"/>
+            <ITEXT FEATURES="inherit superscript" CH="th"/>
+            <ITEXT CH=" May 2014, The Raspberry Pi Foundation hosted the first Picademy. Over two days 24 teachers attended this free event and got first hand experience with the Raspberry Pi and its potential as a great teaching tool. Afterward, The MagPi talked with Carrie Anne Philbin, Education Pioneer at the Foundation about the event and the future of computing education in the UK."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="MP: How many applicants were there for the Picademy and how were they selected?"/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text-TMP"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" Roughly 100 individuals applied for Picademy. A mix of primary and secondary teachers from Computing, Art and Science were selected. Some had prior experience of Raspberry Pi and some were completely new to it.We believe that computing is a cross curricular activity and that Raspberry Pi can help teachers develop that aspect in their teaching."/>
+            <ITEXT CH=" Roughly 100 individuals applied for Picademy. A mix of primary and secondary teachers from computing, art and science were selected. Some had prior experience of the Raspberry Pi and some were completely new to it. We believe that computing is a cross curricular activity and that Raspberry Pi can help teachers develop that aspect in their teaching."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Four of the 24 were pre-selected so that they could act as lead learners, teachers who are already using Raspberry Pi. I think that mix was really important and integral to what we're trying to do with Picademy because getting those individuals together makes something exciting happen."/>
+            <ITEXT CH="Four of the 24 were pre-selected so that they could act as lead learners, teachers who are already using the Raspberry Pi. I think that mix was really important and integral to what we are trying to do with Picademy because getting those individuals together makes something exciting happen."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="That mix of people and the opportunity to network by trying different ideas and thinking about how they can apply it to their classroom is really important. This has sparked ideas about how it can be cross-curricula as well."/>
@@ -228,106 +230,105 @@
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text-TMP"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" We are initially looking to run on average 6 Picademies per year with 20 to 24 teachers per event, with the next two taking place before September. Raspberry Pi Certified Educators are expected to help lead training of other teachers in their area, be enthusiasts for Raspberry Pi in their community, and to create teaching resources which will be made available via our website. Having only run one Picademy, we are still collecting data on how effective the butterfly effect is, but we hope to grow the education community across the country and then eventually the world."/>
+            <ITEXT CH=" We are initially looking to run on average 6 Picademies per year with 20 to 24 teachers per event, with the next two taking place before September. Raspberry Pi Certified Educators are expected to help lead training of other teachers in their area, be enthusiasts for Raspberry Pi in their community and to create teaching resources which will be made available via our website. Having only run one Picademy, we are still collecting data on how effective the butterfly effect is, but we hope to grow the education community across the country and then eventually the world."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="MP: The projects undertaken at Picademy really caught our attention, especially the bullet time Babbage Bear. How did that come about? "/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Carrie Anne: That was an idea that came up over dinner on the first night. An art teacher suggested Babbage could hold the chalk and a lit match during the sequence. It was really important to me that the teachers that we selected were not all the same teacher. You could run a Picademy that's all for primary, Key Stage 2 computing teachers, but that doesn't make any sense to me. It needs to be this mixed bag of people for interesting things to happen, and I'm hoping that the next Picademy will also get teachers from other subjects applying."/>
+            <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
+            <ITEXT CH=" That was an idea that came up over dinner on the first night. An art teacher suggested Babbage could hold the chalk and a lit match during the sequence. It was really important to me that the teachers that we selected were not all the same teacher. You could run a Picademy that is all for primary, Key Stage 2 computing teachers, but that does not make any sense to me. It needs to be this mixed bag of people for interesting things to happen, and I am hoping that the next Picademy will also get teachers from other subjects applying."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="MP: Teachers are clearly going to be the driving force for improvements in computer science in schools. A common question from the Raspberry Pi community is “what can we do to help?”"/>
+            <ITEXT CH="MP: Teachers are clearly going to be the driving force for improvements in computer science in schools. A common question from the Raspberry Pi community is “What can we do to help?”"/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text-TMP"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" I believe in the collaboration between teachers, academics and industry experts in furthering the mission to improve how computer science is taught in schools. The community was a topic covered during Picademy by Matthew Manning from Raspberry Pi 4 Beginners, and Alex Eames from Raspi.Tv. Raspberry Jams were also high on the agenda with graduates being asked to form panel sessions at future Jams in their area. Code Clubs are also a great way for the community to help teachers in schools as both parties have an opportunity to learn from each other."/>
+            <ITEXT CH=" I believe in the collaboration between teachers, academics and industry experts in furthering the mission to improve how computer science is taught in schools. The community was a topic covered during Picademy by Matthew Manning from Raspberry Pi 4 Beginners and Alex Eames from Raspi.TV. Raspberry Jams were also high on the agenda with graduates being asked to form panel sessions at future Jams in their area. Code Clubs are also a great way for the community to help teachers in schools as both parties have an opportunity to learn from each other."/>
             <para PARENT="Body text" LINESP="15"/>
             <para PARENT="Body text"/>
             <ITEXT CH="MP: What support is there to Picademy graduates post-certification?"/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text-TMP"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" We have given all graduates from Picademy a ‘Raspberry Pi Certified Educator’ badge and tag to use on their blogs and other social media, as well as a special tag on our forum. We’ve added a Picademy sub-forum so that graduates have a common place to discuss ideas and seek support from our community where it is needed. Although it is still early days, we are toying with the idea of creating more levels to keep our certified educators on their toes."/>
+            <ITEXT CH=" We have given all graduates from Picademy a ‘Raspberry Pi Certified Educator’ badge and tag to use on their blogs and other social media, as well as a special tag on our forum. We have added a Picademy sub-forum so that graduates have a common place to discuss ideas and seek support from our community, when it is needed. Although it is still early days, we are toying with the idea of creating more levels to keep our certified educators on their toes."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="MP: With the emphasis on coding coming from government is there a concern that broader scientific literacy, coupled with appropriate critical thinking skills may be put to one side in preference to learn by rote computer programming? How does Picademy specifically aim to address this?"/>
+            <ITEXT CH="MP: With the emphasis on coding coming from government is there a concern that broader scientific literacy, coupled with appropriate critical thinking skills, may be put to one side in preference to learn 'by rote' computer programming? How does Picademy specifically aim to address this?"/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" Picademy is not your regular run of the mill teacher training course; it is not us standing at the front delivering training about the Raspberry for two whole days."/>
+            <ITEXT CH=" Picademy is not your regular run of the mill teacher training course; it is not us standing at the front delivering training about the Raspberry Pi for two whole days. Instead, it is about asking what ideas the teachers have, writing that down, working through project ideas and thinking where we can get engineers in to help them develop those ideas."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Instead, it's about asking what ideas the teachers have, writing that down, working through project ideas and thinking where we can get engineers in to help them develop those."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The emphasis is on the attendees to take an active, hands on role in their learning. Developing their ideas during the two days is actively encouraged. We also reflect on how the attendees approached different tasks over the two days, and suggest ways they can take these approaches back to their classrooms to avoid rote computing programming. Creativity, critical thinking, problem solving, and collaboration are actively encouraged during Picademy."/>
+            <ITEXT CH="The emphasis is on the attendees to take an active, hands on role in their learning. Developing their ideas during the two days is actively encouraged. We also reflect on how the attendees approached different tasks over the two days and suggest ways they can take these approaches back to their classrooms to avoid rote computing programming. Creativity, critical thinking, problem solving and collaboration are actively encouraged during Picademy."/>
             <para PARENT="Body text"/>
             <ITEXT CH="MP: How can Picademy support new teachers who likely graduated from school and university without themselves having been taught computer science at school?"/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" Any UK teacher can apply for Picademy. We support all teachers at all points in their careers, and from any subject area. We also plan to work directly with teacher training centres to help them add Raspberry Pi to their training programs in the future."/>
+            <ITEXT CH=" Any UK teacher can apply for Picademy. We support all teachers at all points in their careers and from any subject area. We also plan to work directly with teacher training centres to help them add Raspberry Pi to their training programs in the future."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="MP: A mention of the use of GitHub for lesson plans caught our attention when reading reviews of Picademy from those that attended. Do you see collaborative toosl being important for teachers to share their ideas?"/>
+            <ITEXT CH="MP: A mention of the use of GitHub for lesson plans caught our attention when reading reviews of Picademy from those that attended. Do you see collaborative tools being important for teachers to share their ideas?"/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
             <ITEXT CH=" We are very excited about using Github and the introduction of GitHub Eduation [Ed: "/>
             <ITEXT FCOLOR="Blue" CH="https://education.github.com"/>
-            <ITEXT CH="]. Not only to host our resources but also as a tool for teachers to be able to share code with their classes, track changes that their students make, and for wider collaboration.  "/>
+            <ITEXT CH="]. Not only to host our resources but also as a tool for teachers to be able to share code with their classes, track changes that their students make and for wider collaboration.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="MP: There are many ways to engage with teachers. Why did you decide on the small group format for Picademy?"/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" When I first started at the Foundation in January I went to BETT. While last year I found teachers were asking why bother with Raspberry Pi in the classroom, this year the questions were very different: how can we use Raspberry Pi in our classrooms? We talked about the resources we were creating, but then teachers would ask us when we would be providing Continuing Professional Development? CPD is something that teachers are supposed to do each year. Clive and I saw online that there are third party companies making quite a lot of money delivering CPD to teachers with Raspberry Pi but they are doing things like how to set up, how to plug it in, ie: really basic stuff. I'm self taught with Raspberry Pi, as are a lot of teachers I know. So I thought why should someone be selling our training when we could be providing it for free and do a much better job of it? In 2012 I became a Google Certified Teacher and I learnt how to think about teaching in a different way. I thought about that training I'd had and how I could apply it to Raspberry Pi. And that's where Raspberry Pi Certified Educators came from. People would apply, we'd have them here for two days and they would then become certified."/>
+            <ITEXT CH=" When I first started at the Foundation in January I went to BETT. While last year I found teachers were asking why bother with Raspberry Pi in the classroom, this year the questions were very different: how can we use Raspberry Pi in our classrooms? We talked about the resources we were creating, but then teachers would ask us when we would be providing Continuing Professional Development? CPD is something that teachers are supposed to do each year. Clive and I saw online that there are third party companies making quite a lot of money delivering CPD to teachers with Raspberry Pi but they are doing things like how to set up, how to plug it in, ie: really basic stuff. I'm self taught with Raspberry Pi, as are a lot of teachers I know. So I thought why should someone be selling our training when we could be providing it for free and do a much better job of it? In 2012 I became a Google Certified Teacher and I learnt how to think about teaching in a different way. I thought about that training I'd had and how I could apply it to Raspberry Pi. That is where Raspberry Pi Certified Educators came from. People would apply, we have them here for two days and they would then become certified."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="To have our own group of trained teachers who we can call on around the country means we can point schools to those teachers and they can provide training or generally be a point of contact in the community."/>
+            <ITEXT CH="To have our own group of trained teachers who we can call on around the country. That means we can point schools to those teachers and they can provide training or generally be a point of contact in the community."/>
             <para PARENT="Body text"/>
             <ITEXT CH="MP: Taking new skills into the classroom now is great, but how does this become a longterm (five to ten years) investment in teaching?"/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" The next six or so years are going to be interesting. The lessons secondary school teachers are delivering will be redundant as a new cohort arrives in year seven with major computational thinking skills. This transition is a long term process. Schools and teachers should see this period as an opportunity to change more than just their own skills, and also to consider the approaches they take to teaching and learning: to embrace technology and think cross curricular. Every adult is a lifelong learner, and teachers in particular consistently look to improve their practice. Research is required right now that will help inform the teaching practises of others over the next ten years. "/>
+            <ITEXT CH=" The next six or so years are going to be interesting. The lessons secondary school teachers are delivering will be redundant as a new cohort arrives in year seven with major computational thinking skills. This transition is a long term process. Schools and teachers should see this period as an opportunity to change more than just their own skills, and also to consider the approaches they take to teaching and learning: to embrace technology and think cross curricular. Every adult is a lifelong learner and teachers in particular consistently look to improve their practice. Research is required right now that will help inform the teaching practises of others over the next ten years. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The biggest fear I have is that instead of death by Powerpoint it is going to be death by Scratch because all primary schools are going to be using Scratch and then the students could go up to secondary school and do it all over again. So the question about five or ten years from now is really important because it is an ongoing process. It will be interesting seeing the primary kids going up to secondary school and how that transition is dealt with."/>
+            <ITEXT CH="The biggest fear I have is that instead of death by Powerpoint it is going to be death by Scratch because all primary schools are going to be using Scratch and then the students will go up to secondary school and do it all over again. So the question about five or ten years from now is really important because it is an ongoing process. It will be interesting seeing the primary kids going up to secondary school and how that transition is dealt with."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text-TMP"/>
             <ITEXT CH="MP: An important point here seems to be the time to attend Picademy. How does that work in practice given pressures of the school term?"/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" I agree. We put this event on in the school holidays. We are planning the next two towards the end of Summer term because after the exams teachers have more time to attend events. We are considering creating a fund for some schools. For example, if a teacher really wants to come but their school won't let them because it involves taking two days out of school, then the school can apply for a fund so we can cover the costs of their supply cover.  This is just an idea at the moment."/>
+            <ITEXT CH=" I agree. We put this event on in the school holidays. We are planning the next two towards the end of the Summer term because after the exams teachers have more time to attend events. We are considering creating a fund for some schools. For example, if a teacher really wants to come, but their school won't let them because it involves taking two days out of school, then the school can apply for a fund so we can cover the costs of their supply cover.  This is just an idea at the moment."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="MP: Going forwards are you hoping for more involvement from industry in Picademy to help teachers?"/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" I'm a huge advocate for that as it was through going to Raspberry Jams and working with industry experts that I improved my knowledge and skills. I do envisage in the future that perhaps we can have some more industry experts come in and talk about what they do. We did give a presentation on the wider community including The MagPi, Raspberry Jams and the various YouTube channels for Raspberry Pi that people are creating."/>
+            <ITEXT CH=" I am a huge advocate for that as it was through going to Raspberry Jams and working with industry experts that I improved my knowledge and skills. I do envisage in the future that perhaps we can have some more industry experts come in and talk about what they do. We did give a presentation on the wider community including The MagPi, Raspberry Jams and the various YouTube channels for Raspberry Pi that people are creating."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="We've set up a sub-forum for Picademy teachers and hope that they will engage with our community who are very helpful, especially if the teachers have a specific problem. Teachers can be really scared of joining forums because I think maybe about five years ago there was a lot of backlash if you asked a really NOOB question about something. Where-as now I think the Raspberry Pi community is such a fantastic one that it's changed my mind about that and we're trying to explain that to teachers. I think the Picademy teachers lead this on the forum and create a much better way of industry people and teachers being able to collaborate together."/>
+            <ITEXT CH="We have set up a sub-forum for Picademy teachers and hope that they will engage with our community who are very helpful, especially if the teachers have a specific problem. Teachers can be really scared of joining forums because I think maybe about five years ago there was a lot of backlash if you asked a really NOOB question about something. Now I think the Raspberry Pi community is such a fantastic one that it has changed my mind about that and we are trying to explain that to teachers. I think the Picademy teachers lead this on the forum and create a much better way of industry people and teachers being able to collaborate together."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="MP: Yes, we've noticed that the Raspberry Pi forums are very helpful."/>
+            <ITEXT CH="MP: Yes, we have noticed that the Raspberry Pi forums are very helpful."/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" Teachers are professionals who have gone through a lot of training, but may not have a solid computing background. However they are life long learners bred to ask questions, and when you ask something you are just looking for an answer."/>
+            <ITEXT CH=" Teachers are professionals who have gone through a lot of training, but may not have a solid computing background. However they are lifelong learners bred to ask questions and when you ask something you are just looking for an answer."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="It's really about building the confidence of teachers to ask a question. The first thing we started with at Picademy was that there are no stupid questions: if you have a question, ask it. Someone in the room will find an answer for you, and if no-one there could we'd go and find an engineer and get them in to help. How can you learn if you can't feel confident to ask a question? I think this is really important."/>
+            <ITEXT CH="It is really about building the confidence of teachers to ask a question. The first thing we started with at Picademy was that there are no stupid questions: if you have a question, ask it. Someone in the room will find an answer for you, and if no-one there could we would go and find an engineer and get them in to help. How can you learn if you cannot feel confident to ask a question? I think this is really important."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="MP: We've found a number of teachers coming to us at events unsure where to start or who to ask about Raspberry Pi. There's a definite need for core help, like that provided by Picademy."/>
+            <ITEXT CH="MP: We have found a number of teachers coming to us at events unsure where to start or who to ask about Raspberry Pi. There is a definite need for core help, like that provided by Picademy."/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" Absolutely. I think teaching and learning in the profession is really beginning to change. I always try to explain to teachers that you don't have to be the expert in the classroom, especially with a subject like ours. It's ok to learn with your students. As long as you can point them in the direction of where there may be an answer then that's good. You can't be an expert in everything, certainly not in the field of computing. The new programme of study is not just coding but is a whole range of different aspects of the subject."/>
+            <ITEXT CH=" Absolutely. I think teaching and learning in the profession is really beginning to change. I always try to explain to teachers that you do not have to be the expert in the classroom, especially with a subject like ours. It is ok to learn with your students. As long as you can point them in the direction of where there may be an answer then that is good. You cannot be an expert in everything, certainly not in the field of computing. The new programme of study is not just coding but is a whole range of different aspects of the subject."/>
             <para PARENT="Body text"/>
             <ITEXT CH="MP: How do you see teachers being able to get budgets for the hardware needed on top of the Raspberry Pi's themselves? This is a concern teachers have raised with us at the Digimakers event."/>
             <para PARENT="Body text-TMP"/>
@@ -339,11 +340,11 @@
             <ITEXT CH="Industry experts are asking all the time: &quot;How can I help education?&quot; There you go: donate a bit of money, kit or time."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="MP: Do you hope that rather than a reboot of teaching computing in 1980s that this is a reboot and improve?"/>
+            <ITEXT CH="MP: Do you hope that rather than a reboot of teaching computing in the 1980's that this is a reboot and improve?"/>
             <para PARENT="Body text-TMP"/>
             <para PARENT="Body text"/>
             <ITEXT FONT="FreeSans Bold" CH="Carrie Anne:"/>
-            <ITEXT CH=" Exactly. It's an iterative process, and we're keen to explain this to teachers. What I did with Sonic Pi in the beginning was different to how Sonic Pi is now and where we're taking it in the future."/>
+            <ITEXT CH=" Exactly. It is an iterative process, and we are keen to explain this to teachers. What I did with Sonic Pi in the beginning was different to how Sonic Pi is now and where we are taking it in the future."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <PageItemAttributes/>
@@ -494,8 +495,8 @@
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="4" PTYPE="4" XPOS="128.347086614173" YPOS="3952.07086617166" WIDTH="255.7772675" HEIGHT="144.75" RADRECT="5.669291339" FRTYPE="2" CLIPEDIT="1" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="3" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="1" AUTOTEXT="0" EXTRA="5.669291339" TEXTRA="5.669291339" BEXTRA="5.669291339" REXTRA="5.669291339" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="5.66929 0 5.66929 0 250.108 0 250.108 0 250.108 0 253.239 0 255.777 5.66929 255.777 2.53823 255.777 5.66929 255.777 5.66929 255.777 139.081 255.777 139.081 255.777 139.081 255.777 142.212 250.108 144.75 253.239 144.75 250.108 144.75 250.108 144.75 5.66929 144.75 5.66929 144.75 5.66929 144.75 2.53823 144.75 0 139.081 0 142.212 0 139.081 0 139.081 0 5.66929 0 5.66929 0 5.66929 0 2.53823 5.66929 0 2.53823 0 " NUMCO="16" COCOOR="-3.83982 -2.16 -3.83982 -2.16 259.611 -2.16 259.611 -2.16 259.611 -2.16 259.611 -2.16 259.611 146.932 259.611 146.932 259.611 146.932 259.611 146.932 -3.83982 146.932 -3.83982 146.932 -3.83982 146.932 -3.83982 146.932 -3.83982 -2.16 -3.83982 -2.16 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Oblique" CH="&quot;I wanted to find out exciting (yet easy to set up) ways of using Raspberry Pi within the classroom. I was not disappointed."/>
-            <para/>
-            <ITEXT FONT="FreeSans Oblique" CH="The greatest thing is that I was shown the Raspberry is not just about textual programming and Linux commands. This is really important if it is to work within education.&quot;"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Oblique" CH="The greatest thing is that I was shown the Raspberry Pi is not just about textual programming and Linux commands. This is really important if it is to work within education.&quot;"/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Bold" CH="- Ed Dourass"/>
             <trail ALIGN="2"/>
